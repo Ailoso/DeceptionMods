@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAchievement default="1" id="TIns0101">
+        <Name value="Mission Completed"/>
+        <Description value="Finish the Mission Lost Souls in Normal or Harder Difficulty"/>
+        <Icon value="TIns0101"/>
+        <RewardTable index="0" value="TIns0101_Portrait"/>
+        <RewardTable index="1" value="TIns0101_Decal_Protoss"/>
+        <RewardTable index="2" value="TIns0101_Decal_Terran"/>
+        <RewardTable index="3" value="TIns0101_Decal_Zerg"/>
+        <TermTable index="0" value="TIns0101"/>
+    </CAchievement>
+</Catalog>

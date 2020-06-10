@@ -1,0 +1,106 @@
+﻿DocInfo/DescShort=Any
+DocInfo/Name=Just Another StarCraft II Mod
+Finish the Mission Lost Souls in Normal or Harder Difficulty=
+Map/DefaultMissionTitle=Jack's Back
+Map/Name/KLStory=KopruluStory
+Map/Name/TIns01=Lost Souls
+Map/Name/TIns02=The Rebel Installation
+Map/Name/TIns03=Jack's Back
+Map/PrimaryObjectiveText/TIns03=Secure Rebel Installation
+Mission Completed=Lost Souls (Normal)
+Param/Expression/lib_1926661B_0334FCBD=~A~</ignore>
+Param/Expression/lib_1926661B_0386BD51=We are loading mission sections for mission ~A~.
+Param/Expression/lib_1926661B_0A349CF7=~A~ Victory
+Param/Expression/lib_1926661B_11F142F1=<s val="~Style~">~A~</s>
+Param/Expression/lib_1926661B_1221812A=~A~ mission ~B~ if ~C~
+Param/Expression/lib_1926661B_15AB0274=~NAME~
+Param/Expression/lib_1926661B_1D409BFB=~A~<s val="~B~">
+Param/Expression/lib_1926661B_2E30CC8D=~A~</s><IMG path="~B~" height="24" width="24"/>
+Param/Expression/lib_1926661B_429F7B07=<s val="~A~">+~B~
+Param/Expression/lib_1926661B_484CBB38=~A~</s>
+Param/Expression/lib_1926661B_4AD982DB=<s val="@@UnitInfoSubTip">~A~</s>
+Param/Expression/lib_1926661B_7106A1DB=~A~</s><IMG path="Assets\Textures\icon-mineral-zerg.dds" height="20" width="20"/>
+Param/Expression/lib_1926661B_79F7F239=~A~ ~B~
+Param/Expression/lib_1926661B_7C1B795A=~A~
+Param/Expression/lib_1926661B_7EAE4F74=~A~ (~B~
+Param/Expression/lib_1926661B_8767B2BC=~A~</s><IMG path="Assets\Textures\icon-gas-zerg.dds" height="20" width="20"/>
+Param/Expression/lib_1926661B_8A9543B1=<s val="@@UnitInfoTip">~A~</s>
+Param/Expression/lib_1926661B_8CBDD654=~A~ (~B~)
+Param/Expression/lib_1926661B_8EFD9D26=~A~ ~B~
+Param/Expression/lib_1926661B_903D3715=New Tips ~A~
+Param/Expression/lib_1926661B_9C52A85A=<s val="~Style~">~A~</s>
+Param/Expression/lib_1926661B_A25AEEB9=~A~/~B~
+Param/Expression/lib_1926661B_A6DCA4AE=<c val="FF9800">Jack Frost has died. He will be revived at the Command Center in ~A~ seconds.</c>
+Param/Expression/lib_1926661B_B75FC165=~A~ ~B~
+Param/Expression/lib_1926661B_BFEDF31D=<s val="~A~">+~B~
+Param/Expression/lib_1926661B_C8310DD7=Add Unit Type To Unit Help Panel ~A~ History Store = ~B~
+Param/Expression/lib_1926661B_CEE1F9DE=Transitioning to: ~A~
+Param/Expression/lib_1926661B_D11A9772=Mission Time | ~A~
+Param/Expression/lib_1926661B_DC150B08=<ignore s="strip" c="strip">~A~
+Param/Expression/lib_1926661B_DCF14620=Achievement "~A~" unlocked (~B~)<n/>~C~
+Param/Expression/lib_1926661B_DF210163=<ignore s="strip" c="strip">~A~</ignore>
+Param/Expression/lib_1926661B_E1EDAD1C=<s val="CampaignPanelLastMissionTitle">PROLOGUE COMPLETE!</s><n/><n/><s val="CampaignPanelLastMissionDescription">~SUMMARY~</s><n/><n/><n/><s val="CampaignPanelItemTitle">MISSIONS COMPLETED:</s> <s val="CampaignPanelItemText">~MISSIONSCOMPLETE~</s><n/><n/><s val="CampaignPanelItemTitle">DIFFICULTY:</s> <s val="CampaignPanelItemText">~DIFFICULTY~</s>
+Param/Expression/lib_1926661B_E48EBCCC=<s val="~A~">+~B~
+Param/Expression/lib_1926661B_EC86CC32=<s val="CampaignPanelLastMission">LAST MISSION</s><n/><n/><s val="CampaignPanelLastMissionTitle">~D~</s><n/><n/><s val="CampaignPanelLastMissionDescription">~A~</s><n/><n/><n/><s val="CampaignPanelItemTitle">MISSIONS COMPLETED:</s> <s val="CampaignPanelItemText">~B~</s><n/><n/><s val="CampaignPanelItemTitle">DIFFICULTY:</s> <s val="CampaignPanelItemText">~C~</s>
+Param/Expression/lib_1926661B_F0AEE206=~NAME~
+Param/Expression/lib_1926661B_F1566AC5=~MISSIONTITLE~ - ~DIFFICULTYTITLE~
+Param/Expression/lib_1926661B_F19B810A=~A~ ~B~
+Param/Expression/lib_1926661B_F3369DF0=~A~)
+Param/Expression/lib_1926661B_F5E6F81E=<s val="@@UnitInfoSubTipDetail">~A~</s>
+Param/Expression/lib_1926661B_FDF0DFC6=<s val="@@UnitInfoTip">~A~</s>
+Param/Value/lib_1926661B_00CB1CEE={Kerrigan is killed}
+Param/Value/lib_1926661B_026E3CA7=Load campaign bank
+Param/Value/lib_1926661B_0567AF67=<k val="MenuHelp"/>
+Param/Value/lib_1926661B_0D01B8AD=No Map
+Param/Value/lib_1926661B_0EC80158=Whispers of Oblivion
+Param/Value/lib_1926661B_13D3AE1E=End game options
+Param/Value/lib_1926661B_1A7C23AB=UI options
+Param/Value/lib_1926661B_2015A005=<min2/>:<sec2/>
+Param/Value/lib_1926661B_2A7EFEFB=<c val="FF9800">Jack Frost  has died. You must land a Command Center to revive him.</c>
+Param/Value/lib_1926661B_2AD3369D=Update campaign data
+Param/Value/lib_1926661B_2E28A610=<k val="HeroSelect0"/>
+Param/Value/lib_1926661B_2E4E132D=Select Army (F2)
+Param/Value/lib_1926661B_30925D94=Error: No cutscene active.
+Param/Value/lib_1926661B_3484C8CE={Siege Tank} -- You may now build a {Siege Tank} from the {Factory}.
+Param/Value/lib_1926661B_35E15B62=<c val="FF9800">Jack has been revived at your Command Center.</c>
+Param/Value/lib_1926661B_3C05C26E=Loading data...
+Param/Value/lib_1926661B_3D4F09CA=Select Army (F2)
+Param/Value/lib_1926661B_3FE3B4E6=Return <h/>to Archives
+Param/Value/lib_1926661B_40AF78D2=[%1%]
+Param/Value/lib_1926661B_4447B2D4=Help
+Param/Value/lib_1926661B_46366AEE=<c val="FF9800">Jack has been revived at your Command Center.</c>
+Param/Value/lib_1926661B_47A5386C=Unlock
+Param/Value/lib_1926661B_532FD538=5 Days
+Param/Value/lib_1926661B_5B1A5BD8=[%3%]
+Param/Value/lib_1926661B_606ECC4E=Use any ground unit to collect
+Param/Value/lib_1926661B_61C047EF=No Map
+Param/Value/lib_1926661B_62C7FA0A=All of your structures have been destroyed.
+Param/Value/lib_1926661B_63503F21=Hellion (26 kills)
+Param/Value/lib_1926661B_6C9FA21E=Campaign Victory
+Param/Value/lib_1926661B_7909FCCC=<c val="FF9800">Jack Frost  has died. You must build a Command Center to revive him.</c>
+Param/Value/lib_1926661B_7A06BBD5=No bank data found, setting to default
+Param/Value/lib_1926661B_969F6414= 
+Param/Value/lib_1926661B_97EB67D7=[%2%]
+Param/Value/lib_1926661B_980657DB=<k val="HeroSelect1"/>
+Param/Value/lib_1926661B_A97B3861=Unit type with the most kills:
+Param/Value/lib_1926661B_ACF08304={Siege Tank} -- {Heavy tank. Long-range artillery in Siege Mode.}
+Param/Value/lib_1926661B_B34652E3=<k val="HeroSelect2"/>
+Param/Value/lib_1926661B_B6DC76CA=/
+Param/Value/lib_1926661B_BB62DA99=<hour/>:<min2/>:<sec2/>
+Param/Value/lib_1926661B_C20A69CF=VICTORY!
+Param/Value/lib_1926661B_CEEAA171=Error: No cutscene active.
+Param/Value/lib_1926661B_D265BD06=<c val="ff0000">No Footage Recording callback is registered. Please call trigger action "Register Record Footage" in your map's Map Initialization trigger.</c>
+Param/Value/lib_1926661B_D40C0A8A=<s val="StoryModeQuitToLobby">Quit Campaign?</s>
+Param/Value/lib_1926661B_D4EA7C13=<s val="ModCenterSize32Bold">DEBUG</s>
+Param/Value/lib_1926661B_D8912FAC=Apply Tech
+Param/Value/lib_1926661B_DD0CEBA7={Siege Mode} -- {In Siege Mode, Siege Tanks have very long range and inflict area damage.}
+Param/Value/lib_1926661B_DD209DEC=MISSION COMPLETE
+Param/Value/lib_1926661B_DDB188FB=Days Taken to Complete Mission:
+Param/Value/lib_1926661B_DF3A05B3=Lock
+Param/Value/lib_1926661B_E59ABB37=(F12)
+Param/Value/lib_1926661B_EBECA6C5=[%4%]
+Param/Value/lib_1926661B_ED876F0C=Load bank data
+Param/Value/lib_1926661B_F74FC874=Load mission sections
+Param/Value/lib_1926661B_FEA82454=Boss
+UI/MissionSelectRewardTitle=
+Unit/Name/JackFrost=Jack Frost

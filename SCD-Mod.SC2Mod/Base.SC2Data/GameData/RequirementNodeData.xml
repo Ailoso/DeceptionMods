@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CRequirementConst id="10"/>
+    <CRequirementConst id="5"/>
+    <CRequirementConst id="7"/>
+    <CRequirementConst id="9"/>
+    <CRequirementAllowUnit id="AllowUnitScout">
+        <Link value="Scout"/>
+    </CRequirementAllowUnit>
+    <CRequirementAllowUnit id="AllowUnitShapeCylinderTechTreeCheat">
+        <Flags index="TechTreeCheat" value="1"/>
+        <Link value="ShapeCylinder"/>
+    </CRequirementAllowUnit>
+    <CRequirementLT id="AndCountUnitControlTower2CompleteOnlyAtUnit3264271386TechTreeCheatCountUnitArmoryCompleteOnlyTechTreeCheat"/>
+    <CRequirementAnd id="AndCountUnitGhostAcademyCompleteOnly221722779TechTreeCheatCountBehaviorFactoryTechLabCompleteOnly2842203662TechTreeCheat">
+        <OperandArray value="CountUnitGhostAcademyCompleteOnly221722779TechTreeCheat"/>
+        <OperandArray value="CountBehaviorFactoryTechLabCompleteOnly2842203662TechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUnitStarportReactorCompleteOnlyAtUnit3264271386TechTreeCheatCountBehaviorStarportTechLabCompleteOnly3040849221TechTreeCheat">
+        <OperandArray value="CountUnitStarportReactorCompleteOnlyAtUnit3264271386TechTreeCheat"/>
+        <OperandArray value="CountBehaviorStarportTechLabCompleteOnly3040849221TechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUnitStarportReactorCompleteOnlyAtUnit3264271386TechTreeCheatCountUnitArmoryCompleteOnly609241497TechTreeCheat">
+        <OperandArray value="CountUnitStarportReactorCompleteOnlyAtUnit3264271386TechTreeCheat"/>
+        <OperandArray value="CountUnitArmoryCompleteOnly609241497TechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUnitStarportReactorCompleteOnlyAtUnit3264271386TechTreeCheatCountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="CountUnitStarportReactorCompleteOnlyAtUnit3264271386TechTreeCheat"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndCountUnitStarportTechLab2CompleteOnlyAtUnit3264271386TechTreeCheatCountUnitArmoryCompleteOnlyTechTreeCheat">
+        <OperandArray value="CountUnitStarportTechLab2CompleteOnlyAtUnit3264271386TechTreeCheat"/>
+        <OperandArray value="CountUnitArmoryCompleteOnlyTechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq1004646809CountUpgradeTerranShipWeaponsLevel2CompleteOnly1CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="Eq1004646809CountUpgradeTerranShipWeaponsLevel2CompleteOnly1"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq1121594928CountUpgradeTerranVehicleArmorsLevel1CompleteOnly1CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="Eq1121594928CountUpgradeTerranVehicleArmorsLevel1CompleteOnly1"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq1429793488CountUpgradeTerranInfantryWeaponsLevel1CompleteOnly1CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="Eq1429793488CountUpgradeTerranInfantryWeaponsLevel1CompleteOnly1"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq1491800815CountUpgradeProtossAirWeaponsLevel1CompleteOnly1CountUnitFleetBeaconCompleteOnly2730708737TechTreeCheat">
+        <OperandArray value="Eq1491800815CountUpgradeProtossAirWeaponsLevel1CompleteOnly1"/>
+        <OperandArray value="CountUnitFleetBeaconCompleteOnly2730708737TechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq1740904084CountUpgradeProtossGroundWeaponsLevel1CompleteOnly1CountUnitTemplarArchiveCompleteOnlyTechTreeCheat">
+        <OperandArray value="Eq1740904084CountUpgradeProtossGroundWeaponsLevel1CompleteOnly1"/>
+        <OperandArray value="CountUnitTemplarArchiveCompleteOnlyTechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq1834932227CountUpgradeTerranVehicleWeaponsLevel1CompleteOnly1CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="Eq1834932227CountUpgradeTerranVehicleWeaponsLevel1CompleteOnly1"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq1864353859CountUpgradeTerranShipArmorsLevel2CompleteOnly1CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="Eq1864353859CountUpgradeTerranShipArmorsLevel2CompleteOnly1"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq2517918925CountUpgradeTerranVehicleArmorsLevel2CompleteOnly1CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="Eq2517918925CountUpgradeTerranVehicleArmorsLevel2CompleteOnly1"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq285961020CountUpgradeTerranShipWeaponsLevel1CompleteOnly1CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="Eq285961020CountUpgradeTerranShipWeaponsLevel1CompleteOnly1"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq3052852033CountUpgradeTerranShipArmorsLevel1CompleteOnly1CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="Eq3052852033CountUpgradeTerranShipArmorsLevel1CompleteOnly1"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq3342497887CountUpgradeTerranInfantryWeaponsLevel2CompleteOnly1CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="Eq3342497887CountUpgradeTerranInfantryWeaponsLevel2CompleteOnly1"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq3354561256CountUpgradeProtossShieldsLevel1CompleteOnly1CountUnitCyberneticsCoreCompleteOnlyTechTreeCheat">
+        <OperandArray value="Eq3354561256CountUpgradeProtossShieldsLevel1CompleteOnly1"/>
+        <OperandArray value="CountUnitCyberneticsCoreCompleteOnlyTechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq3446134918CountUpgradeTerranInfantryArmorsLevel1CompleteOnly1CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="Eq3446134918CountUpgradeTerranInfantryArmorsLevel1CompleteOnly1"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq3569156689CountUpgradeProtossGroundArmorsLevel1CompleteOnly1CountUnitTemplarArchiveCompleteOnly916103744TechTreeCheat">
+        <OperandArray value="Eq3569156689CountUpgradeProtossGroundArmorsLevel1CompleteOnly1"/>
+        <OperandArray value="CountUnitTemplarArchiveCompleteOnly916103744TechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq3722837715CountUpgradeTerranInfantryArmorsLevel2CompleteOnly1CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="Eq3722837715CountUpgradeTerranInfantryArmorsLevel2CompleteOnly1"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq3751249461CountUpgradeProtossShieldsLevel2CompleteOnly1CountUnitCyberneticsCoreCompleteOnlyTechTreeCheat">
+        <OperandArray value="Eq3751249461CountUpgradeProtossShieldsLevel2CompleteOnly1"/>
+        <OperandArray value="CountUnitCyberneticsCoreCompleteOnlyTechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq419273267CountUpgradeProtossGroundArmorsLevel2CompleteOnly1CountUnitTemplarArchiveCompleteOnly916103744TechTreeCheat">
+        <OperandArray value="Eq419273267CountUpgradeProtossGroundArmorsLevel2CompleteOnly1"/>
+        <OperandArray value="CountUnitTemplarArchiveCompleteOnly916103744TechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq524089035CountUpgradeProtossAirWeaponsLevel2CompleteOnly1CountUnitFleetBeaconCompleteOnly2730708737TechTreeCheat">
+        <OperandArray value="Eq524089035CountUpgradeProtossAirWeaponsLevel2CompleteOnly1"/>
+        <OperandArray value="CountUnitFleetBeaconCompleteOnly2730708737TechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq629999927CountUpgradeProtossGroundWeaponsLevel2CompleteOnly1CountUnitTemplarArchiveCompleteOnlyTechTreeCheat">
+        <OperandArray value="Eq629999927CountUpgradeProtossGroundWeaponsLevel2CompleteOnly1"/>
+        <OperandArray value="CountUnitTemplarArchiveCompleteOnlyTechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEq894233239CountUpgradeTerranVehicleWeaponsLevel2CompleteOnly1CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <OperandArray value="Eq894233239CountUpgradeTerranVehicleWeaponsLevel2CompleteOnly1"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnly2661977898"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEqCountUpgradeProtossAirArmorsLevel1QueuedOrBetter0AllowUnitScout">
+        <OperandArray value="EqCountUpgradeProtossAirArmorsLevel1QueuedOrBetter0"/>
+        <OperandArray value="AllowUnitScout"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEqCountUpgradeProtossAirArmorsLevel2QueuedOrBetter0AllowUnitScout">
+        <OperandArray value="EqCountUpgradeProtossAirArmorsLevel2QueuedOrBetter0"/>
+        <OperandArray value="AllowUnitScout"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEqCountUpgradeProtossAirArmorsLevel3QueuedOrBetter0AllowUnitScout">
+        <OperandArray value="EqCountUpgradeProtossAirArmorsLevel3QueuedOrBetter0"/>
+        <OperandArray value="AllowUnitScout"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEqCountUpgradeProtossAirWeaponsLevel1QueuedOrBetter0AllowUnitScout">
+        <OperandArray value="EqCountUpgradeProtossAirWeaponsLevel1QueuedOrBetter0"/>
+        <OperandArray value="AllowUnitScout"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEqCountUpgradeProtossAirWeaponsLevel2QueuedOrBetter0AllowUnitScout">
+        <OperandArray value="EqCountUpgradeProtossAirWeaponsLevel2QueuedOrBetter0"/>
+        <OperandArray value="AllowUnitScout"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndEqCountUpgradeProtossAirWeaponsLevel3QueuedOrBetter0AllowUnitScout">
+        <OperandArray value="EqCountUpgradeProtossAirWeaponsLevel3QueuedOrBetter0"/>
+        <OperandArray value="AllowUnitScout"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndNotCountUpgradeTerranShipArmorsVanadiumPlatingLevel2QueuedOrBetterCountUpgradeVanadiumPlatingCompleteOnlyOrCountUnitScienceFacilityCompleteOnlyCountUnitScienceFacilityFlyingCompleteOnly">
+        <OperandArray value="NotCountUpgradeTerranShipArmorsVanadiumPlatingLevel2QueuedOrBetter"/>
+        <OperandArray value="CountUpgradeVanadiumPlatingCompleteOnly"/>
+        <OperandArray value="OrCountUnitScienceFacilityCompleteOnlyCountUnitScienceFacilityFlyingCompleteOnly"/>
+    </CRequirementAnd>
+    <CRequirementAnd id="AndTechTreeCheatCountUnitStargateCompleteOnlyTechTreeCheatCountUnitTemplarArchiveCompleteOnlyTechTreeCheat">
+        <Flags index="TechTreeCheat" value="1"/>
+        <OperandArray value="CountUnitStargateCompleteOnlyTechTreeCheat"/>
+        <OperandArray value="CountUnitTemplarArchiveCompleteOnlyTechTreeCheat"/>
+    </CRequirementAnd>
+    <CRequirementCountBehavior id="CountBehaviorAcidSporeCompleteOnlyAtUnit">
+        <Count Link="AcidSpore" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorComsatStationCommandCenterCompleteOnlyAtUnit">
+        <Count Link="ComsatStationCommandCenter" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorFactoryTechLab2CompleteOnlyAtUnitTechTreeCheat">
+        <Count Link="FactoryTechLab2" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorFactoryTechLabCompleteOnly2842203662TechTreeCheat">
+        <Count Link="FactoryTechLab" State="CompleteOnly"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorIdentifyasLairCompleteOnlyAtUnit1515591279TechTreeCheat">
+        <Count Link="IdentifyasLair" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorMutaliskWanderRequirementBuffCompleteOnlyAtUnit">
+        <Count Link="MutaliskWanderRequirementBuff" State="CompleteOnlyAtUnit"/>
+        <Flags index="TechTreeCheat" value="0"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorPhysicsLabAttachedtoScienceFacilityCompleteOnlyAtUnit">
+        <Count Link="PhysicsLabAttachedtoScienceFacility" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountBehavior id="CountBehaviorStarportTechLabCompleteOnly3040849221TechTreeCheat">
+        <Count Link="StarportTechLab" State="CompleteOnly"/>
+    </CRequirementCountBehavior>
+    <CRequirementCountUnit id="CountUnitAlias_CommandCenterCompleteOnlyAtUnit">
+        <Count Link="Alias_CommandCenter" State="CompleteOnlyAtUnit"/>
+        <Flags index="TechTreeCheat" value="0"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitAlias_EngineeringBayCompleteOnly700323805TechTreeCheat">
+        <Count Link="Alias_EngineeringBay" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitAlias_HatcheryCompleteOnly3846943109">
+        <Count Link="Alias_Hatchery" State="CompleteOnly"/>
+        <Flags index="TechTreeCheat" value="0"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitArbiterCompleteOnly">
+        <Count Link="Arbiter" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitArbiterTribunalCompleteOnlyTechTreeCheat">
+        <Tooltip value=""/>
+        <Count Link="ArbiterTribunal" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitArchonCompleteOnly">
+        <Count Link="Archon" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitArmoryCompleteOnly"/>
+    <CRequirementCountUnit id="CountUnitArmoryCompleteOnly609241497TechTreeCheat"/>
+    <CRequirementCountUnit id="CountUnitCarrierCompleteOnly">
+        <Count Link="Carrier" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementLT id="CountUnitControlTower2CompleteOnlyAtUnit3264271386TechTreeCheat"/>
+    <CRequirementCountUnit id="CountUnitDarkTemplarCompleteOnly">
+        <Count Link="DarkTemplar" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitFactoryCompleteOnly96167438TechTreeCheat">
+        <Tooltip value="RequirementNode/Tooltip/CountUnitFactoryCompleteOnly96167438TechTreeCheat"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitFactoryFlyingCompleteOnly1718561093TechTreeCheat">
+        <Tooltip value="RequirementNode/Tooltip/CountUnitFactoryFlyingCompleteOnly1718561093TechTreeCheat"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitFactoryTechReactorCompleteOnlyAtUnit1431388483TechTreeCheat">
+        <Count Link="FactoryTechReactor" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitFleetBeaconCompleteOnly2730708737TechTreeCheat">
+        <Count Link="FleetBeacon" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitGatewayCompleteOnlyTechTreeCheat">
+        <Count Link="Gateway" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitGhostAcademyCompleteOnly221722779TechTreeCheat">
+        <Count Link="GhostAcademy" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitHighTemplarCompleteOnlyTechTreeCheat">
+        <Count Link="HighTemplar" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitHiveCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitHiveCompleteOnly1229866228TechTreeCheat"/>
+    <CRequirementCountUnit id="CountUnitInfestationPitCompleteOnly3142803273TechTreeCheat">
+        <Count Link="InfestationPit" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitLairCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitNukeCompleteOnly1384835438TechTreeCheat">
+        <Count Link="Nuke" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitObservatoryCompleteOnly">
+        <Count Link="Observatory" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitObserverCompleteOnly">
+        <Count Link="Observer" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitProbeCompleteOnly">
+        <Count Link="Probe" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitReaverCompleteOnly">
+        <Count Link="Reaver" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitRoachWarrenCompleteOnly891770602TechTreeCheat">
+        <Count Link="RoachWarren" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitScienceFacilityCompleteOnly">
+        <Count Link="ScienceFacility" State="CompleteOnly"/>
+        <Flags index="TechTreeCheat" value="0"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitScienceFacilityCompleteOnlyAtUnit">
+        <Count Link="ScienceFacility" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitScienceFacilityFlyingCompleteOnly">
+        <Count Link="ScienceFacilityFlying" State="CompleteOnly"/>
+        <Flags index="TechTreeCheat" value="0"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitScoutCompleteOnly">
+        <Count Link="Scout" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitSpiderMineQueuedOrBetterAtUnit1454246222TechTreeCheat">
+        <Count Link="SpiderMine" State="QueuedOrBetterAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitStalkerCompleteOnly">
+        <Count Link="Stalker" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitStarportReactorCompleteOnlyAtUnit3264271386TechTreeCheat">
+        <Count Link="StarportReactor" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitStarportTechLab2CompleteOnlyAtUnit3264271386TechTreeCheat">
+        <Count Link="StarportTechLab2" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitTemplarArchiveCompleteOnly916103744TechTreeCheat">
+        <Count Link="TemplarArchive" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitTwilightCouncilCompleteOnly1160312549TechTreeCheat">
+        <Count Link="TwilightCouncil" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitWarpPrismCompleteOnly">
+        <Count Link="WarpPrism" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitWeaponReaverScarabQueuedOrBetterAtUnit3877808472TechTreeCheat">
+        <Count Link="WeaponReaverScarab" State="QueuedOrBetterAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitWeaponReaverScarabQueuedOrBetterAtUnit918099974TechTreeCheat">
+        <Count Link="WeaponReaverScarab" State="QueuedOrBetterAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitZealotCompleteOnly">
+        <Count Link="Zealot" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitalias_ScienceFacilityCompleteOnly2661977898">
+        <Count Link="alias_ScienceFacility" State="CompleteOnly"/>
+        <Flags index="TechTreeCheat" value="0"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitalias_ScienceFacilityCompleteOnlyAtUnit">
+        <Count Link="alias_ScienceFacility" State="CompleteOnlyAtUnit"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUpgrade id="CountUpgradeAnabolicSynthesisCompleteOnly3644261633TechTreeCheat">
+        <Count Link="AnabolicSynthesis" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeAntennaeCompleteOnly">
+        <Count Link="Antennae" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeAntennaeCompleteOnly3446251004TechTreeCheat">
+        <Count Link="Antennae" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeAntennaeQueuedOrBetterTechTreeCheat">
+        <Count Link="Antennae" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeApialSensorsCompleteOnly4217293548TechTreeCheat">
+        <Count Link="ApialSensors" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeApialSensorsQueuedOrBetterTechTreeCheat">
+        <Count Link="ApialSensors" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeAresClassWeaponsSystemCompleteOnly2802059422TechTreeCheat">
+        <Count Link="AresClassWeaponsSystem" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeArgusJewelCompleteOnly1974473952TechTreeCheat">
+        <Count Link="ArgusJewel" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeArgusJewelQueuedOrBetterTechTreeCheat">
+        <Count Link="ArgusJewel" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeArgusTalismanCompleteOnly3405637932TechTreeCheat">
+        <Count Link="ArgusTalisman" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeArgusTalismanQueuedOrBetterTechTreeCheat">
+        <Count Link="ArgusTalisman" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeBattlecruiserBehemothReactorCompleteOnly1356591495TechTreeCheat">
+        <Count Link="BattlecruiserBehemothReactor" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeBattlecruiserEnableSpecializationsCompleteOnly1097607543TechTreeCheat">
+        <Count Link="BattlecruiserEnableSpecializations" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeBattlecruiserEnableSpecializationsCompleteOnly3678453020">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="BattlecruiserEnableSpecializations" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeBattlecruiserEnableSpecializationsQueuedOrBetterTechTreeCheat">
+        <Count Link="BattlecruiserEnableSpecializations" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeBurrowCompleteOnly4196384071TechTreeCheat">
+        <Tooltip value="RequirementNode/Tooltip/CountUpgradeBurrowCompleteOnly4196384071TechTreeCheat"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeChargeCompleteOnly1094858558TechTreeCheat">
+        <Count Link="Charge" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeChargeCompleteOnly733563123TechTreeCheat">
+        <Count Link="Charge" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeChitinousPlatingCompleteOnly711115548TechTreeCheat">
+        <Count Link="ChitinousPlating" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEvolveConsumeCompleteOnly2776446436">
+        <Count Link="EvolveConsume" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEvolveConsumeQueuedOrBetterTechTreeCheat">
+        <Count Link="EvolveConsume" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEvolveEnsnareCompleteOnly3797555034TechTreeCheat">
+        <Count Link="EvolveEnsnare" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEvolveEnsnareQueuedOrBetterTechTreeCheat">
+        <Count Link="EvolveEnsnare" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEvolveLurkerAspectCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="EvolveLurkerAspect" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEvolveLurkerAspectCompleteOnly3404900147TechTreeCheat">
+        <Count Link="EvolveLurkerAspect" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEvolveLurkerAspectQueuedOrBetterTechTreeCheat">
+        <Count Link="EvolveLurkerAspect" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEvolvePlagueCompleteOnly2846159503">
+        <Count Link="EvolvePlague" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEvolvePlagueQueuedOrBetterTechTreeCheat">
+        <Count Link="EvolvePlague" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEvolveSpawnBroodlingCompleteOnly4253609543TechTreeCheat">
+        <Count Link="EvolveSpawnBroodling" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeEvolveSpawnBroodlingQueuedOrBetterTechTreeCheat">
+        <Count Link="EvolveSpawnBroodling" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeGhostMoebiusReactorCompleteOnly32836746TechTreeCheat">
+        <Count Link="GhostMoebiusReactor" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeGraviticDriveCompleteOnly1339227713TechTreeCheat">
+        <Count Link="GraviticDrive" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeGraviticThrustersCompleteOnly3639681325TechTreeCheat">
+        <Count Link="GraviticThrusters" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeHighTemplarKhaydarinAmuletCompleteOnly3406501457TechTreeCheat">
+        <Count Link="HighTemplarKhaydarinAmulet" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeIncreasedReaverCapacityCompleteOnly2724742101TechTreeCheat">
+        <Count Link="IncreasedReaverCapacity" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeIncreasedReaverCapacityQueuedOrBetterTechTreeCheat">
+        <Count Link="IncreasedReaverCapacity" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeInfestorEnergyUpgradeCompleteOnly1818234053TechTreeCheat">
+        <Count Link="InfestorEnergyUpgrade" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeInterceptorLimit6CompleteOnly383953466TechTreeCheat">
+        <Count Link="InterceptorLimit6" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeInterceptorLimit6QueuedOrBetter">
+        <Count Link="InterceptorLimit6" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeIonThrustersCompleteOnly1870473684TechTreeCheat">
+        <Count Link="IonThrusters" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeIonThrustersQueuedOrBetter">
+        <Count Link="IonThrusters" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeKhaydarinCoreCompleteOnly2371967053TechTreeCheat">
+        <Count Link="KhaydarinCore" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeKhaydarinCoreQueuedOrBetterTechTreeCheat">
+        <Count Link="KhaydarinCore" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeLockdownCompleteOnly3961388626TechTreeCheat">
+        <Count Link="Lockdown" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeLockdownCompleteOnly3961388626TechTreeCheat2">
+        <Count Link="BloqueoExpansivo" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeLockdownQueuedOrBetterTechTreeCheat">
+        <Count Link="Lockdown" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeLockdownQueuedOrBetterTechTreeCheat2">
+        <Count Link="BloqueoExpansivo" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMaelstromCompleteOnly2311623385TechTreeCheat">
+        <Count Link="Maelstrom" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMaelstromQueuedOrBetter">
+        <Count Link="Maelstrom" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMedicCaduceusReactorCompleteOnly2936258186TechTreeCheat">
+        <Count Link="MedicCaduceusReactor" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMedicCaduceusReactorQueuedOrBetter">
+        <Count Link="MedicCaduceusReactor" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMindControlCompleteOnly594225136TechTreeCheat">
+        <Count Link="MindControl" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeMindControlQueuedOrBetter">
+        <Count Link="MindControl" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeObserverGraviticBoosterCompleteOnly457332649TechTreeCheat">
+        <Count Link="ObserverGraviticBooster" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeOcularImplants2CompleteOnly3412789829TechTreeCheat">
+        <Count Link="OcularImplants2" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeOcularImplants2QueuedOrBetterTechTreeCheat">
+        <Count Link="OcularImplants2" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeOpticalFlareCompleteOnly3650747932TechTreeCheat">
+        <Count Link="OpticalFlare" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeOpticalFlareQueuedOrBetter">
+        <Count Link="OpticalFlare" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePersonalCloakingCompleteOnly3112440207TechTreeCheat">
+        <Count Link="PersonalCloaking" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradePsiStormTechCompleteOnly3361801304TechTreeCheat">
+        <Count Link="PsiStormTech" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchDisruptionWebCompleteOnly1880853242TechTreeCheat">
+        <Count Link="ResearchDisruptionWeb" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchDisruptionWebQueuedOrBetterTechTreeCheat">
+        <Count Link="ResearchDisruptionWeb" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchEMPShockwaveCompleteOnly">
+        <Count Link="ResearchEMPShockwave" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchEMPShockwaveQueuedOrBetterTechTreeCheat">
+        <Count Link="ResearchEMPShockwave" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchIrradiateCompleteOnly527886549TechTreeCheat">
+        <Count Link="ResearchIrradiate" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchIrradiateQueuedOrBetterTechTreeCheat">
+        <Count Link="ResearchIrradiate" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchMetasynapticNodeCompleteOnly2094668953TechTreeCheat">
+        <Count Link="ResearchMetasynapticNode" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchMetasynapticNodeQueuedOrBetterTechTreeCheat">
+        <Count Link="ResearchMetasynapticNode" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchRecallCompleteOnly941296065TechTreeCheat">
+        <Count Link="ResearchRecall" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchRecallQueuedOrBetterTechTreeCheat">
+        <Count Link="ResearchRecall" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchSpiderMinesCompleteOnly3899068627TechTreeCheat">
+        <Count Link="ResearchSpiderMines" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchSpiderMinesQueuedOrBetter">
+        <Count Link="ResearchSpiderMines" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchStasisCompleteOnly3421748554TechTreeCheat">
+        <Count Link="ResearchStasis" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeResearchStasisQueuedOrBetterTechTreeCheat">
+        <Count Link="ResearchStasis" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRestorationCompleteOnly2824673588TechTreeCheat">
+        <Count Link="Restoration" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeRestorationQueuedOrBetter">
+        <Count Link="Restoration" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeScarabDamageCompleteOnly1820882503TechTreeCheat">
+        <Count Link="ScarabDamage" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeScarabDamageQueuedOrBetterTechTreeCheat">
+        <Count Link="ScarabDamage" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeScienceVesselTitanReactorCompleteOnly3876622787TechTreeCheat">
+        <Count Link="ScienceVesselTitanReactor" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeScienceVesselTitanReactorQueuedOrBetter">
+        <Count Link="ScienceVesselTitanReactor" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSensorArrayCompleteOnly">
+        <Count Link="SensorArray" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSensorArrayCompleteOnly3693382039TechTreeCheat">
+        <Count Link="SensorArray" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSensorArrayQueuedOrBetter">
+        <Count Link="SensorArray" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSiegeTechCompleteOnly2174331095TechTreeCheat">
+        <Count Link="SiegeTech" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSingularityChargeCompleteOnly1698426398TechTreeCheat">
+        <Count Link="SingularityCharge" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSpawnBroodlingCompleteOnly334670322TechTreeCheat">
+        <Count Link="SpawnBroodling" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeSpawnBroodlingQueuedOrBetterTechTreeCheat">
+        <Count Link="SpawnBroodling" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeStalkerRangeQueuedOrBetter">
+        <Count Link="StalkerRange" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeStimpackCompleteOnly3852021738TechTreeCheat">
+        <Count Link="Stimpack" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeU238ShellsCompleteOnly2607389522TechTreeCheat">
+        <Count Link="U238Shells" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeU238ShellsQueuedOrBetter">
+        <Count Link="U238Shells" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeWraithApolloReactorCompleteOnly584253375TechTreeCheat">
+        <Count Link="WraithApolloReactor" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeWraithApolloReactorQueuedOrBetter">
+        <Count Link="WraithApolloReactor" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeWraithCloakCompleteOnly1232825933">
+        <Count Link="WraithCloak" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradehaltechCompleteOnly203568026TechTreeCheat">
+        <Count Link="haltech" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradehydraliskspeed2CompleteOnly2786319024TechTreeCheat">
+        <Count Link="hydraliskspeed2" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradehydraliskspeed2QueuedOrBetter">
+        <Count Link="hydraliskspeed2" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradehydraliskspeedCompleteOnly3597441123TechTreeCheat">
+        <Count Link="hydraliskspeed" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeoverlordspeedCompleteOnly2951744792TechTreeCheat">
+        <Count Link="overlordspeed" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeoverlordtransportCompleteOnly2909149357TechTreeCheat">
+        <Count Link="overlordtransport" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradezerglingattackspeedCompleteOnly4279733939TechTreeCheat">
+        <Count Link="zerglingattackspeed" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradezerglingmovementspeedCompleteOnly2143695771TechTreeCheat">
+        <Count Link="zerglingmovementspeed" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementEq id="EqCountBehaviorAcidSporeCompleteOnlyAtUnit1">
+        <OperandArray index="0" value="CountBehaviorAcidSporeCompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementEq>
+    <CRequirementEq id="EqCountBehaviorAcidSporeCompleteOnlyAtUnit2">
+        <OperandArray index="0" value="CountBehaviorAcidSporeCompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="2"/>
+    </CRequirementEq>
+    <CRequirementEq id="EqCountBehaviorAcidSporeCompleteOnlyAtUnit3">
+        <OperandArray index="0" value="CountBehaviorAcidSporeCompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="3"/>
+    </CRequirementEq>
+    <CRequirementEq id="EqCountBehaviorAcidSporeCompleteOnlyAtUnit4">
+        <OperandArray index="0" value="CountBehaviorAcidSporeCompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="4"/>
+    </CRequirementEq>
+    <CRequirementEq id="EqCountBehaviorAcidSporeCompleteOnlyAtUnit5">
+        <OperandArray index="0" value="CountBehaviorAcidSporeCompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="5"/>
+    </CRequirementEq>
+    <CRequirementEq id="EqCountBehaviorAcidSporeCompleteOnlyAtUnit6">
+        <OperandArray index="0" value="CountBehaviorAcidSporeCompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="6"/>
+    </CRequirementEq>
+    <CRequirementEq id="EqCountBehaviorAcidSporeCompleteOnlyAtUnit7">
+        <OperandArray index="0" value="CountBehaviorAcidSporeCompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="7"/>
+    </CRequirementEq>
+    <CRequirementEq id="EqCountBehaviorAcidSporeCompleteOnlyAtUnit8">
+        <OperandArray index="0" value="CountBehaviorAcidSporeCompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="8"/>
+    </CRequirementEq>
+    <CRequirementEq id="EqCountBehaviorAcidSporeCompleteOnlyAtUnit9">
+        <OperandArray index="0" value="CountBehaviorAcidSporeCompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="9"/>
+    </CRequirementEq>
+    <CRequirementEq id="EqCountBehaviorMutaliskWanderRequirementBuffCompleteOnlyAtUnit1">
+        <OperandArray index="0" value="CountBehaviorMutaliskWanderRequirementBuffCompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementEq>
+    <CRequirementLT id="LT931881485CountUnitSpiderMineQueuedOrBetterAtUnit1454246222TechTreeCheat3">
+        <OperandArray index="0" value="CountUnitSpiderMineQueuedOrBetterAtUnit1454246222TechTreeCheat"/>
+        <OperandArray index="1" value="3"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUnitWeaponReaverScarabQueuedOrBetterAtUnit3877808472TechTreeCheat10">
+        <OperandArray index="0" value="CountUnitWeaponReaverScarabQueuedOrBetterAtUnit3877808472TechTreeCheat"/>
+        <OperandArray index="1" value="10"/>
+    </CRequirementLT>
+    <CRequirementLT id="LTCountUnitWeaponReaverScarabQueuedOrBetterAtUnit918099974TechTreeCheat5">
+        <OperandArray index="0" value="CountUnitWeaponReaverScarabQueuedOrBetterAtUnit918099974TechTreeCheat"/>
+        <OperandArray index="1" value="5"/>
+    </CRequirementLT>
+    <CRequirementNE id="NECountBehaviorMutaliskWanderRequirementBuffCompleteOnlyAtUnit1">
+        <OperandArray index="0" value="CountBehaviorMutaliskWanderRequirementBuffCompleteOnlyAtUnit"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementNE>
+    <CRequirementNot id="Not866976074CountUnitNukeQueuedOrBetterAtUnit"/>
+    <CRequirementNot id="NotCountUnitNukeQueuedOrBetterAtUnit">
+        <OperandArray index="0" value="CountUnitNukeQueuedOrBetterAtUnit"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeAntennaeQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeAntennaeQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeApialSensorsQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeApialSensorsQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeArgusJewelQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeArgusJewelQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeArgusTalismanQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeArgusTalismanQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeBattlecruiserEnableSpecializationsQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeBattlecruiserEnableSpecializationsQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeEvolveConsumeQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeEvolveConsumeQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeEvolveEnsnareQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeEvolveEnsnareQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeEvolveLurkerAspectQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeEvolveLurkerAspectQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeEvolvePlagueQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeEvolvePlagueQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeEvolveSpawnBroodlingQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeEvolveSpawnBroodlingQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeIncreasedReaverCapacityQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeIncreasedReaverCapacityQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeInterceptorLimit6QueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeInterceptorLimit6QueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeIonThrustersQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeIonThrustersQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeKhaydarinCoreQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeKhaydarinCoreQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeLockdownQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeLockdownQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeMaelstromQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeMaelstromQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeMedicCaduceusReactorQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeMedicCaduceusReactorQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeMindControlQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeMindControlQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeOcularImplants2QueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeOcularImplants2QueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeResearchDisruptionWebQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeResearchDisruptionWebQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeResearchEMPShockwaveQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeResearchEMPShockwaveQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeResearchIrradiateQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeResearchIrradiateQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeResearchMetasynapticNodeQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeResearchMetasynapticNodeQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeResearchRecallQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeResearchRecallQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeResearchSpiderMinesQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeResearchSpiderMinesQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeResearchStasisQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeResearchStasisQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeRestorationQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeRestorationQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeScarabDamageQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeScarabDamageQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeScienceVesselTitanReactorQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeScienceVesselTitanReactorQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeSensorArrayQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeSensorArrayQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeSpawnBroodlingQueuedOrBetterTechTreeCheat">
+        <OperandArray index="0" value="CountUpgradeSpawnBroodlingQueuedOrBetterTechTreeCheat"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeStalkerRangeQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeStalkerRangeQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeU238ShellsQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeU238ShellsQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradeWraithApolloReactorQueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradeWraithApolloReactorQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotCountUpgradehydraliskspeed2QueuedOrBetter">
+        <OperandArray index="0" value="CountUpgradehydraliskspeed2QueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotOrCountUnitAlias_CommandCenterCompleteOnlyAtUnit">
+        <OperandArray index="0" value="OrCountUnitAlias_CommandCenterCompleteOnlyAtUnit"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotOrCountUnitAlias_CommandCenterCompleteOnlyAtUnitCountUnitAlias_FactoryCompleteOnlyAtUnitCountUnitAlias_StarportCompleteOnlyAtUnitCountUnitalias_ScienceFacilityCompleteOnlyAtUnit">
+        <OperandArray index="0" value="OrCountUnitAlias_CommandCenterCompleteOnlyAtUnitCountUnitAlias_FactoryCompleteOnlyAtUnitCountUnitAlias_StarportCompleteOnlyAtUnitCountUnitalias_ScienceFacilityCompleteOnlyAtUnit"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotOrCountUnitScienceFacilityCompleteOnlyAtUnit">
+        <OperandArray index="0" value="OrCountUnitScienceFacilityCompleteOnlyAtUnit"/>
+    </CRequirementNot>
+    <CRequirementNot id="NotTechTreeCheatCountUpgradeOpticalFlareQueuedOrBetter">
+        <Flags index="TechTreeCheat" value="1"/>
+        <OperandArray index="0" value="CountUpgradeOpticalFlareQueuedOrBetter"/>
+    </CRequirementNot>
+    <CRequirementOr id="Or1515591279CountUnitAlias_LairCompleteOnly1515591279TechTreeCheatCountUnitHiveCompleteOnly1229866228TechTreeCheat">
+        <OperandArray value="CountUnitAlias_LairCompleteOnly1515591279TechTreeCheat"/>
+        <OperandArray value="CountUnitHiveCompleteOnly1229866228TechTreeCheat"/>
+    </CRequirementOr>
+    <CRequirementOr id="Or1515591279CountUnitLairCompleteOnlyCountUnitHiveCompleteOnly">
+        <OperandArray value="CountUnitLairCompleteOnly"/>
+        <OperandArray value="CountUnitHiveCompleteOnly"/>
+    </CRequirementOr>
+    <CRequirementOr id="OrCountUnitAlias_CommandCenterCompleteOnlyAtUnit">
+        <OperandArray value="CountUnitAlias_CommandCenterCompleteOnlyAtUnit"/>
+    </CRequirementOr>
+    <CRequirementOr id="OrCountUnitAlias_CommandCenterCompleteOnlyAtUnitCountUnitAlias_FactoryCompleteOnlyAtUnitCountUnitAlias_StarportCompleteOnlyAtUnitCountUnitalias_ScienceFacilityCompleteOnlyAtUnit">
+        <OperandArray value="CountUnitAlias_CommandCenterCompleteOnlyAtUnit"/>
+        <OperandArray value="CountUnitAlias_FactoryCompleteOnlyAtUnit"/>
+        <OperandArray value="CountUnitAlias_StarportCompleteOnlyAtUnit"/>
+        <OperandArray value="CountUnitalias_ScienceFacilityCompleteOnlyAtUnit"/>
+    </CRequirementOr>
+    <CRequirementOr id="OrCountUnitScienceFacilityCompleteOnlyAtUnit">
+        <OperandArray value="CountUnitScienceFacilityCompleteOnlyAtUnit"/>
+    </CRequirementOr>
+    <CRequirementOr id="OrCountUnitScienceFacilityCompleteOnlyCountUnitScienceFacilityFlyingCompleteOnly">
+        <OperandArray value="CountUnitScienceFacilityCompleteOnly"/>
+        <OperandArray value="CountUnitScienceFacilityFlyingCompleteOnly"/>
+    </CRequirementOr>
+    <CRequirementCountUpgrade id="UpgradeLockdownQueuedOrBetter2">
+        <Count Link="BloqueoExpansivo" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+</Catalog>

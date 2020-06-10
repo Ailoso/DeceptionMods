@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CButton id="NcleoKhaydarin">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-chronomancy.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-chronomancy.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="EquipoSensor">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-sensorarray.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-sensorarray.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="AmuletoKhaydarin">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-khaydarinamulet.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-khaydarinamulet.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="AceleradorGravitco">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-graviticbooster.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="BahasdeInterceptoresAdicionales">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-carriercapacity.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-carriercapacity.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="JoyaArgus">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-timestop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-timestop.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="NovaWeaponHellfireShotgunBlast">
+        <Icon value="Assets\Textures\btn-ability-zerg-fireroach-increasefiredamage.dds"/>
+    </CButton>
+    <CButton id="Obliterate">
+        <Icon value="Assets\Textures\btn-ability-stetmann-garystetelliteovercharge-energy.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-stetmann-garystetelliteovercharge-energy.dds"/>
+        <TintRacially value="0"/>
+    </CButton>
+    <CButton id="ResearchInterceptorLaunchSpeedUpgrade">
+        <Name value="Button/Name/IncreaseCarrierCapacity"/>
+        <Tooltip value="Button/Tooltip/IncreaseCarrierCapacity"/>
+        <Icon value="Assets\Textures\btn-upgrade-protoss-carriercapacity.dds"/>
+        <AlertName value="Button/Name/IncreaseCarrierCapacity"/>
+        <AlertTooltip value="Button/Tooltip/IncreaseCarrierCapacity"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-carriercapacity.dds"/>
+    </CButton>
+    <CButton id="SensoresApial">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-phoenixrange.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-phoenixrange.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchGraviticDrive"/>
+    <CButton id="PlantadeMicromanufacturacinNeotrica">
+        <Icon value="Assets\Textures\btn-techupgrade-protoss-reavercapacity.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-protoss-reavercapacity.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="PropulsorGravtico">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-graviticthrusters.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-graviticthrusters.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="TalismnArgus">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-nerazimcore.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-nerazimcore.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="MejoradePiernas">
+        <Icon value="Assets\Textures\btn-ability-protoss-charge-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-charge-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="GuardianPassiveGreater">
+        <Tooltip value="Button/Tooltip/GuardianPassiveGreater2"/>
+        <Icon value="Assets\Textures\BTN_Guardian2.dds"/>
+        <AlertTooltip value="Button/Tooltip/GuardianPassiveGreater2"/>
+        <AlertIcon value="Assets\Textures\BTN_Guardian2.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="CaparaznNeumatizado">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-pneumatizedcarapace.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-pneumatizedcarapace.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="AumentoMuscular">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-evolvemuscularaugments.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-evolvemuscularaugments.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="DevoradorPassiveGreater2">
+        <Icon value="Assets\Textures\btn-unit-zerg-devourer.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-devourer.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="HydraliskDen"/>
+    <CButton id="CargadeSingularidad">
+        <Icon value="Assets\Textures\btn-ability-protoss-phasedisruptor.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-phasedisruptor.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="MerodeadorPassive">
+        <Icon value="Assets\Textures\btn-unit-zerg-lurker.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-lurker.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="MeiosisdeGametas">
+        <Icon value="Assets\Textures\btn-ability-zerg-rapidregeneration-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-rapidregeneration-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="AtormentadorPassive">
+        <Icon value="Assets\Textures\btn-unit-zerg-scourge.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-scourge.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="AtormentadorPassiveGreater">
+        <Tooltip value="Button/Tooltip/AtormentadorPassiveGreater2"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-scourge.dds"/>
+        <AlertTooltip value="Button/Tooltip/AtormentadorPassiveGreater2"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-scourge.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="MorphtoDefiler">
+        <Icon value="Assets\Textures\btn-unit-zerg-defiler.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-defiler.dds"/>
+    </CButton>
+    <CButton id="Queen">
+        <Icon value="Assets\Textures\btn-unit-zerg-queenSC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-queenSC1.dds"/>
+    </CButton>
+    <CButton id="RapidRegeneration">
+        <Icon value="Assets\Textures\btn-ability-zerg-acidspores.dds"/>
+    </CButton>
+    <CButton id="Scourge"/>
+    <CButton id="SntesisAnabolizante">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-anabolicsynthesis.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-anabolicsynthesis.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="NodoMetasinptico">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-pathogenglands.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-pathogenglands.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="GlndulasSuprarrenales">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-adrenalglands.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-adrenalglands.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EspinasEstriadas">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-hotsgroovedspines.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-hotsgroovedspines.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="Antenas">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-antennae.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-antennae.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="ReactorApolo">
+        <Icon value="Assets\Textures\btn-research-terran-microfiltering.dds"/>
+        <AlertIcon value="Assets\Textures\btn-research-terran-microfiltering.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Barracks"/>
+    <CButton id="BroodLord">
+        <Icon value="Assets\Textures\BTN_Guardian2.dds"/>
+        <AlertIcon value="Assets\Textures\BTN_Guardian2.dds"/>
+        <Tooltip value="Button/Tooltip/GuardianNew"/>
+        <AlertTooltip value="Button/Tooltip/GuardianNew"/>
+    </CButton>
+    <CButton id="BuildScienceVessel">
+        <Tooltip value="Button/Tooltip/ScienceVessel"/>
+        <AlertTooltip value="Button/Tooltip/ScienceVessel"/>
+    </CButton>
+    <CButton id="BurrowLurker">
+        <Icon value="Assets\Textures\btn-ability-zerg-root-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-root-color.dds"/>
+    </CButton>
+    <CButton id="BurrowUp2">
+        <Name value="Button/Name/LurkerBurrowUp"/>
+        <Tooltip value="Button/Tooltip/LurkerBurrowUp"/>
+        <Icon value="Assets\Textures\btn-ability-zerg-uproot-color.dds"/>
+        <AlertName value="Button/Name/LurkerBurrowUp"/>
+        <AlertTooltip value="Button/Tooltip/LurkerBurrowUp"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-uproot-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="Carrier">
+        <Icon value="Assets\Textures\btn-unit-protoss-carrierSC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-carrierSC1.dds"/>
+    </CButton>
+    <CButton id="AceleradoresCaronte">
+        <Icon value="Assets\Textures\btn-upgrade-terran-charonboosters.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-charonboosters.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="PotenciadorMetablico">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-hotsmetabolicboost.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-hotsmetabolicboost.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="ReactorTitn">
+        <Icon value="Assets\Textures\btn-upgrade-terran-corvidreactor.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-corvidreactor.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ReactorMoebius">
+        <Icon value="Assets\Textures\btn-upgrade-terran-moebiusreactor.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-moebiusreactor.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ReactorCaduceo">
+        <Icon value="Assets\Textures\btn-upgrade-terran-caduceusreactor.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-caduceusreactor.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="CloakOnSpectre">
+        <Tooltip value="Button/Tooltip/CloakOnGhost"/>
+    </CButton>
+    <CButton id="CommandCenter">
+        <Icon value="Assets\Textures\btn-building-terran-commandcenterbw.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-commandcenterbw.dds"/>
+    </CButton>
+    <CButton id="CartuchosU238">
+        <Icon value="Assets\Textures\btn-upgrade-terran-u238.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-u238.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Consume3">
+        <Name value="Button/Name/Consume"/>
+        <Tooltip value="Button/Tooltip/KerriganConsume"/>
+        <Icon value="Assets\Textures\btn-ability-zerg-consume.dds"/>
+        <AlertName value="Button/Name/Consume"/>
+        <AlertTooltip value="Button/Tooltip/KerriganConsume"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-consume.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="Consume32">
+        <Name value="Button/Name/Consume"/>
+        <Tooltip value="Button/Tooltip/DuranConsume"/>
+        <Icon value="Assets\Textures\btn-ability-zerg-consume.dds"/>
+        <AlertName value="Button/Name/Consume"/>
+        <AlertTooltip value="Button/Tooltip/DuranConsume"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-consume.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="Corruptor">
+        <Name value="Button/Name/Devourer"/>
+        <AlertName value="Button/Name/Devourer"/>
+        <Icon value="Assets\Textures\btn-unit-zerg-devourer.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-devourer.dds"/>
+        <Tooltip value="Button/Tooltip/Devourer"/>
+    </CButton>
+    <CButton id="CreepTumor">
+        <Icon value="Assets\Textures\btn-building-zerg-creepcolony.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-creepcolony.dds"/>
+    </CButton>
+    <CButton id="DefensiveMatrix">
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="0"/>
+    </CButton>
+    <CButton id="Ensnare"/>
+    <CButton id="Ensnare2">
+        <Icon value="Assets\Textures\btn-ability-zerg-fungalgrowth-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-fungalgrowth-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <HotkeyAlias value="Ensnare"/>
+    </CButton>
+    <CButton id="PsiFireStorm" parent="Ensnare">
+        <Name value="Button/Name/PsiFireStorm"/>
+        <Tooltip value="Button/Tooltip/PsiFireStorm"/>
+        <Icon value="Assets\Textures\btn-ability-hornerhan-bomberplatform-napalm.dds"/>
+        <AlertName value="Button/Name/PsiFireStorm"/>
+        <AlertTooltip value="Button/Tooltip/PsiFireStorm"/>
+        <AlertIcon value="Assets\Textures\btn-ability-hornerhan-bomberplatform-napalm.dds"/>
+        <Hotkey value="Button/Hotkey/PsiFireStorm"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="EvolutionChamber">
+        <Icon value="Assets\Textures\btn-building-zerg-evolutionchamberSC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-evolutionchamberSC1.dds"/>
+    </CButton>
+    <CButton id="EvolveEnsnare">
+        <Icon value="Assets\Textures\btn-ability-zerg-fungalgrowth-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-fungalgrowth-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EvolveInfestorEnergyUpgrade">
+        <Icon value="Assets\Textures\btn-ability-zerg-rapidregeneration-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-rapidregeneration-color.dds"/>
+    </CButton>
+    <CButton id="Feedback2">
+        <Icon value="Assets\Textures\btn-ability-protoss-feedback-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-feedback-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <HotkeyAlias value="Feedback"/>
+    </CButton>
+    <CButton id="Forge">
+        <Icon value="Assets\Textures\btn-building-protoss-forgeSC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-forgeSC1.dds"/>
+    </CButton>
+    <CButton id="GhostAcademy">
+        <Name value="Button/Name/BuildAcademy1"/>
+        <Tooltip value="Button/Tooltip/BuildAcademy1"/>
+        <AlertName value="Button/Name/BuildAcademy1"/>
+        <AlertTooltip value="Button/Tooltip/BuildAcademy1"/>
+        <Icon value="Assets\Textures\btn-building-terran-academy.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-academy.dds"/>
+    </CButton>
+    <CButton id="Hallucination">
+        <Name value="Button/Name/HallucinationHighTemplar"/>
+        <Tooltip value="Button/Tooltip/HallucinationHighTemplar"/>
+        <AlertName value="Button/Name/HallucinationHighTemplar1"/>
+        <AlertTooltip value="Button/Tooltip/HallucinationHighTemplar"/>
+    </CButton>
+    <CButton id="Infest">
+        <Icon value="Assets\Textures\btn-ability-zerg-attackstructure-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-attackstructure-color.dds"/>
+    </CButton>
+    <CButton id="InfestationPit">
+        <Name value="Button/Name/DefilerMound"/>
+        <Tooltip value="Button/Tooltip/DefilerMound"/>
+        <AlertName value="Button/Name/DefilerMound"/>
+        <AlertTooltip value="Button/Tooltip/DefilerMound"/>
+        <Icon value="Assets\Textures\btn-building-zerg-defilermound.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-defilermound.dds"/>
+    </CButton>
+    <CButton id="InfestedTerrans">
+        <Tooltip value="Button/Tooltip/InfestedTerranCampaign"/>
+        <AlertTooltip value="Button/Tooltip/InfestedTerranCampaign"/>
+    </CButton>
+    <CButton id="InfestorPassive">
+        <Icon value="Assets\Textures\btn-unit-zerg-defiler.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-defiler.dds"/>
+    </CButton>
+    <CButton id="Irradiate">
+        <TintRacially value="0"/>
+    </CButton>
+    <CButton id="LurkerDen">
+        <Icon value="Assets\Textures\btn-unit-zerg-lurker.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-lurker.dds"/>
+    </CButton>
+    <CButton id="MassRecall">
+        <Icon value="Assets\Textures\btn-ability-protoss-recall.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-recall.dds"/>
+    </CButton>
+    <CButton id="MedicHeal2">
+        <Icon value="Assets\Textures\btn-ability-terran-heal-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-heal-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="MuscularAugments">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-evolvemuscularaugments.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-evolvemuscularaugments.dds"/>
+    </CButton>
+    <CButton id="NydusCanal">
+        <Icon value="Assets\Textures\btn-building-zerg-nyduscanal.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-nyduscanal.dds"/>
+    </CButton>
+    <CButton id="NydusNetwork">
+        <Icon value="Assets\Textures\btn-building-zerg-nyduscanal.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-nyduscanal.dds"/>
+    </CButton>
+    <CButton id="OmegaStorm">
+        <Icon value="Assets\Textures\btn-ability-zerg-razorswarm.dds"/>
+        <AlertName value="Button/Name/OmegaStorm"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-razorswarm.dds"/>
+    </CButton>
+    <CButton id="OrbitalCommand">
+        <Icon value="Assets\Textures\btn-build-terran-comsat_dp.dds"/>
+        <AlertIcon value="Assets\Textures\btn-build-terran-comsat_dp.dds"/>
+        <TooltipImage value="Assets\Textures\btn-build-terran-comsat_dp.dds"/>
+    </CButton>
+    <CButton id="Parasite">
+        <Icon value="Assets\Textures\btn-ability-zerg-neuralparasite-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-neuralparasite-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="Phoenix">
+        <Icon value="Assets\Textures\btn-unit-protoss-corsair.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-corsair.dds"/>
+    </CButton>
+    <CButton id="PhotonCannon">
+        <Icon value="Assets\Textures\btn-building-protoss-photoncannonSC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-photoncannonSC1.dds"/>
+    </CButton>
+    <CButton id="Probe">
+        <Icon value="Assets\Textures\btn-unit-protoss-probeSC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-probeSC1.dds"/>
+    </CButton>
+    <CButton id="ProtossGroundWeaponsLevel2">
+        <Hotkey value="Button/Hotkey/ProtossGroundWeaponsLevel1"/>
+    </CButton>
+    <CButton id="BloqueoExpansivo" parent="Ensnare">
+        <Name value="Button/Name/BloqueoExpansivo"/>
+        <Tooltip value="Button/Tooltip/BloqueoExpansivo"/>
+        <Icon value="Assets\Textures\btn-ability-protoss-timewarp.dds"/>
+        <AlertName value="Button/Name/BloqueoExpansivo"/>
+        <AlertTooltip value="Button/Tooltip/BloqueoExpansivo"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-timewarp.dds"/>
+        <Hotkey value="Button/Hotkey/BloqueoExpansivo"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="QueenPassive">
+        <Icon value="Assets\Textures\btn-unit-zerg-QueenSC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-zerg-QueenSC1.dds"/>
+    </CButton>
+    <CButton id="ImplantesOculares">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-ocularimplants.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-ocularimplants.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="PropulsoresdeIones">
+        <Icon value="Assets\Textures\btn-upgrade-terran-ionthrusters.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-ionthrusters.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ReactorColossus">
+        <Icon value="Assets\Textures\btn-upgrade-terran-behemothreactor.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-behemothreactor.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchAntennae">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-antennae.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-antennae.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="ResearchApialSensors">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-phoenixrange.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-phoenixrange.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchGraviticThrusters">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-graviticthrusters.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-graviticthrusters.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchKhaydarinCore">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-chronomancy.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-chronomancy.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchArgusTalisman">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-nerazimcore.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-nerazimcore.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="BuildControlTower">
+        <Icon value="Assets\Textures\btn-building-terran-controltower.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-controltower.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="BuildPhysicsLab">
+        <Icon value="Assets\Textures\btn-building-terran-techlab.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-techlab.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <Tooltip value="Button/Tooltip/PhysicsLab"/>
+        <AlertTooltip value="Button/Tooltip/PhysicsLab"/>
+    </CButton>
+    <CButton id="BuildNuclearSilo">
+        <Icon value="Assets\Textures\btn-building-terran-nukesilo.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-nukesilo.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="BuildMachineShop">
+        <Icon value="Assets\Textures\btn-building-terran-machineshop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-machineshop.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="BuildCovertOps">
+        <Icon value="Assets\Textures\btn-building-terran-covertops.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-covertops.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <Tooltip value="Button/Tooltip/CovertOps"/>
+        <AlertTooltip value="Button/Tooltip/CovertOps"/>
+    </CButton>
+    <CButton id="BunkerUnloadAll">
+        <Hotkey value="Button/Hotkey/HerculesUnloadAll"/>
+    </CButton>
+    <CButton id="DarkArchonWarpSelection">
+        <Icon value="Assets\Textures\btn-unit-protoss-darkarchon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-darkarchon_bw.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="BuildScienceFacility">
+        <Icon value="Assets\Textures\btn-building-terran-sciencefacility.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-sciencefacility.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <Tooltip value="Button/Tooltip/ScienceFacility"/>
+        <AlertTooltip value="Button/Tooltip/ScienceFacility"/>
+    </CButton>
+    <CButton id="BuildValkyrie">
+        <Icon value="Assets\Textures\btn-unit-terran-valkyrie.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-valkyrie.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <Tooltip value="Button/Tooltip/VikingFighter"/>
+    </CButton>
+    <CButton id="CharonBoosters">
+        <Icon value="Assets\Textures\btn-upgrade-terran-charonboosters.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-charonboosters.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ConstructScarab">
+        <Icon value="Assets\Textures\btn-ability-protoss-scarabshot.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-scarabshot.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="Consume">
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-consume.dds"/>
+    </CButton>
+    <CButton id="DarkArchonWarpTarget">
+        <Icon value="Assets\Textures\btn-unit-protoss-darkarchon.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-darkarchon_bw.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="DarkSwarm">
+        <Icon value="Assets\Textures\btn-ability-zerg-darkswarm.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-darkswarm.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="DisruptionWeb">
+        <Icon value="Assets\Textures\btn-ability-protoss-disruptionweb.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-disruptionweb.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="Maelstrom">
+        <Icon value="Assets\Textures\btn-ability-zeratul-darkarchon-maelstrom.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zeratul-darkarchon-maelstrom.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="Medivac">
+        <Icon value="Assets\Textures\btn-unit-terran-dropshipSC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-dropshipSC1.dds"/>
+    </CButton>
+    <CButton id="MedivacUnloadAll">
+        <Hotkey value="Button/Hotkey/HerculesUnloadAll"/>
+    </CButton>
+    <CButton id="MindControl">
+        <Icon value="Assets\Textures\btn-ability-protoss-mindcontrol.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-mindcontrol.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="NydusCanalUnloadAll">
+        <Hotkey value="Button/Hotkey/HerculesUnloadAll"/>
+    </CButton>
+    <CButton id="OpticalFlare">
+        <Icon value="Assets\Textures\btn-ability-terran-flare.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-flare.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="OverlordTransportUnload">
+        <Hotkey value="Button/Hotkey/HerculesUnloadAll"/>
+    </CButton>
+    <CButton id="ProtossAirWeaponsLevel2">
+        <Hotkey value="Button/Hotkey/ProtossAirWeaponsLevel1"/>
+    </CButton>
+    <CButton id="ProtossAirWeaponsLevel3">
+        <Hotkey value="Button/Hotkey/ProtossAirWeaponsLevel1"/>
+    </CButton>
+    <CButton id="ProtossGroundWeaponsLevel3">
+        <Hotkey value="Button/Hotkey/ProtossGroundWeaponsLevel1"/>
+    </CButton>
+    <CButton id="RechargeShield">
+        <Icon value="Assets\Textures\btn-ability-protoss-shieldbattery-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-shieldbattery-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchArgusJewel">
+        <Icon value="Assets\Textures\btn-ability-spearofadun-timestop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-spearofadun-timestop.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchHallucinationHighTemplar">
+        <Icon value="Assets\Textures\btn-ability-protoss-hallucination-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-hallucination-color.dds"/>
+        <Tooltip value="Button/Tooltip/HallucinationHighTemplar"/>
+        <AlertTooltip value="Button/Tooltip/HallucinationHighTemplar"/>
+    </CButton>
+    <CButton id="ResearchLockdown">
+        <Icon value="Assets\Textures\btn-ability-terran-lockdown.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-lockdown.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchMaelstrom">
+        <Icon value="Assets\Textures\btn-ability-zeratul-darkarchon-maelstrom.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zeratul-darkarchon-maelstrom.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Tooltip value="Button/Tooltip/Maelstrom"/>
+    </CButton>
+    <CButton id="ResearchDisruptionWeb">
+        <Icon value="Assets\Textures\btn-ability-protoss-disruptionweb.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-disruptionweb.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Tooltip value="Button/Tooltip/DisruptionWeb"/>
+    </CButton>
+    <CButton id="Plague">
+        <Icon value="Assets\Textures\btn-ability-zerg-plague-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-plague-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="ResearchConsume">
+        <Icon value="Assets\Textures\btn-ability-zerg-consume.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-consume.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="ResearchEMPShockwave">
+        <Icon value="Assets\Textures\btn-ability-terran-emp-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-emp-color.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchIonThrusters">
+        <Icon value="Assets\Textures\btn-upgrade-terran-ionthrusters.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-ionthrusters.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchIncreasedReaverCapacity">
+        <Name value="Button/Name/IncreaseReaverCapacity"/>
+        <Tooltip value="Button/Tooltip/IncreaseReaverCapacity"/>
+        <Icon value="Assets\Textures\btn-techupgrade-protoss-reavercapacity.dds"/>
+        <AlertName value="Button/Name/IncreaseReaverCapacity"/>
+        <AlertTooltip value="Button/Tooltip/IncreaseReaverCapacity"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-protoss-reavercapacity.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchIrradiate">
+        <Icon value="Assets\Textures\btn-ability-terran-irradiate.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-irradiate.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchOcularImplants">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-ocularimplants.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-ocularimplants.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchOpticalFlare">
+        <Icon value="Assets\Textures\btn-ability-terran-flare.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-flare.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchPsiStorm">
+        <Tooltip value="Button/Tooltip/PsiStorm"/>
+        <AlertTooltip value="Button/Tooltip/PsiStorm"/>
+    </CButton>
+    <CButton id="ResearchPsiStorm2">
+        <Icon value="Assets\Textures\btn-ability-protoss-mindcontrol.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-mindcontrol.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Tooltip value="Button/Tooltip/MindControl"/>
+    </CButton>
+    <CButton id="ResearchSiegeTech">
+        <Icon value="Assets\Textures\btn-unit-terran-siegetanksiegemodeSC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-siegetanksiegemodeSC1.dds"/>
+    </CButton>
+    <CButton id="ResearchSingularityCharge">
+        <Icon value="Assets\Textures\btn-ability-protoss-phasedisruptor.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-phasedisruptor.dds"/>
+    </CButton>
+    <CButton id="ResearchSpiderMinesSC1">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-cerberusmine.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-cerberusmine.dds"/>
+    </CButton>
+    <CButton id="ResearchWraithEnergyUpgrade">
+        <Icon value="Assets\Textures\btn-research-terran-microfiltering.dds"/>
+        <AlertIcon value="Assets\Textures\btn-research-terran-microfiltering.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchMetasynapticNode">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-pathogenglands.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-pathogenglands.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="ResearchPlague">
+        <Icon value="Assets\Textures\btn-ability-zerg-plague-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-plague-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+        <Tooltip value="Button/Tooltip/Plague"/>
+    </CButton>
+    <CButton id="ResearchRecall">
+        <Icon value="Assets\Textures\btn-ability-protoss-recall.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-recall.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchSensorArray">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-sensorarray.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-sensorarray.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchStasis">
+        <Icon value="Assets\Textures\btn-ability-protoss-stasisfield.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-stasisfield.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchScarabDamage">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-scarabdamage-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-scarabdamage-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ResearchScienceVesselEnergyUpgrade">
+        <Icon value="Assets\Textures\btn-upgrade-terran-corvidreactor.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-corvidreactor.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="RoachWarren">
+        <Name value="Button/Name/QueensNest"/>
+        <Tooltip value="Button/Tooltip/QueensNest"/>
+        <AlertName value="Button/Name/QueensNest"/>
+        <AlertTooltip value="Button/Tooltip/QueensNest"/>
+        <Icon value="Assets\Textures\btn-building-zerg-queensnest.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-queensnest.dds"/>
+    </CButton>
+    <CButton id="RoboticsFacility">
+        <Icon value="Assets\Textures\btn-building-protoss-roboticsfacilitySC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-roboticsfacilitySC1.dds"/>
+    </CButton>
+    <CButton id="SiegeMode">
+        <Icon value="Assets\Textures\btn-unit-terran-siegetanksiegemodeSC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-siegetanksiegemodeSC1.dds"/>
+    </CButton>
+    <CButton id="CorazaQuitinosa">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-chitinousplating.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-chitinousplating.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="SpawnBroodling">
+        <Icon value="Assets\Textures\btn-ability-zerg-swarmseeds-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-swarmseeds-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="EvolveSpawnBroodling">
+        <Icon value="Assets\Textures\btn-ability-zerg-swarmseeds-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-zerg-swarmseeds-color.dds"/>
+        <EditorCategories value="Race:Zerg"/>
+    </CButton>
+    <CButton id="SpiderMine">
+        <Icon value="Assets\Textures\btn-techupgrade-terran-cerberusmine.dds"/>
+        <AlertIcon value="Assets\Textures\btn-techupgrade-terran-cerberusmine.dds"/>
+    </CButton>
+    <CButton id="SpineCrawler">
+        <Icon value="Assets\Textures\btn-building-zerg-SunkencolonySC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-SunkencolonySC1.dds"/>
+    </CButton>
+    <CButton id="SporeCrawler">
+        <Icon value="Assets\Textures\btn-building-zerg-sporecolony.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-zerg-sporecolony.dds"/>
+    </CButton>
+    <CButton id="Stalker">
+        <Icon value="Assets\Textures\btn-unit-protoss-dragoon-void.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-dragoon-void.dds"/>
+        <Universal value="0"/>
+    </CButton>
+    <CButton id="Stargate">
+        <Icon value="Assets\Textures\btn-building-protoss-stargateSC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-stargateSC1.dds"/>
+    </CButton>
+    <CButton id="UnidadGravtica">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-graviticdrive.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-graviticdrive.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="TwilightCouncil">
+        <Icon value="Assets\Textures\btn-building-protoss-citadelofadun.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-citadelofadun.dds"/>
+    </CButton>
+    <CButton id="U238Shells">
+        <Icon value="Assets\Textures\btn-upgrade-terran-u238.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-terran-u238.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="UltraliskCavern"/>
+    <CButton id="SincronizadorElectromagntico">
+        <Icon value="Assets\Textures\btn-upgrade-protoss-scarabdamage-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-protoss-scarabdamage-color.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="Unsiege">
+        <Icon value="Assets\Textures\btn-unit-terran-siegetankSC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-terran-siegetankSC1.dds"/>
+    </CButton>
+    <CButton id="UseLockdown">
+        <Icon value="Assets\Textures\btn-ability-terran-lockdown.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-lockdown.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="UseRestoration">
+        <Icon value="Assets\Textures\btn-tips-starmap.dds"/>
+        <AlertIcon value="Assets\Textures\btn-tips-starmap.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="ResearchRestoration">
+        <Icon value="Assets\Textures\btn-tips-starmap.dds"/>
+        <AlertIcon value="Assets\Textures\btn-tips-starmap.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="UseStasisField">
+        <Icon value="Assets\Textures\btn-ability-protoss-stasisfield.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-stasisfield.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="WarpInScout">
+        <Tooltip value="Button/Tooltip/Scout"/>
+        <AlertTooltip value="Button/Tooltip/Scout"/>
+    </CButton>
+    <CButton id="WarpPrism">
+        <Icon value="Assets\Textures\btn-unit-protoss-shuttle.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-shuttle.dds"/>
+    </CButton>
+    <CButton id="WarpPrismUnloadAll">
+        <Hotkey value="Button/Hotkey/HerculesUnloadAll"/>
+    </CButton>
+    <CButton id="WarpinArbiter">
+        <Icon value="Assets\Textures\btn-unit-protoss-arbiter.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-arbiter.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="WarpinArbiterTribunal">
+        <Icon value="Assets\Textures\btn-building-protoss-arbitertribunal.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-arbitertribunal.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="WarpinObservatory">
+        <Icon value="Assets\Textures\btn-building-protoss-observatory.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-observatory.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Tooltip value="Button/Tooltip/Observatory"/>
+    </CButton>
+    <CButton id="WarpinReaver">
+        <Icon value="Assets\Textures\btn-unit-protoss-reaver.dds"/>
+        <AlertIcon value="Assets\Textures\btn-unit-protoss-reaver.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <Tooltip value="Button/Tooltip/Reaver"/>
+    </CButton>
+    <CButton id="WarpinShieldBattery">
+        <Icon value="Assets\Textures\btn-building-protoss-shieldbatterySC1.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-protoss-shieldbatterySC1.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+    </CButton>
+    <CButton id="ZeratulBlink">
+        <Icon value="Assets\Textures\btn-ability-protoss-blink-color.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-protoss-blink-color.dds"/>
+        <TintRacially value="0"/>
+    </CButton>
+    <CButton id="hydraliskspeed">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-hotsgroovedspines.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-hotsgroovedspines.dds"/>
+    </CButton>
+    <CButton id="zerglingmovementspeed">
+        <Icon value="Assets\Textures\btn-upgrade-zerg-hotsmetabolicboost.dds"/>
+        <AlertIcon value="Assets\Textures\btn-upgrade-zerg-hotsmetabolicboost.dds"/>
+    </CButton>
+</Catalog>

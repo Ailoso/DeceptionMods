@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Include path="UI/Layout/KLClassic_GlueTemplates.SC2Layout"/>
+    <Include path="UI/Layout/KLClassic_ReadyRoomTemplates.SC2Layout"/>
+    <Include path="UI/Layout/KLClassic_ReadyRoomTerran.SC2Layout"/>
+    <Include path="UI/Layout/KLClassic_HeroPanel.SC2Layout"/>
+    <Include path="UI/Layout/KLClassic_VictoryTerran.SC2Layout"/>
+    <Include path="UI/Layout/KLClassic_VictoryFrame.SC2Layout"/>
+</Desc>

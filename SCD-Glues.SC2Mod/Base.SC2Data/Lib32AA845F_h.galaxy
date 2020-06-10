@@ -1,0 +1,19 @@
+include "TriggerLibs/natives"
+
+//--------------------------------------------------------------------------------------------------
+// Library: Glues (Koprulu Classic)
+//--------------------------------------------------------------------------------------------------
+// Variable Declarations
+int lib32AA845F_gv_kC_Landing;
+
+// Function Declarations
+void lib32AA845F_gf_LandingScreenDisplay ();
+void lib32AA845F_gf_LandingScreenDisplay2 ();
+
+// Trigger Declarations
+trigger lib32AA845F_gt_KC_CreateLandingScreen;
+trigger lib32AA845F_gt_InitDebug;
+
+// Library Initialization
+void lib32AA845F_InitVariables ();
+

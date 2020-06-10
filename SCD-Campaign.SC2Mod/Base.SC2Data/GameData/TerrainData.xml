@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CTerrain id="AntigaPrime">
+        <EditorCategories value="Climate:Wasteland"/>
+        <LoadingScreen value="Assets\Textures\loading-haven.dds"/>
+        <Ambience value="Ambience_Haven"/>
+        <ReverbAmbient value="BetaVerb"/>
+        <BlendTextures value="AntigaPrimeDirt"/>
+        <BlendTextures value="AntigaPrimeDirtLight"/>
+        <BlendTextures value="AntigaPrimeCrackedGround"/>
+        <BlendTextures value="AntigaPrimeGrass"/>
+        <BlendTextures value="AntigaPrimeMud"/>
+        <BlendTextures value="AntigaPrimeConcrete"/>
+        <BlendTextures value="AntigaPrimeRockyGround"/>
+        <HardTiles value="MarSaraTile"/>
+        <CliffSets value="AntigaPrimeOrganicCliffs"/>
+        <CliffSets value="AntigaPrimeManmadeCliffs"/>
+        <FogEnabled value="1"/>
+        <FogColor value="255,43,52,77"/>
+        <FogDensity value="0.050000"/>
+        <FogFalloff value="0.100000"/>
+        <FogStartingHeight value="-2.000000"/>
+        <CreepBaseTexture value="Assets\Textures\Creep_Haven.dds"/>
+        <HeightMapEnabled value="1"/>
+    </CTerrain>
+</Catalog>

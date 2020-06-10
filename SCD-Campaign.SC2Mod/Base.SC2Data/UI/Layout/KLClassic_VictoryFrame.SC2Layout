@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Desc>
+    <Frame type="Frame" name="ScoreScreenTemplate">
+
+        <Frame type="StandardTooltip" name="ScoreScreenTooltip" template="VoidShared_ScoreScreen/ScoreScreenTooltipTemplate"/>
+
+        <Frame type="Frame" name="MainPanel">
+            <Anchor relative="$parent"/>
+
+            <Visible val="True"/>
+
+            <Animation name="Birth">
+                <Event event="Birth" action="Reset,Play" frame="$this"/>
+
+                <Controller type="Visibility" end="Pause" frame="$this/VictoryFrame">
+                    <Key type="Bool" time="0.8" value="True"/>
+                </Controller>
+
+                <Controller type="Visibility" end="Pause" frame="$this/ContinueButton">
+                    <Key type="Bool" time="0.8" value="True"/>
+                </Controller>
+
+                <Controller type="Visibility" end="Pause" frame="$this/ReplayButton">
+                    <Key type="Bool" time="0.8" value="True"/>
+                </Controller>
+            </Animation>
+
+            <Frame type="Image" name="BlackFrame">
+                <Anchor relative="$parent"/>
+
+                <AcceptsMouse val="True"/>
+                <Color val="000000"/>
+            </Frame>
+
+            <Frame type="CutsceneFrame" name="BackgroundCutscene">
+                <Anchor relative="$parent"/>
+
+                <File val="Cutscenes/USX_Victory_Terran.SC2Cutscene"/>
+                <ToneMapping val="True"/>
+                <AutoPlay val="True"/>
+            </Frame>
+
+            <Frame type="Image" name="Background">
+                <Anchor relative="$parent"/>
+    
+                <Texture val="Assets/Textures/TerrVic.DDS"/>
+            </Frame>
+
+            <Frame type="Frame" name="VictoryFrame" template="KLClassic_VictoryTerran/VictoryFrameTemplate">
+                <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+                <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+
+                <Height val="950"/>
+            </Frame>
+
+            <Frame type="Button" name="ContinueButton" template="KLClassic_GlueTemplates/StandardGlueButton">
+                <Anchor side="Left" relative="$parent" pos="Mid" offset="30"/>
+                <Anchor side="Top" relative="$parent/VictoryFrame" pos="Max" offset="45"/>
+
+                <Width val="380"/>
+                <Height val="85"/>
+                <Text val="CONTINUE"/>
+                <Visible val="False"/>
+            </Frame>
+
+            <Frame type="Button" name="ReplayButton" template="KLClassic_GlueTemplates/StandardGlueButton">
+                <Anchor side="Right" relative="$parent" pos="Mid" offset="-30"/>
+                <Anchor side="Top" relative="$parent/VictoryFrame" pos="Max" offset="45"/>
+
+                <Width val="380"/>
+                <Height val="85"/>
+                <Text val="PLAY AGAIN"/>
+                <Visible val="False"/>
+            </Frame>
+        </Frame>
+    </Frame>
+</Desc>

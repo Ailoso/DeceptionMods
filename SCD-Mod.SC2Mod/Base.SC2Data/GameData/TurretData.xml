@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CTurret id="Phoenix">
+        <YawArc value="0"/>
+    </CTurret>
+    <CTurret id="SiegeTank">
+        <YawRate value="1440"/>
+    </CTurret>
+    <CTurret id="SiegeTankSieged">
+        <YawRate value="1440"/>
+    </CTurret>
+</Catalog>

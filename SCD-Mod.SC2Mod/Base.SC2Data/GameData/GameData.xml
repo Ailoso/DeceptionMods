@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CGame id="Dflt">
+        <AttackRevealTime value="1.5"/>
+        <DifficultyLevels index="2" DefaultRebuildStructure="2"/>
+        <DifficultyLevels index="6" ActionsPerMinute="100"/>
+        <DifficultyLevels index="7" ActionsPerMinute="100"/>
+        <DifficultyLevels index="8" ActionsPerMinute="100"/>
+        <DifficultyLevels index="9" ActionsPerMinute="100"/>
+        <DifficultyLevels index="10" ActionsPerMinute="100"/>
+    </CGame>
+</Catalog>

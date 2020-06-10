@@ -1,0 +1,90 @@
+include "TriggerLibs/NativeLib"
+include "Lib1926661B"
+
+include "Lib32AA845F_h"
+
+//--------------------------------------------------------------------------------------------------
+// Library: Glues (Koprulu Classic)
+//--------------------------------------------------------------------------------------------------
+// External Library Initialization
+void lib32AA845F_InitLibraries () {
+    libNtve_InitVariables();
+    lib1926661B_InitVariables();
+}
+
+// Variable Initialization
+bool lib32AA845F_InitVariables_completed = false;
+
+void lib32AA845F_InitVariables () {
+    if (lib32AA845F_InitVariables_completed) {
+        return;
+    }
+
+    lib32AA845F_InitVariables_completed = true;
+
+}
+
+// Functions
+void lib32AA845F_gf_LandingScreenDisplay () {
+    // Automatic Variable Declarations
+    // Implementation
+    UISetMode(PlayerGroupAll(), c_uiModeFullscreen, c_transitionDurationImmediate);
+    lib1926661B_gf_SetAllSoundChannelVolumesCampaign(lib1926661B_ge_VolumeChannelModeCampaign_SpeechAndMusicNoEffects);
+    SoundtrackPlay(PlayerGroupAll(), c_soundtrackCategoryMusic, "VoidPrologueMissionLaunchScreenMusic", c_soundtrackCueAny, c_soundtrackIndexAny, false);
+    SoundChannelSetVolume(PlayerGroupAll(), c_soundCategoryAmbient, 0.0, 0.0);
+    SoundChannelSetVolume(PlayerGroupAll(), c_soundCategoryDialogue, 100.0, 0.0);
+}
+
+void lib32AA845F_gf_LandingScreenDisplay2 () {
+    // Automatic Variable Declarations
+}
+
+// Triggers
+//--------------------------------------------------------------------------------------------------
+// Trigger: KC_CreateLandingScreen
+//--------------------------------------------------------------------------------------------------
+bool lib32AA845F_gt_KC_CreateLandingScreen_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib32AA845F_gt_KC_CreateLandingScreen_Init () {
+    lib32AA845F_gt_KC_CreateLandingScreen = TriggerCreate("lib32AA845F_gt_KC_CreateLandingScreen_Func");
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: Init Debug
+//--------------------------------------------------------------------------------------------------
+bool lib32AA845F_gt_InitDebug_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void lib32AA845F_gt_InitDebug_Init () {
+    lib32AA845F_gt_InitDebug = TriggerCreate("lib32AA845F_gt_InitDebug_Func");
+}
+
+void lib32AA845F_InitTriggers () {
+    lib32AA845F_gt_KC_CreateLandingScreen_Init();
+    lib32AA845F_gt_InitDebug_Init();
+}
+
+//--------------------------------------------------------------------------------------------------
+// Library Initialization
+//--------------------------------------------------------------------------------------------------
+bool lib32AA845F_InitLib_completed = false;
+
+void lib32AA845F_InitLib () {
+    if (lib32AA845F_InitLib_completed) {
+        return;
+    }
+
+    lib32AA845F_InitLib_completed = true;
+
+    lib32AA845F_InitLibraries();
+    lib32AA845F_InitVariables();
+    lib32AA845F_InitTriggers();
+}
+

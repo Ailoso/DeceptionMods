@@ -1,0 +1,6 @@
+﻿Achievement/EditorPrefix/TIns0101=TIns 01 -
+Map/EditorPrefix/KLStory=Koprulu -
+Map/EditorPrefix/TIns01=TIns01 -
+Map/EditorPrefix/TIns02=TIns02 -
+Map/EditorPrefix/TIns03=TIns03 -
+Map/EditorPrefix/UnknownMap=TIns01 -

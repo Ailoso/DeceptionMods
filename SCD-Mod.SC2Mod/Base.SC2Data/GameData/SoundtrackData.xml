@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CSoundtrack id="Psoundtrack">
+        <CueArray>
+            <MasterLayer Sound="BWPmusic"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="Tsoundtrack">
+        <CueArray>
+            <MasterLayer Sound="BWTmusic"/>
+        </CueArray>
+    </CSoundtrack>
+    <CSoundtrack id="Zsoundtrack">
+        <CueArray>
+            <MasterLayer Sound="BWZmusic"/>
+        </CueArray>
+    </CSoundtrack>
+</Catalog>

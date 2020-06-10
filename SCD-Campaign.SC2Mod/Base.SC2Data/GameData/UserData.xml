@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CUser id="Maps">
+        <Instances Id="TIns03">
+            <GameLink GameLink="TIns0101">
+                <Field Id="Achievements"/>
+            </GameLink>
+            <GameLink GameLink="TIns0101">
+                <Field Id="Achievements" Index="1"/>
+            </GameLink>
+            <GameLink GameLink="TIns0101">
+                <Field Id="Achievements" Index="2"/>
+            </GameLink>
+            <Image>
+                <Field Id="UI_VictoryScreen_Background"/>
+            </Image>
+        </Instances>
+    </CUser>
+</Catalog>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DocInfo>
+    <Dependencies>
+        <Value>file:Mods\Koprulu\Insurrection\SCD-Mod.SC2Mod</Value>
+        <Value>file:Mods\Koprulu\Insurrection\SCD-Campaign.SC2Mod</Value>
+    </Dependencies>
+</DocInfo>

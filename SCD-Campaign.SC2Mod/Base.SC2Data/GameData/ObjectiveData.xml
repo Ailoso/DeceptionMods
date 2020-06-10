@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <!--Add better names-->
+    <!--Add description-->
+    <!--Move to Mod-->
+    <CObjective id="LocateMissingPatrol">
+        <Type value="Primary"/>
+    </CObjective>
+    <!--Add better names-->
+    <!--Add description-->
+    <!--Move to Mod-->
+    <CObjective id="ActivateBridge" parent="PCampaignObjective">
+        <Type value="Primary"/>
+        <RequiredCount value="0"/>
+        <UserReference value=""/>
+    </CObjective>
+</Catalog>

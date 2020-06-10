@@ -1,0 +1,3 @@
+﻿DocInfo/DescLong=Achievements Mod for Parasite Zeta by Dimento<n/><n/>Created by @KopruluKatt
+DocInfo/Name=Parasite Achievements Mod
+Param/Expression/lib_AE8FC9D3_A7E39E49=Next Achievement: ~A~

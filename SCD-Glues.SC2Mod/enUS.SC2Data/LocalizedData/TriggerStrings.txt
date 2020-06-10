@@ -1,0 +1,8 @@
+﻿Category/Name/lib_32AA845F_912F149D=Debug
+Category/Name/lib_32AA845F_B7B72839=Landing Screeen Variables
+FunctionDef/Name/lib_32AA845F_6AA7AB8B=Landing Screen Display 2
+FunctionDef/Name/lib_32AA845F_DCF47566=Landing Screen Display
+Library/Name/32AA845F=Glues (Koprulu Classic)
+Trigger/Name/lib_32AA845F_0D542293=KC_CreateLandingScreen
+Trigger/Name/lib_32AA845F_A0D04BA5=Init Debug
+Variable/Name/lib_32AA845F_A151920A=KC_Landing

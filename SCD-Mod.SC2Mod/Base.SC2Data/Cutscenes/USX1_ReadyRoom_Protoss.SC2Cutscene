@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CutsceneState cutsceneVersion="1.300000">
+    <CCutsceneNodeDirector guid="10872888758556427049" name="Director" sortIndex="0">
+        <CCutsceneNodeActiveCamera guid="9696657452470791802" name="Active Camera" sortIndex="0">
+            <CCutsceneElementActiveCamera guid="8345800968004647883" cameraIndex="0" objectGuid="11378447009958626974"/>
+        </CCutsceneNodeActiveCamera>
+        <CCutsceneNodeActiveLight guid="9546815420270657672" name="Active Light" sortIndex="1">
+            <CCutsceneElementActiveLight guid="7303916291742159809" lightGUID="0" lightID="RRP" lightIndex="0" blendTime="0"/>
+        </CCutsceneNodeActiveLight>
+        <CCutsceneNodeBookmark guid="11725722669487417073" name="Bookmarks" sortIndex="2">
+            <CCutsceneElementBookmark guid="6225522322561492721" bookmarkName="Loop Start"/>
+            <CCutsceneElementBookmark guid="8761740551925522685" start="300000" bookmarkName="LoopEnd" jumpToBookmarkWhenHit="Loop Start"/>
+            <CCutsceneElementBookmark guid="6519938371291541833" start="310000" bookmarkName="SelectedLoopStart"/>
+            <CCutsceneElementBookmark guid="8541148973533771511" start="600000" bookmarkName="SelectedLoopEnd" jumpToBookmarkWhenHit="SelectedLoopStart"/>
+        </CCutsceneNodeBookmark>
+    </CCutsceneNodeDirector>
+    <CCutsceneNodeTargetCamera guid="11378447009958626974" name="Main Camera" sortIndex="1" position="-0.370312,18.800011,0.489938" fov="35.000000" nearClip="0.100000" farClip="979.490417" shadowClip="75.000000" depthOfField="1.000000" focalDepth="5.245800" falloffStart="30.000000" falloffEnd="1600.000000" falloffStartNear="0.000000" falloffEndNear="0.000000" doftype="1.000000" roll="0.000000" eyePositionX="0.231803" eyePositionY="-0.435547" eyePositionZ="1.615946" targetPositionX="-0.370312" targetPositionY="18.800011" targetPositionZ="0.489938">
+        <CCutsceneElementObject guid="7294293128506279582" duration="601812" lockedToEnd="1"/>
+    </CCutsceneNodeTargetCamera>
+    <CCutsceneNodeFolder guid="9309480518525576401" name="Main Set" sortIndex="2">
+        <CCutsceneNodeActor guid="10338150091531384077" name="SKYBOX TEMP" sortIndex="0" position="0.000000,97.442169,-89.517387" scale="4.000000,4.000000,4.000000" rotation="0.000000,0.000000,360.500122" modelLink="SMCharCinematicSkyparallax" variation="1" shadowBox="0" tintColorRed="0.000000" tintColorGreen="0.745098" tintColorBlue="3.000000" teamColorDiffuse="0.000000,0.258700,1.000000,1.000000" teamColorEmissive="0.000000,0.258700,1.000000,1.000000">
+            <CCutsceneElementObject guid="4921167751032501517" duration="601812" lockedToEnd="1"/>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="11749828823939510068" name="SMX2 - Army Room Set - 00" sortIndex="1" modelLink="Assets\Doodads\SMX2_ArmyRoom_00.m3" modelPath="Assets\Doodads\SMX2_ArmyRoom_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="5213410615538966514" duration="601812" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="11207838630241591282" name="Animation Layer" sortIndex="0">
+                <CCutsceneElementAnim guid="5256998915776143346" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="66667" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="12135628479823299705" name="SMX2 - Army Room Set - 01" sortIndex="2" position="1.255592,-1.065315,0.000000" scale="1.200000,1.200000,1.200000" modelLink="SMX2_ArmyRoomSet01" modelPath="Assets/Doodads/SMX2_ArmyRoom_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="5821968280587027577" duration="601812" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="12529842220590384249" name="Animation Layer" sortIndex="0">
+                <CCutsceneElementAnim guid="6539958014998955129" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="66667" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeActor guid="10121034297592761662" name="SMX2 - Army Room Set - 07" sortIndex="3" modelLink="SMX2_ArmyRoomSet07" modelPath="Assets/Doodads/SMX2_ArmyRoom_07.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+            <CCutsceneElementObject guid="9073503417754701118" duration="601812" lockedToEnd="1"/>
+            <CCutsceneNodeAnimLayer guid="11299060147792457424" name="Animation Layer" sortIndex="0">
+                <CCutsceneElementAnim guid="6946272606189334224" duration="601812" lockedToEnd="1" anim="Stand Work Start" priority="8" originalDuration="2500" looping="1"/>
+            </CCutsceneNodeAnimLayer>
+        </CCutsceneNodeActor>
+        <CCutsceneNodeFolder guid="12294652495386801421" name="City Set" sortIndex="4">
+            <CCutsceneNodeActor guid="13629480727368948853" name="Aiur City Ramps" sortIndex="0" position="2.401772,75.072769,-12.376101" scale="0.400000,0.400000,0.400000" modelLink="Aiur_City_Ramps" modelPath="Assets/Doodads/1.Cliff/Aiur_City_Ramps_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7903590874219273333" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12018399117049451258" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="6124348310575239930" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10507958735392380526" name="Aiur Cliff City Waterfall" sortIndex="1" position="7.851402,78.959381,-10.402308" scale="1.200000,1.200000,1.200000" modelLink="Aiur_Cliff_City_Waterfall" modelPath="Assets/Doodads/1.Cliff/Aiur_Cliff_City_Waterfall_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="9115413338825070190" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11029413819007224298" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="6504845628721711594" duration="601812" lockedToEnd="1" anim="GLstand" priority="12" originalDuration="40000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10715037729788271190" name="Aiur Cliff City Waterfall" sortIndex="2" position="-2.819279,77.813995,-10.402308" scale="1.200000,1.200000,1.200000" modelLink="Aiur_Cliff_City_Waterfall" modelPath="Assets/Doodads/1.Cliff/Aiur_Cliff_City_Waterfall_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8878077975316142678" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9607256103829117526" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="7624407558831217238" duration="601812" lockedToEnd="1" anim="GLstand" priority="12" originalDuration="40000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13199294343180517200" name="Aiur Cliff Facades" sortIndex="3" position="12.215721,79.216766,-9.744408" scale="1.200000,1.200000,1.200000" modelLink="Aiur_Cliff_Facades" modelPath="Assets/Doodads/1.Cliff/Aiur_Cliff_Facades_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5881575608816303952" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12402404946760059767" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="7240515548787657591" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="10000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10819980095639965296" name="Aiur Guardian City Statue" sortIndex="4" position="-0.361843,79.072266,-12.475005" scale="0.400000,0.400000,0.400000" rotation="0.000000,0.000000,-1.999999" modelLink="Aiur_Guardian_City_Statue" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_Guardian_City_Statue_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5667548537775902320" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9924169962235309776" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="5331654513153748688" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="67"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9697703276564738325" name="Aiur Guardian City Statue" sortIndex="5" position="5.118721,79.072266,-12.475005" scale="0.400000,0.400000,0.400000" rotation="0.000000,0.000000,180.999939" modelLink="Aiur_Guardian_City_Statue" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_Guardian_City_Statue_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7846388611812978965" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13735132311883116821" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="4840870828508213525" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="67"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9321893913972735587" name="Aiur Cliff Facades" sortIndex="6" position="-8.710922,76.739395,-9.744408" scale="1.200000,1.200000,1.200000" rotation="0.000000,0.000000,-69.999916" modelLink="Aiur_Cliff_Facades" modelPath="Assets/Doodads/1.Cliff/Aiur_Cliff_Facades_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7618459495822818915" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11305958918262914659" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="7545705696176143971" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="10000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13046154502937142867" name="Aiur_ Cliff Building_ " sortIndex="7" position="-12.533871,73.419693,-9.012988" rotation="0.000000,0.000000,-69.499962" modelLink="Aiur_CliffBuilding_A" modelPath="Assets/Doodads/1.Cliff/Aiur_CliffBuilding_A.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8142551853892003411" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10887261662173383783" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="8405666413658950759" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10876579189350914899" name="Aiur_ City_ Generic Building" sortIndex="8" position="-5.701355,80.376984,-12.427399" rotation="0.000000,0.000000,-158.999969" modelLink="Aiur_City_GenericBuilding" variation="1" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_City_GenericBuilding_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5568995026000337747" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12496050471514070310" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="5752802738479226150" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9835996738924476480" name="Aiur_ City Building_ Temple" sortIndex="9" position="12.554382,111.037186,-17.373413" scale="2.500000,2.500000,2.500000" rotation="0.000000,0.000000,-125.499962" modelLink="Aiur_CityBuilding_Temple" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_CityBuilding_Temple_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5027978170439989312" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12742947526100822407" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="6442895548489836935" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="16667" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13494907372140560650" name="Aiur_ City Building_ Spire" sortIndex="10" position="3.624512,86.495667,-11.976849" scale="1.500000,1.500000,1.500000" rotation="0.000000,0.000000,-103.499969" modelLink="Aiur_CityBuilding_Spire" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_CityBuilding_Spire.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8186129938026135818" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12355863653620307809" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="9012040113977481057" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="10000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9334756145341056092" name="Aiur Cliff Facades" sortIndex="12" position="-16.926617,72.856537,-8.603349" scale="1.200000,1.200000,1.200000" rotation="0.000000,0.000000,-69.999916" modelLink="Aiur_Cliff_Facades" variation="1" modelPath="Assets/Doodads/1.Cliff/Aiur_Cliff_Facades_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8004094535950058588" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11316709756593423452" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="7015304923092010076" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="10000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11864487383339223052" name="Aiur Cliff City Waterfall" sortIndex="13" position="-26.660690,67.018127,-9.357924" scale="1.200000,1.200000,1.200000" rotation="0.000000,0.000000,-40.499958" modelLink="Aiur_Cliff_City_Waterfall" modelPath="Assets/Doodads/1.Cliff/Aiur_Cliff_City_Waterfall_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7356051867606566924" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11346612991430346764" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="6468262555357399052" duration="601812" lockedToEnd="1" anim="GLstand" priority="12" originalDuration="40000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11582961868060797700" name="Aiur_ Pyramid_ Tower_ Large" sortIndex="14" position="-3.466259,106.283173,-15.037315" rotation="0.000000,0.000000,-111.499886" modelLink="Aiur_Pyramid_Tower_Large" variation="1" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_Pyramid_Tower_Large_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="4636412403530640132" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13019295218330218253" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="4952085530964897549" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="20000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12304458608463347814" name="Aiur_ City Building_ Spire" sortIndex="15" position="14.992432,85.034195,-12.986013" rotation="0.000000,0.000000,-36.999924" modelLink="Aiur_CityBuilding_Spire" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_CityBuilding_Spire.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7072478539675893862" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11301143416210227302" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="7688204278136340582" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="10000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9688189406047266033" name="Aiur_ City Building_ Floating_ Temple" sortIndex="16" position="2.107109,125.146851,1.637877" rotation="0.000000,0.000000,-48.500092" modelLink="Aiur_CityBuilding_Floating_Temple" variation="2" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_CityBuilding_Floating_Temple_03.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8771867101337380081" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11471587683588620715" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="7825883670237659563" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="10000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12083798812051203072" name="Aiur_ City Building_ Temple" sortIndex="17" position="0.181274,116.871628,-16.469110" rotation="0.000000,0.000000,-388.500061" modelLink="Aiur_CityBuilding_Temple" variation="2" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_CityBuilding_Temple_A.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="4956238663795696640" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12331657686336197811" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="5826095487866426547" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="16667" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11200392807329903701" name="Aiur Cliff Facades" sortIndex="18" position="-21.745117,71.264252,-9.744408" scale="1.200000,1.200000,1.200000" rotation="0.000000,0.000000,-69.999916" modelLink="Aiur_Cliff_Facades" modelPath="Assets/Doodads/1.Cliff/Aiur_Cliff_Facades_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="4659686991715972181" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11281135066569244062" name="Protoss_ Base_ Outer Walls" sortIndex="19" position="-38.541649,103.020065,-10.378169" rotation="0.000000,0.000000,-78.500092" modelLink="Protoss_Base_OuterWalls" modelPath="Assets/Doodads/2.HigherCliff/Protoss_Base_OuterWalls_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8952859743816252830" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12021568867773174851" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="5455324820134941763" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9472921134363542473" name="Protoss_ Base_ Outer Walls" sortIndex="20" position="-30.618488,104.718033,-10.378169" rotation="0.000000,0.000000,-78.500092" modelLink="Protoss_Base_OuterWalls" modelPath="Assets/Doodads/2.HigherCliff/Protoss_Base_OuterWalls_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6660248396261458889" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10376945588267247274" name="Protoss_ Base_ Outer Walls" sortIndex="21" position="-22.569386,106.395142,-10.378169" rotation="0.000000,0.000000,-78.500092" modelLink="Protoss_Base_OuterWalls" modelPath="Assets/Doodads/2.HigherCliff/Protoss_Base_OuterWalls_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6279602918810838698" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11867924863638323408" name="Protoss_ Base_ Outer Walls Curve" sortIndex="22" position="-15.494061,109.295914,-10.378169" rotation="0.000000,0.000000,-51.500088" modelLink="Protoss_Base_OuterWallsCurve" modelPath="Assets/Doodads/2.HigherCliff/Protoss_Base_OuterWallsCurve_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7859277267846248687" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10703281926617940478" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="5979824297754739198" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12928443598923222263" name="Protoss_ Base_ Outer Walls" sortIndex="23" position="-10.967705,115.480103,-10.378169" rotation="0.000000,0.000000,-26.500090" modelLink="Protoss_Base_OuterWalls" modelPath="Assets/Doodads/2.HigherCliff/Protoss_Base_OuterWalls_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5694384062911597815" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12686042045230143159" name="Protoss_ Base_ Outer Walls" sortIndex="24" position="-7.366013,122.841797,-10.378169" rotation="0.000000,0.000000,-26.500090" modelLink="Protoss_Base_OuterWalls" modelPath="Assets/Doodads/2.HigherCliff/Protoss_Base_OuterWalls_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7307834166968374967" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11429931679834957776" name="Protoss_ Base_ Outer Walls Curve" sortIndex="25" position="-5.297096,130.226379,-10.378169" rotation="0.000000,0.000000,2.499935" modelLink="Protoss_Base_OuterWallsCurve" modelPath="Assets/Doodads/2.HigherCliff/Protoss_Base_OuterWallsCurve_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6981554603062716368" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10917356119408712729" name="Aiur City Archway Large" sortIndex="26" position="-21.098797,120.210190,-9.469940" rotation="0.000000,0.000000,-123.499969" modelLink="Aiur_City_Archway_Large" modelPath="Assets/Doodads/4.UpperDoodads/Aiur_City_Archway_Large_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7724471585859471413" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9381737008672218481" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="9122383660451569009" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="6667" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10868611395716367687" name="Aiur City Landing Deck" sortIndex="27" position="-18.063503,129.459457,-9.599693" rotation="0.000000,0.000000,-116.500008" modelLink="Aiur_City_LandingDeck_Abandoned" modelPath="Assets/Doodads/4.UpperDoodads/Aiur_City_LandingDeck_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7850114564840473927" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12098550118553925863" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="7092847313674746087" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="6667" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11031814465927742294" name="Aiur_ City Building_ Floating_ Temple" sortIndex="28" position="-28.018517,135.410614,0.019515" rotation="0.000000,0.000000,-46.999931" modelLink="Aiur_CityBuilding_Floating_Temple" variation="1" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_CityBuilding_Floating_Temple_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5969550571007607638" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10399923733285536598" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="8069372026326057814" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="10000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9443057870039974477" name="Aiur_ City Building_ Spire" sortIndex="29" position="-37.490265,112.058411,-8.577847" rotation="0.000000,0.000000,-36.999992" modelLink="Aiur_CityBuilding_Spire" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_CityBuilding_Spire.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7813012064882950733" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9304059675935801933" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="6699476784769958477" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="10000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11030787932766071624" name="Aiur_ City Building_ Temple" sortIndex="30" position="-31.784348,116.333939,-8.747768" modelLink="Aiur_CityBuilding_Temple" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_CityBuilding_Temple_A.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8686664764806392648" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9905478201653058453" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="8374004623243467669" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="16667" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13148926966889410113" name="Aiur_ City Building_ Tower" sortIndex="31" position="-36.543213,119.651718,-9.157003" modelLink="Aiur_CityBuilding_Tower" variation="2" modelPath="Assets/Doodads/4.UpperDoodads/Aiur_CityBuilding_Tower_02.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8605319766401314369" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11416639488237506014" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="5920920501598293470" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13384414390946681097" name="Aiur_ City_ Floating_ Platform" sortIndex="32" position="-15.290180,140.691574,-5.031498" rotation="0.000000,0.000000,-58.000065" modelLink="Aiur_City_Floating_Platform" modelPath="Assets/Doodads/4.UpperDoodads/Aiur_City_Floating_Platform_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7693353196399415561" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12419955090338332375" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="6625696212604141271" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="16667" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13786875966150616565" name="Aiur_ City_ Pillar" sortIndex="33" position="-27.899853,119.656647,-9.069151" modelLink="Aiur_City_Pillar" modelPath="Assets/Doodads/4.UpperDoodads/Aiur_City_Pillar_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5406188405535483381" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11212243900770682487" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="8485341134359028146" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12262223817355296788" name="Aiur_ City_ Platform" sortIndex="34" position="-22.628082,112.716019,-9.251445" modelLink="Aiur_City_Platform" modelPath="Assets/Doodads/4.UpperDoodads/Aiur_City_Platform_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7355991063482073108" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10685699559627176256" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="8489894557429807424" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="10000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11290317220090079374" name="SMX2 Aiur Tree" sortIndex="35" position="16.338425,80.385620,-9.398771" modelLink="SMX2_Aiur_Tree" modelPath="Assets/Doodads/5.Organic/SMX2_Aiur_Tree.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="4922178835332589710" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13730772384934063868" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="7454757462378082044" duration="601812" lockedToEnd="1" anim="Zerg07_420" priority="5" originalDuration="10000"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11917291213669746872" name="SMX2 Aiur Tree" sortIndex="36" position="20.483536,78.368286,-9.398771" rotation="0.000000,0.000000,-145.499985" modelLink="SMX2_Aiur_Tree" modelPath="Assets/Doodads/5.Organic/SMX2_Aiur_Tree.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6845775954899060920" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10344862182084630299" name="Aiur_ Rock_ Cliff_ Jungle" sortIndex="37" position="18.963158,74.215759,-15.847425" rotation="0.000000,0.000000,-100.999954" modelLink="Aiur_Rock_Cliff_Jungle" modelPath="Assets/Doodads/5.Organic/Aiur_Rock_Cliff_Jungle_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6545184016373831451" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="9351852725168041155" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="5614869399667797187" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9994040963028561011" name="SMX2 Aiur Tree" sortIndex="38" position="19.191032,82.425995,-9.398771" rotation="0.000000,0.000000,-104.000023" modelLink="SMX2_Aiur_Tree" modelPath="Assets/Doodads/5.Organic/SMX2_Aiur_Tree.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7793322032913263731" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10002021131614011067" name="Glue Generic Rocks 07" sortIndex="39" position="23.959976,89.996643,-9.381229" scale="20.000000,20.000000,20.000000" modelLink="Glue_GenericRocks07" modelPath="Assets/Doodads/5.Organic/SMX2_GenericRocks_07.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6959956256111836859" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12262508057811326125" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="6585756019257087149" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="10000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11286137142759204202" name="SMX2 Aiur Tree" sortIndex="40" position="22.414627,81.690628,-9.624323" rotation="0.000000,0.000000,-0.999944" modelLink="SMX2_Aiur_Tree" modelPath="Assets/Doodads/5.Organic/SMX2_Aiur_Tree.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7654756579052430698" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12195211229725491292" name="Glue Generic Rocks 13" sortIndex="41" position="25.451782,94.573090,-8.455865" scale="25.000000,25.000000,25.000000" rotation="0.000034,-58.499893,-28.499817" modelLink="Glue_GenericRocks13" modelPath="Assets/Doodads/5.Organic/SMX2_GenericRocks_13.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="9223196699590426716" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10984799723845877852" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="8225052274299535452" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="10000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13598714956548790582" name="SMX2 Aiur Tree" sortIndex="42" position="21.438766,85.206284,-9.624323" rotation="0.000000,0.000000,127.499954" modelLink="SMX2_Aiur_Tree" modelPath="Assets/Doodads/5.Organic/SMX2_Aiur_Tree.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="9001342689729435958" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12672749169082750704" name="SMX2 Generic Rocks08" sortIndex="43" position="21.805664,98.797104,-9.178494" scale="30.000000,30.000000,30.000000" rotation="103.084763,1.379692,-56.524807" modelLink="SMX2_GenericRocks08" modelPath="Assets/Doodads/5.Organic/SMX2_GenericRocks_08.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="4744204283280217840" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12623198010099995746" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="6831136008137708642" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="10000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11332723030178740343" name="Aiur_ City Building_ Temple" sortIndex="44" position="-19.870697,142.476608,-10.126739" scale="1.800000,1.800000,1.800000" rotation="0.000000,0.000000,-97.999886" modelLink="Aiur_CityBuilding_Temple" modelPath="Assets/Doodads/3.BottomDoodads/Aiur_CityBuilding_Temple_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5241689295339731063" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13284114968412764279" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="6140866889467902071" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="16667" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="9269825008721696556" name="Lit Up Pieces" sortIndex="5">
+            <CCutsceneNodeActor guid="11004645135381977467" name="Aiur_ Power Crystal" sortIndex="0" position="1.214569,4.789352,0.474842" scale="0.120000,0.120000,0.120000" modelLink="Aiur_PowerCrystal" modelPath="Assets/Effects/Aiur_PowerCrystal.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5179512555255388539" duration="601812" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10310188599958814736" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="8979598832485777424" duration="601812" lockedToEnd="1" anim="Stand" priority="3" originalDuration="30000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+                <CCutsceneNodePropertyValue guid="12311787703243617218" name="Property - Tint Color - Red" sortIndex="1" propertyName="tintColorRed">
+                    <CCutsceneElementPropertyCurve guid="7987891500402586562" value="255.000000" time="0.000000" curveInValue="-1.000000,255.000000" curveOutValue="101723.671875,255.000000" curveOutType="6" curveInType="6"/>
+                    <CCutsceneElementPropertyCurve guid="4973664289878325658" start="305171" value="350.000000" time="305171.000000" curveInValue="203447.328125,318.333344" curveOutValue="305172.000000,350.000000" curveOutType="3" curveInType="3"/>
+                </CCutsceneNodePropertyValue>
+                <CCutsceneNodePropertyValue guid="10244020343226576579" name="Property - Tint Color - Green" sortIndex="2" propertyName="tintColorGreen">
+                    <CCutsceneElementPropertyCurve guid="7189521709201174211" value="255.000000" time="0.000000" curveInValue="-1.000000,255.000000" curveOutValue="101723.671875,255.000000" curveOutType="6" curveInType="6"/>
+                    <CCutsceneElementPropertyCurve guid="8444639728135975056" start="305171" value="350.000000" time="305171.000000" curveInValue="203447.328125,318.333344" curveOutValue="305172.000000,350.000000" curveOutType="3" curveInType="3"/>
+                </CCutsceneNodePropertyValue>
+                <CCutsceneNodePropertyValue guid="11463905276796407652" name="Property - Tint Color - Blue" sortIndex="3" propertyName="tintColorBlue">
+                    <CCutsceneElementPropertyCurve guid="7193114188496834404" value="255.000000" time="0.000000" curveInValue="-1.000000,255.000000" curveOutValue="101723.671875,255.000000" curveOutType="6" curveInType="6"/>
+                    <CCutsceneElementPropertyCurve guid="7848712751621810147" start="305171" value="350.000000" time="305171.000000" curveInValue="203447.328125,318.333344" curveOutValue="305172.000000,350.000000" curveOutType="3" curveInType="3"/>
+                </CCutsceneNodePropertyValue>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="10569666459689066497" name="Lighting" sortIndex="6">
+            <CCutsceneNodeLight guid="10114624025995791388" name="Spot Light" sortIndex="0" position="-6.724464,-10.514973,35.103111" rotation="68.529755,-1.268958,-90.000000" type="2" colorR="0.274510" colorG="0.509804" colorB="0.705882" colorMultiplier="0.700000" attenuationStart="157.736237" range="157.736237">
+                <CCutsceneElementObject guid="6856669209156144156" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeLight guid="10864218374333561293" name="Spot Light" sortIndex="1" position="55.785187,10.467918,17.432503" rotation="72.336487,32.941238,-90.000000" type="2" colorR="0.274510" colorG="0.509804" colorB="0.705882" colorMultiplier="0.400000" attenuationStart="157.279526" range="157.279526">
+                <CCutsceneElementObject guid="6094839646631262669" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeLight guid="11575275011010035800" name="Spot Light" sortIndex="2" position="-0.135941,-3.345963,0.636283" rotation="104.415291,-0.638592,-90.000000" type="2" colorR="0.372549" colorG="0.619608" colorB="0.627451" colorMultiplier="0.300000" attenuationStart="17.958591" range="17.958591">
+                <CCutsceneElementObject guid="8575323251917815896" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeFolder guid="13145511119465656852" name="Lights-Referenced" sortIndex="3">
+                <CCutsceneNodeFolder guid="11389004172691157524" name="TubeLights" sortIndex="0">
+                    <CCutsceneNodeFolder guid="10475103361952821780" name="Tube1" sortIndex="0">
+                        <CCutsceneNodeLight guid="10568153304434651668" name="TubeOrangeMain" sortIndex="0" position="-1.953274,-3.274364,2.032243" rotation="-0.000000,0.000000,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" attenuationStart="0.750000" range="1.500000">
+                            <CCutsceneElementObject guid="5354770525643256340" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9448841125804814868" name="TubeOrangeFill" sortIndex="1" position="-2.068825,-3.274364,3.063230" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.600000" range="1.200000">
+                            <CCutsceneElementObject guid="8555416953902248468" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11089600885795500564" name="TubeBlueMain" sortIndex="2" position="-1.953274,-3.274364,0.556797" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="1.100000" range="1.500000">
+                            <CCutsceneElementObject guid="6184983031035638292" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11183156745360028180" name="TubeBacksplash" sortIndex="3" position="-3.543686,-3.274364,-0.084745" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.700000" range="1.500000">
+                            <CCutsceneElementObject guid="5285646329843986964" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12696264386481926676" name="TubeBacksplashSpec" sortIndex="4" position="-3.721851,-3.274364,0.332586" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.000000" specularColorMultiplier="0.500000" range="1.500000">
+                            <CCutsceneElementObject guid="8428250024603988500" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12782469856195949076" name="TubeSide01Fill" sortIndex="5" position="-2.577763,-4.070576,0.486587" rotation="0.000055,-0.000123,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700011" range="1.000015">
+                            <CCutsceneElementObject guid="7445860690406060564" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11645417083221750292" name="TubeSide02Fill" sortIndex="6" position="-2.577763,-2.485233,0.486587" rotation="0.000041,-0.000123,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700012" range="1.000017">
+                            <CCutsceneElementObject guid="7259776048281334292" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12805014538964611604" name="TubeBlueFill" sortIndex="7" position="-1.471333,-3.274364,0.276322" rotation="-0.000000,0.000046,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.300000" range="0.600000">
+                            <CCutsceneElementObject guid="8610378976079294996" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13744075710504546836" name="TubeBlueArchFillTop" sortIndex="8" position="-1.413570,-4.531902,1.631811" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.800000">
+                            <CCutsceneElementObject guid="5130494600530801172" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13161039505004868116" name="TubeBlueArchFillBottom" sortIndex="9" position="-2.201519,-4.531902,0.395954" rotation="-0.000034,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.400000" range="0.800000">
+                            <CCutsceneElementObject guid="7714016853272736276" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12404093897527177748" name="TubeBackRimL" sortIndex="10" position="-3.538784,-4.088120,0.258349" rotation="110.825066,-51.044811,-94.626274" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.186194" range="1.589257" falloff="1.500000">
+                            <CCutsceneElementObject guid="6818582331732963860" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10919622298016330260" name="TubeBackRimR" sortIndex="11" position="-3.538784,-2.488121,0.258349" rotation="-109.908379,-49.698166,-85.720734" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.203852" range="1.612916" falloff="1.500000">
+                            <CCutsceneElementObject guid="5579093527892242964" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11186106468769378836" name="TubeLeftTopSpec" sortIndex="12" position="-1.345345,-4.661003,1.168460" rotation="114.366127,44.845135,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459412" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="7199041968015585812" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9806619104221770260" name="TubeRightTopSpec" sortIndex="13" position="-1.345345,-1.887725,1.168460" rotation="-114.366165,44.845142,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459413" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="8196410765162492436" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10051678616597738004" name="TubeCrystal" sortIndex="14" position="-1.158607,-3.274364,1.565158" rotation="-0.000060,59.318932,144.733856" type="2" colorR="0.588235" colorG="0.784314" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="2.000000" specularColorMultiplier="0.700000" attenuationStart="1.565899" range="2.087865" hotspot="0.500000">
+                            <CCutsceneElementObject guid="4812079288712081940" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11869622317467480596" name="TubeSide01FillOrange" sortIndex="15" position="-2.606716,-4.270576,1.360061" rotation="0.000055,-0.000123,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200000" range="0.400000">
+                            <CCutsceneElementObject guid="4701472834184196628" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12697937752985088532" name="TubeSide02FillOrange" sortIndex="16" position="-2.606716,-2.285233,1.360061" rotation="0.000055,-0.000123,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200000" range="0.400000">
+                            <CCutsceneElementObject guid="7199641858982720020" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10554170729164878356" name="TubeOrangeMain" sortIndex="17" position="1.953274,-3.274364,2.032243" rotation="-0.000009,0.000000,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" attenuationStart="0.750003" range="1.500006">
+                            <CCutsceneElementObject guid="6958601383728820756" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13282990110622790164" name="TubeOrangeFill" sortIndex="18" position="2.068825,-3.274364,3.063230" rotation="-0.000023,-0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.600001" range="1.200001">
+                            <CCutsceneElementObject guid="5735312230160970260" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10476585263108895252" name="TubeBlueMain" sortIndex="19" position="1.953274,-3.274364,0.556797" rotation="-0.000009,-0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="1.100005" range="1.500006">
+                            <CCutsceneElementObject guid="9014203341826339348" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10717490120475456020" name="TubeBacksplash" sortIndex="20" position="3.543686,-3.274364,-0.084745" rotation="0.000018,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.700000" range="1.500000">
+                            <CCutsceneElementObject guid="4682084857888813588" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9360282052667290132" name="TubeBacksplashSpec" sortIndex="21" position="3.721851,-3.274364,0.332586" rotation="-0.000036,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.000000" specularColorMultiplier="0.500000" attenuationStart="1.000006" range="1.500010">
+                            <CCutsceneElementObject guid="7633893817459061268" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9770638870398022164" name="TubeSide01Fill" sortIndex="22" position="2.577763,-4.070576,0.486587" rotation="0.000027,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700008" range="1.000011">
+                            <CCutsceneElementObject guid="5432452667118105108" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12873029417725768212" name="TubeSide02Fill" sortIndex="23" position="2.577763,-2.485233,0.486587" rotation="0.000027,-0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700008" range="1.000012">
+                            <CCutsceneElementObject guid="6156704283458974228" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12701892528806474260" name="TubeBlueFill" sortIndex="24" position="1.471333,-3.274364,0.276322" rotation="-0.000023,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.300000" range="0.600000">
+                            <CCutsceneElementObject guid="8346749816116785684" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12762007940508070420" name="TubeBlueArchFillTop" sortIndex="25" position="1.413570,-4.531902,1.631811" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.800000">
+                            <CCutsceneElementObject guid="6830535844193022484" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9557642689046032916" name="TubeBlueArchFillBottom" sortIndex="26" position="2.201519,-4.531902,0.395954" rotation="-0.000102,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.400002" range="0.800003">
+                            <CCutsceneElementObject guid="4817979225157054996" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12423823018779914772" name="TubeBackRimL" sortIndex="27" position="3.538784,-4.088120,0.258349" rotation="110.825127,51.044952,-94.626274" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.186192" range="1.589255" falloff="1.500000">
+                            <CCutsceneElementObject guid="7011607207216329236" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9799657791163642388" name="TubeBackRimR" sortIndex="28" position="3.538784,-2.488121,0.258349" rotation="-109.908371,49.698231,-85.720734" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.203850" range="1.612914" falloff="1.500000">
+                            <CCutsceneElementObject guid="7044349104418370068" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10757639887075324436" name="TubeLeftTopSpec" sortIndex="29" position="1.345345,-4.661003,1.168460" rotation="114.366089,-44.845081,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459413" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="7791509668294210068" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11628250537026302484" name="TubeRightTopSpec" sortIndex="30" position="1.345345,-1.887725,1.168460" rotation="-114.366203,-44.845123,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459413" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="4914475247533732372" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10460652978845168148" name="TubeCrystal" sortIndex="31" position="1.158607,-3.274364,1.565158" rotation="-0.000062,-59.318882,144.733856" type="2" colorR="0.588235" colorG="0.784314" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="2.000000" specularColorMultiplier="0.700000" attenuationStart="1.565900" range="2.087867" hotspot="0.500000">
+                            <CCutsceneElementObject guid="8901235926595973652" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11389165624806781460" name="TubeSide01FillOrange" sortIndex="32" position="2.606715,-4.270576,1.360061" rotation="-0.000000,0.000000,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.199993" range="0.399986">
+                            <CCutsceneElementObject guid="5817994761540383252" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11800256156095656468" name="TubeSide02FillOrange" sortIndex="33" position="2.606716,-2.285233,1.360061" rotation="0.000034,0.000137,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200002" range="0.400003">
+                            <CCutsceneElementObject guid="4994558280022012436" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                    </CCutsceneNodeFolder>
+                    <CCutsceneNodeFolder guid="10159953737107550740" name="Tube2" sortIndex="1">
+                        <CCutsceneNodeLight guid="9337261027960730132" name="TubeOrangeMain" sortIndex="0" position="-1.953274,-0.778118,2.032243" rotation="-0.000000,0.000000,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" attenuationStart="0.750000" range="1.500000">
+                            <CCutsceneElementObject guid="6217561453192458772" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13612392404051210772" name="TubeOrangeFill" sortIndex="1" position="-2.068825,-0.778118,3.063230" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.600000" range="1.200000">
+                            <CCutsceneElementObject guid="7543525970384433684" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11545644894151422484" name="TubeBlueMain" sortIndex="2" position="-1.953274,-0.778118,0.556797" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="1.100000" range="1.500000">
+                            <CCutsceneElementObject guid="6092063054264185364" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12039616100840944148" name="TubeBacksplash" sortIndex="3" position="-3.543686,-0.778118,-0.084745" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.700000" range="1.500000">
+                            <CCutsceneElementObject guid="8555451846216561172" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10206841177818444308" name="TubeBacksplashSpec" sortIndex="4" position="-3.721851,-0.778118,0.332586" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.000000" specularColorMultiplier="0.500000" range="1.500000">
+                            <CCutsceneElementObject guid="7227334249034199572" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10747219677939937812" name="TubeSide01Fill" sortIndex="5" position="-2.577763,-1.574329,0.486587" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700000">
+                            <CCutsceneElementObject guid="4720689132046823956" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9778242693383762452" name="TubeSide02Fill" sortIndex="6" position="-2.577763,0.011002,0.486587" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700000">
+                            <CCutsceneElementObject guid="4965477717885760020" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9241355219989869076" name="TubeBlueFill" sortIndex="7" position="-1.471333,-0.778118,0.276322" rotation="-0.000000,0.000046,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.300000" range="0.600000">
+                            <CCutsceneElementObject guid="6009640265326965268" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11230771925329555988" name="TubeBlueArchFillTop" sortIndex="8" position="-1.413570,-2.035656,1.631811" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.800000">
+                            <CCutsceneElementObject guid="6547802837201629716" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12429271781795344916" name="TubeBlueArchFillBottom" sortIndex="9" position="-2.201519,-2.035656,0.395954" rotation="-0.000034,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.400000" range="0.800000">
+                            <CCutsceneElementObject guid="5442134811893477908" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13460048286269485588" name="TubeBackRimL" sortIndex="10" position="-3.538784,-1.591873,0.258349" rotation="110.825066,-51.044811,-94.626274" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.186194" range="1.589257" falloff="1.500000">
+                            <CCutsceneElementObject guid="4617739882653200916" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9866325175475286548" name="TubeBackRimR" sortIndex="11" position="-3.538784,0.008118,0.258349" rotation="-109.908379,-49.698166,-85.720734" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.203852" range="1.612916" falloff="1.500000">
+                            <CCutsceneElementObject guid="4786092516073189908" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11677258128213324308" name="TubeLeftTopSpec" sortIndex="12" position="-1.345345,-2.164757,1.168460" rotation="114.366127,44.845135,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459412" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="8382101356922712596" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12767944109297152532" name="TubeRightTopSpec" sortIndex="13" position="-1.345345,0.608475,1.168460" rotation="-114.366165,44.845142,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459413" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="5278890187373589012" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12934754497270559252" name="TubeCrystal" sortIndex="14" position="-1.158607,-0.778118,1.565158" rotation="-0.000057,59.318932,144.733856" type="2" colorR="0.588235" colorG="0.784314" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="2.000000" specularColorMultiplier="0.700000" attenuationStart="1.565899" range="2.087865" hotspot="0.500000">
+                            <CCutsceneElementObject guid="8922232823410242068" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9977791130268512788" name="TubeBlueArchFill2Bottom" sortIndex="15" position="-1.499920,-2.035656,0.084321" rotation="-0.000034,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="4.000000" specularColorMultiplier="2.000000" attenuationStart="0.200000" range="0.600000">
+                            <CCutsceneElementObject guid="7177416348118725140" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13328699948610531860" name="TubeOrangeMain" sortIndex="16" position="1.953274,-0.778118,2.032243" rotation="-0.000009,0.000000,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" attenuationStart="0.750003" range="1.500006">
+                            <CCutsceneElementObject guid="5917455372208222740" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13275637985605497364" name="TubeOrangeFill" sortIndex="17" position="2.068825,-0.778118,3.063230" rotation="-0.000023,-0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.600001" range="1.200001">
+                            <CCutsceneElementObject guid="5983433461513499156" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10564516768510030356" name="TubeBlueMain" sortIndex="18" position="1.953274,-0.778118,0.556797" rotation="-0.000009,-0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="1.100005" range="1.500006">
+                            <CCutsceneElementObject guid="8236541646791160340" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13062970283352306196" name="TubeBacksplash" sortIndex="19" position="3.543686,-0.778118,-0.084745" rotation="0.000018,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.700000" range="1.500000">
+                            <CCutsceneElementObject guid="9221001133750923796" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11257410283161956884" name="TubeBacksplashSpec" sortIndex="20" position="3.721851,-0.778118,0.332586" rotation="-0.000036,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.000000" specularColorMultiplier="0.500000" attenuationStart="1.000006" range="1.500010">
+                            <CCutsceneElementObject guid="7272042612317663764" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10280436516177228308" name="TubeSide01Fill" sortIndex="21" position="2.577763,-1.574329,0.486587" rotation="0.000027,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700008" range="1.000011">
+                            <CCutsceneElementObject guid="7386570406346535444" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13011356248312033812" name="TubeSide02Fill" sortIndex="22" position="2.577763,0.011002,0.486587" rotation="0.000027,-0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700008" range="1.000012">
+                            <CCutsceneElementObject guid="8356314424817136148" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13044861610310677012" name="TubeBlueFill" sortIndex="23" position="1.471333,-0.778118,0.276322" rotation="-0.000023,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.300000" range="0.600000">
+                            <CCutsceneElementObject guid="6933870433757475348" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13803533635727569428" name="TubeBlueArchFillTop" sortIndex="24" position="1.413570,-2.035656,1.631811" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.800000">
+                            <CCutsceneElementObject guid="8100108780818313748" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13485564373442408980" name="TubeBlueArchFillBottom" sortIndex="25" position="2.201519,-2.035656,0.395954" rotation="-0.000102,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.400002" range="0.800003">
+                            <CCutsceneElementObject guid="7437545101145059860" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9786448851173028372" name="TubeBackRimL" sortIndex="26" position="3.538784,-1.591873,0.258349" rotation="110.825127,51.044952,-94.626274" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.186192" range="1.589255" falloff="1.500000">
+                            <CCutsceneElementObject guid="6279415781188088340" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11359953439102775828" name="TubeBackRimR" sortIndex="27" position="3.538784,0.008118,0.258349" rotation="-109.908371,49.698231,-85.720734" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.203850" range="1.612914" falloff="1.500000">
+                            <CCutsceneElementObject guid="4933394398083985940" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13338163002809168404" name="TubeLeftTopSpec" sortIndex="28" position="1.345345,-2.164757,1.168460" rotation="114.366089,-44.845081,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459413" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="6241935139194188308" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11153294928672633364" name="TubeRightTopSpec" sortIndex="29" position="1.345345,0.608475,1.168460" rotation="-114.366203,-44.845123,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459413" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="7910909789187781140" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9703019991916524052" name="TubeCrystal" sortIndex="30" position="1.158607,-0.778118,1.565158" rotation="-0.000062,-59.318882,144.733856" type="2" colorR="0.588235" colorG="0.784314" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="2.000000" specularColorMultiplier="0.700000" attenuationStart="1.565900" range="2.087867" hotspot="0.500000">
+                            <CCutsceneElementObject guid="4925030434606330388" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10768544276463923732" name="TubeBlueArchFill2Bottom" sortIndex="31" position="1.499920,-2.035656,0.084321" rotation="-0.000023,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="4.000000" specularColorMultiplier="2.000000" attenuationStart="0.200000" range="0.599999">
+                            <CCutsceneElementObject guid="8310739070845366804" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10460797216731869716" name="TubeSide01FillOrange" sortIndex="32" position="-2.606716,-1.824219,1.360061" rotation="0.000055,-0.000123,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200000" range="0.400000">
+                            <CCutsceneElementObject guid="5334608669255578132" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10051328812986315284" name="TubeSide02FillOrange" sortIndex="33" position="-2.606716,0.161072,1.360061" rotation="0.000055,-0.000123,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200000" range="0.400000">
+                            <CCutsceneElementObject guid="8066774465892233748" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13742058192566923796" name="TubeSide01FillOrange" sortIndex="34" position="2.606715,-1.824219,1.360061" rotation="-0.000000,0.000000,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.199993" range="0.399986">
+                            <CCutsceneElementObject guid="6842166035810005524" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11013931971585946132" name="TubeSide02FillOrange" sortIndex="35" position="2.606716,0.161072,1.360061" rotation="0.000034,0.000137,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200002" range="0.400003">
+                            <CCutsceneElementObject guid="5527726608090313236" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                    </CCutsceneNodeFolder>
+                    <CCutsceneNodeFolder guid="13319004794379219476" name="Tube3" sortIndex="2">
+                        <CCutsceneNodeLight guid="13202680621688861204" name="TubeOrangeMain" sortIndex="0" position="-1.953274,1.712311,2.032243" rotation="-0.000000,0.000000,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" attenuationStart="0.750000" range="1.500000">
+                            <CCutsceneElementObject guid="5684320484342280724" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12633500633521107476" name="TubeOrangeFill" sortIndex="1" position="-2.068825,1.712311,3.063230" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.600000" range="1.200000">
+                            <CCutsceneElementObject guid="7448718973961679380" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9229188273425003028" name="TubeBlueMain" sortIndex="2" position="-1.953274,1.712311,0.556797" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="1.100000" range="1.500000">
+                            <CCutsceneElementObject guid="8606639773256430100" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9730904019113783828" name="TubeBacksplash" sortIndex="3" position="-3.543686,1.712311,-0.084745" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.700000" range="1.500000">
+                            <CCutsceneElementObject guid="8810470880945811988" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11243929364367323668" name="TubeBacksplashSpec" sortIndex="4" position="-3.721851,1.712311,0.332586" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.000000" specularColorMultiplier="0.500000" range="1.500000">
+                            <CCutsceneElementObject guid="7080665595526689300" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11632812410769945108" name="TubeSide01Fill" sortIndex="5" position="-2.577763,0.916092,0.486587" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700000">
+                            <CCutsceneElementObject guid="8525348699611771412" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10865399834847916564" name="TubeSide02Fill" sortIndex="6" position="-2.577763,2.501419,0.486587" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700000">
+                            <CCutsceneElementObject guid="9061260687148495380" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12615462080115552788" name="TubeBlueFill" sortIndex="7" position="-1.471333,1.712311,0.276322" rotation="-0.000000,0.000046,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.300000" range="0.600000">
+                            <CCutsceneElementObject guid="6188799191082512916" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12219265606350975508" name="TubeBlueArchFillTop" sortIndex="8" position="-1.413570,0.454765,1.631811" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.800000">
+                            <CCutsceneElementObject guid="6891556325762970132" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11662816227666080276" name="TubeBlueArchFillBottom" sortIndex="9" position="-2.201519,0.454765,0.395954" rotation="-0.000034,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.400000" range="0.800000">
+                            <CCutsceneElementObject guid="8154465654988255764" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11727901809882346004" name="TubeBackRimL" sortIndex="10" position="-3.538784,0.898552,0.258349" rotation="110.825066,-51.044811,-94.626274" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.186194" range="1.589257" falloff="1.500000">
+                            <CCutsceneElementObject guid="6575655511137628692" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11270666261634396692" name="TubeBackRimR" sortIndex="11" position="-3.538784,2.498535,0.258349" rotation="-109.908379,-49.698166,-85.720734" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.203852" range="1.612916" falloff="1.500000">
+                            <CCutsceneElementObject guid="6295222210025140756" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11319481000199893524" name="TubeLeftTopSpec" sortIndex="12" position="-1.345345,0.325668,1.168460" rotation="114.366127,44.845135,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459412" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="5865868210778321428" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11825417461790061076" name="TubeRightTopSpec" sortIndex="13" position="-1.345345,3.098892,1.168460" rotation="-114.366165,44.845142,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459413" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="8539707531196543508" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11461468409937703444" name="TubeCrystal" sortIndex="14" position="-1.158607,1.712311,1.565158" rotation="-0.000057,59.318932,144.733856" type="2" colorR="0.588235" colorG="0.784314" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="2.000000" specularColorMultiplier="0.700000" attenuationStart="1.565899" range="2.087865" hotspot="0.500000">
+                            <CCutsceneElementObject guid="5337493495709086228" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12680716768079163924" name="TubeOrangeMain" sortIndex="15" position="1.953274,1.712311,2.032243" rotation="-0.000009,0.000000,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" attenuationStart="0.750003" range="1.500006">
+                            <CCutsceneElementObject guid="8519178699918193172" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10547502487495160340" name="TubeOrangeFill" sortIndex="16" position="2.068825,1.712311,3.063230" rotation="-0.000023,-0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.600001" range="1.200001">
+                            <CCutsceneElementObject guid="9072370388858745364" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10610159867000959508" name="TubeBlueMain" sortIndex="17" position="1.953274,1.712311,0.556797" rotation="-0.000009,-0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="1.100005" range="1.500006">
+                            <CCutsceneElementObject guid="5603982622854394388" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11830601543150907924" name="TubeBacksplash" sortIndex="18" position="3.543686,1.712311,-0.084745" rotation="0.000018,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.700000" range="1.500000">
+                            <CCutsceneElementObject guid="6388157408160690708" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11250810090954076692" name="TubeBacksplashSpec" sortIndex="19" position="3.721851,1.712311,0.332586" rotation="-0.000036,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.000000" specularColorMultiplier="0.500000" attenuationStart="1.000006" range="1.500010">
+                            <CCutsceneElementObject guid="6760547062887133716" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11558696513784951316" name="TubeSide01Fill" sortIndex="20" position="2.577763,0.916092,0.486587" rotation="0.000027,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700008" range="1.000011">
+                            <CCutsceneElementObject guid="5995844250551628308" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13709422458366505492" name="TubeSide02Fill" sortIndex="21" position="2.577763,2.501419,0.486587" rotation="0.000027,-0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700008" range="1.000012">
+                            <CCutsceneElementObject guid="8922354787596546580" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11082285272295191060" name="TubeBlueFill" sortIndex="22" position="1.471333,1.712311,0.276322" rotation="-0.000023,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.300000" range="0.600000">
+                            <CCutsceneElementObject guid="8829704852598862356" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11170006440262939156" name="TubeBlueArchFillTop" sortIndex="23" position="1.413570,0.454765,1.631811" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.800000">
+                            <CCutsceneElementObject guid="7895362398418285076" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11696919062565270036" name="TubeBlueArchFillBottom" sortIndex="24" position="2.201519,0.454765,0.395954" rotation="-0.000102,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.400002" range="0.800003">
+                            <CCutsceneElementObject guid="4755184355158176276" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10415935029194699284" name="TubeBackRimL" sortIndex="25" position="3.538784,0.898552,0.258349" rotation="110.825127,51.044952,-94.626274" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.186192" range="1.589255" falloff="1.500000">
+                            <CCutsceneElementObject guid="7461337317294387732" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11449783693710897684" name="TubeBackRimR" sortIndex="26" position="3.538784,2.498535,0.258349" rotation="-109.908371,49.698231,-85.720734" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.203850" range="1.612914" falloff="1.500000">
+                            <CCutsceneElementObject guid="6365542150489420308" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9306462332877189652" name="TubeLeftTopSpec" sortIndex="27" position="1.345345,0.325668,1.168460" rotation="114.366089,-44.845081,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459413" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="5788649612238828052" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9697602229975036436" name="TubeRightTopSpec" sortIndex="28" position="1.345345,3.098892,1.168460" rotation="-114.366203,-44.845123,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459413" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="9086881296645534228" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9907173716074344980" name="TubeCrystal" sortIndex="29" position="1.158607,1.712311,1.565158" rotation="-0.000062,-59.318882,144.733856" type="2" colorR="0.588235" colorG="0.784314" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="2.000000" specularColorMultiplier="0.700000" attenuationStart="1.565900" range="2.087867" hotspot="0.500000">
+                            <CCutsceneElementObject guid="7235806965378757140" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13702577259749224980" name="TubeBlueArchFill2Bottom" sortIndex="30" position="-1.499920,0.453133,0.084321" rotation="-0.000034,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="4.000000" specularColorMultiplier="2.000000" attenuationStart="0.200000" range="0.600000">
+                            <CCutsceneElementObject guid="5811743874727719444" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10813226513461326356" name="TubeBlueArchFill2Bottom" sortIndex="31" position="1.499920,0.453133,0.084321" rotation="-0.000023,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="4.000000" specularColorMultiplier="2.000000" attenuationStart="0.200000" range="0.599999">
+                            <CCutsceneElementObject guid="5736026925603926548" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9800164790578098708" name="TubeSide01FillOrange" sortIndex="32" position="-2.606716,0.656166,1.360061" rotation="0.000055,-0.000123,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200000" range="0.400000">
+                            <CCutsceneElementObject guid="9053352531370095124" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9298021755772908052" name="TubeSide02FillOrange" sortIndex="33" position="-2.606716,2.641487,1.360061" rotation="0.000055,-0.000123,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200000" range="0.400000">
+                            <CCutsceneElementObject guid="6317797812263367188" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12949326535326872084" name="TubeSide01FillOrange" sortIndex="34" position="2.606715,0.656166,1.360061" rotation="-0.000000,0.000000,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.199993" range="0.399986">
+                            <CCutsceneElementObject guid="6886263517305025044" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13235481484496908820" name="TubeSide02FillOrange" sortIndex="35" position="2.606716,2.641487,1.360061" rotation="0.000034,0.000137,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200002" range="0.400003">
+                            <CCutsceneElementObject guid="8758403443387970068" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                    </CCutsceneNodeFolder>
+                    <CCutsceneNodeFolder guid="12090722067019903508" name="Tube4" sortIndex="3">
+                        <CCutsceneNodeLight guid="13359387730458620436" name="TubeOrangeMain" sortIndex="0" position="-1.953274,4.203430,2.032243" rotation="-0.000000,0.000000,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" attenuationStart="0.750000" range="1.500000">
+                            <CCutsceneElementObject guid="5803195936325939732" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11585086716996923924" name="TubeOrangeFill" sortIndex="1" position="-2.068825,4.203430,3.063230" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.600000" range="1.200000">
+                            <CCutsceneElementObject guid="7912260504862765588" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13032139852755415572" name="TubeBlueMain" sortIndex="2" position="-1.953274,4.203430,0.556797" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="1.100000" range="1.500000">
+                            <CCutsceneElementObject guid="6857292648633512468" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9341454423575147028" name="TubeBacksplash" sortIndex="3" position="-3.543686,4.203430,-0.084745" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.700000" range="1.500000">
+                            <CCutsceneElementObject guid="8557682025164878356" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11093853066627297812" name="TubeBacksplashSpec" sortIndex="4" position="-3.721851,4.203430,0.332586" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.000000" specularColorMultiplier="0.500000" range="1.500000">
+                            <CCutsceneElementObject guid="5599500360624550420" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11961638091953975828" name="TubeSide01Fill" sortIndex="5" position="-2.577763,3.407211,0.486587" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700000">
+                            <CCutsceneElementObject guid="5880611330266935828" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10440933486909108756" name="TubeSide02Fill" sortIndex="6" position="-2.577763,4.992538,0.486587" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700000">
+                            <CCutsceneElementObject guid="6206126253090714132" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13006216976344986132" name="TubeBlueFill" sortIndex="7" position="-1.471333,4.203430,0.276322" rotation="-0.000000,0.000046,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.300000" range="0.600000">
+                            <CCutsceneElementObject guid="8186946151890727444" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9409864482277208596" name="TubeBlueArchFillTop" sortIndex="8" position="-1.413570,2.945885,1.631811" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.800000">
+                            <CCutsceneElementObject guid="4765238306662429204" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13307922735078486548" name="TubeBlueArchFillBottom" sortIndex="9" position="-2.201519,2.945885,0.395954" rotation="-0.000034,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.400000" range="0.800000">
+                            <CCutsceneElementObject guid="5149341698709697044" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9876022021923713556" name="TubeBackRimL" sortIndex="10" position="-3.538784,3.389671,0.258349" rotation="110.825066,-51.044811,-94.626274" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.186194" range="1.589257" falloff="1.500000">
+                            <CCutsceneElementObject guid="7361440299294568980" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9480002831524213268" name="TubeBackRimR" sortIndex="11" position="-3.538784,4.989655,0.258349" rotation="-109.908379,-49.698166,-85.720734" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.203852" range="1.612916" falloff="1.500000">
+                            <CCutsceneElementObject guid="7783891238124696084" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12963137075681604116" name="TubeLeftTopSpec" sortIndex="12" position="-1.345345,2.816788,1.168460" rotation="114.366127,44.845135,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459412" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="8670942520373588500" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13199375227742761492" name="TubeRightTopSpec" sortIndex="13" position="-1.345345,5.590012,1.168460" rotation="-114.366165,44.845142,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459413" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="5984560757284712980" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12231103859068678676" name="TubeCrystal" sortIndex="14" position="-1.158607,4.203430,1.565158" rotation="-0.000057,59.318932,144.733856" type="2" colorR="0.588235" colorG="0.784314" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="2.000000" specularColorMultiplier="0.700000" attenuationStart="1.565899" range="2.087865" hotspot="0.500000">
+                            <CCutsceneElementObject guid="8203175836869898772" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9617936951775769108" name="TubeOrangeMain" sortIndex="15" position="1.953274,4.203430,2.032243" rotation="-0.000009,0.000000,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" attenuationStart="0.750003" range="1.500006">
+                            <CCutsceneElementObject guid="7790024339754234388" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13088492160141144596" name="TubeOrangeFill" sortIndex="16" position="2.068825,4.203430,3.063230" rotation="-0.000023,-0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.600001" range="1.200001">
+                            <CCutsceneElementObject guid="6899608955651273236" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12835853430647075348" name="TubeBlueMain" sortIndex="17" position="1.953274,4.203430,0.556797" rotation="-0.000009,-0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="1.100005" range="1.500006">
+                            <CCutsceneElementObject guid="6313859520526463508" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11647181438607077908" name="TubeBacksplash" sortIndex="18" position="3.543686,4.203430,-0.084745" rotation="0.000018,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.700000" range="1.500000">
+                            <CCutsceneElementObject guid="8893023931946152468" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11530475765446652436" name="TubeBacksplashSpec" sortIndex="19" position="3.721851,4.203430,0.332586" rotation="-0.000036,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.000000" specularColorMultiplier="0.500000" attenuationStart="1.000006" range="1.500010">
+                            <CCutsceneElementObject guid="8051443116272693780" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13769894232094585364" name="TubeSide01Fill" sortIndex="20" position="2.577763,3.407211,0.486587" rotation="0.000027,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700008" range="1.000011">
+                            <CCutsceneElementObject guid="6166877635054055956" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12226099775492239892" name="TubeSide02Fill" sortIndex="21" position="2.577763,4.992538,0.486587" rotation="0.000027,-0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" attenuationStart="0.700008" range="1.000012">
+                            <CCutsceneElementObject guid="5681961430605279764" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9701949613051916820" name="TubeBlueFill" sortIndex="22" position="1.471333,4.203430,0.276322" rotation="-0.000023,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="2.000000" attenuationStart="0.300000" range="0.600000">
+                            <CCutsceneElementObject guid="5231985339160244756" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12956330325611557396" name="TubeBlueArchFillTop" sortIndex="23" position="1.413570,2.945885,1.631811" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.800000">
+                            <CCutsceneElementObject guid="6814390319098016276" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10498328977426526740" name="TubeBlueArchFillBottom" sortIndex="24" position="2.201519,2.945885,0.395954" rotation="-0.000102,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.400002" range="0.800003">
+                            <CCutsceneElementObject guid="7463570537079550484" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11253779236205539860" name="TubeBackRimL" sortIndex="25" position="3.538784,3.389671,0.258349" rotation="110.825127,51.044952,-94.626274" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.186192" range="1.589255" falloff="1.500000">
+                            <CCutsceneElementObject guid="7012842100508242452" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10065953777924616724" name="TubeBackRimR" sortIndex="26" position="3.538784,4.989655,0.258349" rotation="-109.908371,49.698231,-85.720734" type="2" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" specularColorMultiplier="2.000000" attenuationStart="1.203850" range="1.612914" falloff="1.500000">
+                            <CCutsceneElementObject guid="8291229800378577428" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13665142414991602196" name="TubeLeftTopSpec" sortIndex="27" position="1.345345,2.816788,1.168460" rotation="114.366089,-44.845081,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459413" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="8211057217822175764" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11199974325462675988" name="TubeRightTopSpec" sortIndex="28" position="1.345345,5.590012,1.168460" rotation="-114.366203,-44.845123,144.733856" type="2" colorR="0.588235" colorG="0.784314" shadowCasting="0" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="0.500000" attenuationStart="1.459413" range="1.945883" hotspot="0.500000">
+                            <CCutsceneElementObject guid="6436745445467402772" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12281480376592019988" name="TubeBlueArchFillTop" sortIndex="29" position="-1.413570,5.434601,1.631811" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.800000">
+                            <CCutsceneElementObject guid="6205683892934062612" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11774568390489977364" name="TubeBlueArchFillBottom" sortIndex="30" position="-2.201519,5.434601,0.395954" rotation="-0.000034,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.400000" range="0.800000">
+                            <CCutsceneElementObject guid="8227131158697259540" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10634938886246281748" name="TubeBlueArchFillTop" sortIndex="31" position="1.413570,5.434601,1.631811" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.800000">
+                            <CCutsceneElementObject guid="5486388179226505748" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11468091356882317844" name="TubeBlueArchFillBottom" sortIndex="32" position="2.201519,5.434601,0.395954" rotation="-0.000102,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.500000" specularColorMultiplier="0.500000" attenuationStart="0.400002" range="0.800003">
+                            <CCutsceneElementObject guid="8305449728426029588" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10723316651634373140" name="TubeCrystal" sortIndex="33" position="1.158607,4.203430,1.565158" rotation="-0.000062,-59.318882,144.733856" type="2" colorR="0.588235" colorG="0.784314" specularColorR="0.588235" specularColorG="0.784314" colorMultiplier="2.000000" specularColorMultiplier="0.700000" attenuationStart="1.565900" range="2.087867" hotspot="0.500000">
+                            <CCutsceneElementObject guid="5994774975493616148" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11424836904453059092" name="TubeBlueArchFill2Bottom" sortIndex="34" position="-1.499920,2.942772,0.084321" rotation="-0.000034,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="4.000000" specularColorMultiplier="2.000000" attenuationStart="0.200000" range="0.600000">
+                            <CCutsceneElementObject guid="5699140711378760212" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13462875942413316628" name="TubeBlueArchFill2Bottom" sortIndex="35" position="1.499920,2.942772,0.084321" rotation="-0.000023,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" shadowCasting="0" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="4.000000" specularColorMultiplier="2.000000" attenuationStart="0.200000" range="0.599999">
+                            <CCutsceneElementObject guid="8042845390610018836" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9304541958509867540" name="TubeSide01FillOrange" sortIndex="36" position="-2.606716,3.179764,1.360061" rotation="0.000055,-0.000123,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200000" range="0.400000">
+                            <CCutsceneElementObject guid="4756580520177086996" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10739850918514307604" name="TubeSide02FillOrange" sortIndex="37" position="-2.606716,5.165085,1.360061" rotation="0.000055,-0.000123,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200000" range="0.400000">
+                            <CCutsceneElementObject guid="6212182101143499284" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11511017244313432596" name="TubeSide01FillOrange" sortIndex="38" position="2.606715,3.179764,1.360061" rotation="-0.000000,0.000000,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.199993" range="0.399986">
+                            <CCutsceneElementObject guid="8330367689863377428" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10673505429116596756" name="TubeSide02FillOrange" sortIndex="39" position="2.606716,5.165085,1.360061" rotation="0.000034,0.000137,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200002" range="0.400003">
+                            <CCutsceneElementObject guid="6509703797226517012" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9427505927301542420" name="TubeSide02FillOrange" sortIndex="40" position="-2.606716,5.667458,1.360061" rotation="0.000055,-0.000123,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200000" range="0.400000">
+                            <CCutsceneElementObject guid="4630367125158146580" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13392874422234427924" name="TubeSide02FillOrange" sortIndex="41" position="2.606716,5.667458,1.360061" rotation="0.000034,0.000137,-90.000000" type="1" colorG="0.686275" colorB="0.392157" shadowCasting="0" specularColorG="0.686275" specularColorB="0.392157" colorMultiplier="2.000000" specularColorMultiplier="0.500000" attenuationStart="0.200002" range="0.400003">
+                            <CCutsceneElementObject guid="4733788335623025172" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                    </CCutsceneNodeFolder>
+                </CCutsceneNodeFolder>
+                <CCutsceneNodeFolder guid="13447841516767851028" name="OutsideFront" sortIndex="1">
+                    <CCutsceneNodeLight guid="13832236738957980180" name="Spot Light" sortIndex="0" position="-63.205341,86.612732,23.929609" rotation="-27.030582,-62.036320,-16.115610" type="2" colorR="0.313726" colorG="0.588235" shadowCasting="0" specularColorR="0.313726" specularColorG="0.588235" colorMultiplier="6.000000" specularColorMultiplier="8.000000" attenuationStart="68.000000" range="72.000000" hotspot="0.600000" falloff="0.700000">
+                        <CCutsceneElementObject guid="9124943799333859860" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                    <CCutsceneNodeLight guid="11939401465714618900" name="Spot Light" sortIndex="1" position="5.278320,8.566025,-13.553135" rotation="104.552994,-16.244108,-10.615093" type="2" colorG="0.784314" colorB="0.627451" shadowCasting="0" specularColorG="0.784314" specularColorB="0.627451" colorMultiplier="0.100000" specularColorMultiplier="0.400000" attenuationStart="86.855919" range="86.855919" falloff="1.500000">
+                        <CCutsceneElementObject guid="5952732657324569108" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                </CCutsceneNodeFolder>
+                <CCutsceneNodeFolder guid="11074278882024796692" name="Outside3" sortIndex="2">
+                    <CCutsceneNodeLight guid="11776106770465993236" name="Spot Light" sortIndex="0" position="19.030098,198.328796,30.208858" rotation="-54.391750,44.161175,-102.618858" type="2" colorR="0.313726" colorG="0.588235" shadowCasting="0" specularColorR="0.313726" specularColorG="0.588235" colorMultiplier="4.000000" specularColorMultiplier="6.000000" attenuationStart="68.000000" range="72.000000" hotspot="0.600000" falloff="0.700000">
+                        <CCutsceneElementObject guid="6793372742016217620" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                    <CCutsceneNodeLight guid="13067661018999730708" name="Spot Light" sortIndex="1" position="-34.817520,118.598389,-25.841690" rotation="124.761208,-1.240385,-13.619471" type="2" colorG="0.784314" colorB="0.627451" shadowCasting="0" specularColorG="0.784314" specularColorB="0.627451" colorMultiplier="0.100000" specularColorMultiplier="0.500000" attenuationStart="71.593361" range="71.593361" falloff="1.500000">
+                        <CCutsceneElementObject guid="5433154095407084052" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                </CCutsceneNodeFolder>
+                <CCutsceneNodeFolder guid="11054171155109949972" name="Outside2" sortIndex="3">
+                    <CCutsceneNodeLight guid="10545910665241080340" name="Spot Light" sortIndex="0" position="17.491013,140.794342,30.208858" rotation="-54.391750,44.161175,-102.618858" type="2" colorR="0.313726" colorG="0.588235" shadowCasting="0" specularColorR="0.313726" specularColorG="0.588235" colorMultiplier="6.000000" specularColorMultiplier="8.000000" attenuationStart="68.000000" range="72.000000" hotspot="0.600000" falloff="0.700000">
+                        <CCutsceneElementObject guid="8932740151662260756" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                    <CCutsceneNodeLight guid="13819383770151825940" name="Spot Light" sortIndex="1" position="-55.852020,42.519852,-43.102943" rotation="127.755875,-3.760906,-13.619471" type="2" colorG="0.784314" colorB="0.627451" shadowCasting="0" specularColorG="0.784314" specularColorB="0.627451" colorMultiplier="0.100000" specularColorMultiplier="0.500000" attenuationStart="106.475014" range="106.475014" falloff="1.500000">
+                        <CCutsceneElementObject guid="6960522080218690068" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                </CCutsceneNodeFolder>
+                <CCutsceneNodeFolder guid="11773205275244409364" name="Outside4" sortIndex="4">
+                    <CCutsceneNodeLight guid="11727904958093373972" name="Spot Light" sortIndex="0" position="-14.454948,324.262756,25.675400" rotation="-54.391750,44.161175,-102.618858" type="2" colorR="0.313726" colorG="0.588235" shadowCasting="0" specularColorR="0.313726" specularColorG="0.588235" colorMultiplier="4.000000" specularColorMultiplier="6.000000" attenuationStart="68.000000" range="72.000000" hotspot="0.600000" falloff="0.700000">
+                        <CCutsceneElementObject guid="4621282560657502740" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                    <CCutsceneNodeLight guid="13720144311645024788" name="Spot Light" sortIndex="1" position="-62.991013,253.723602,-25.841690" rotation="124.761208,-1.240385,-13.619471" type="2" colorG="0.784314" colorB="0.627451" shadowCasting="0" specularColorG="0.784314" specularColorB="0.627451" colorMultiplier="0.100000" specularColorMultiplier="0.500000" attenuationStart="71.593361" range="71.593361" falloff="1.500000">
+                        <CCutsceneElementObject guid="6110440330265539092" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                    <CCutsceneNodeLight guid="13117024697335329300" name="Spot Light" sortIndex="2" position="-9.747261,316.982117,79.642281" rotation="-55.492046,53.289059,-102.618858" type="2" colorR="0.313726" colorG="0.588235" shadowCasting="0" specularColorR="0.313726" specularColorG="0.588235" colorMultiplier="4.000000" specularColorMultiplier="6.000000" attenuationStart="103.145012" range="109.212364" hotspot="0.600000" falloff="0.700000">
+                        <CCutsceneElementObject guid="8063507142536245780" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                    <CCutsceneNodeLight guid="13834413114850980372" name="Spot Light" sortIndex="3" position="-16.489136,223.914001,2.255486" rotation="122.025787,22.420254,-13.619471" type="2" colorG="0.784314" colorB="0.627451" shadowCasting="0" specularColorG="0.784314" specularColorB="0.627451" colorMultiplier="0.100000" specularColorMultiplier="0.600000" attenuationStart="117.860199" range="117.860199" falloff="1.500000">
+                        <CCutsceneElementObject guid="8181701258087936532" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                </CCutsceneNodeFolder>
+                <CCutsceneNodeFolder guid="11463343884716913172" name="Outside5" sortIndex="5">
+                    <CCutsceneNodeLight guid="11955573155750392340" name="Spot Light" sortIndex="0" position="-18.723930,449.919922,25.675400" rotation="-54.391750,44.161175,-102.618858" type="2" colorR="0.313726" colorG="0.588235" shadowCasting="0" specularColorR="0.313726" specularColorG="0.588235" colorMultiplier="4.000000" specularColorMultiplier="6.000000" attenuationStart="68.000000" range="72.000000" hotspot="0.600000" falloff="0.700000">
+                        <CCutsceneElementObject guid="7578883047403205140" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                    <CCutsceneNodeLight guid="10400887546848653844" name="Spot Light" sortIndex="1" position="-72.493240,376.359283,-25.841690" rotation="127.716042,-2.663720,-13.619471" type="2" colorG="0.784314" colorB="0.627451" shadowCasting="0" specularColorG="0.784314" specularColorB="0.627451" colorMultiplier="0.100000" specularColorMultiplier="0.500000" attenuationStart="74.965324" range="75.006668" falloff="1.500000">
+                        <CCutsceneElementObject guid="5813055029458940436" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                    <CCutsceneNodeLight guid="11668517672197468692" name="Spot Light" sortIndex="2" position="47.366455,449.919922,97.114784" rotation="-65.634865,48.418079,-102.618858" type="2" colorR="0.313726" colorG="0.588235" shadowCasting="0" specularColorR="0.313726" specularColorG="0.588235" colorMultiplier="4.000000" specularColorMultiplier="10.000000" attenuationStart="146.774765" range="155.408615" falloff="1.200000">
+                        <CCutsceneElementObject guid="4822742481327272468" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                    <CCutsceneNodeLight guid="11921702949164855828" name="Spot Light" sortIndex="3" position="-52.872345,340.667969,13.976173" rotation="113.680298,8.844650,-13.619471" type="2" colorG="0.784314" colorB="0.627451" shadowCasting="0" specularColorG="0.784314" specularColorB="0.627451" colorMultiplier="0.100000" specularColorMultiplier="0.600000" attenuationStart="104.880135" range="104.937920" hotspot="0.800000">
+                        <CCutsceneElementObject guid="8986477601353806356" duration="601812" lockedToEnd="1"/>
+                    </CCutsceneNodeLight>
+                </CCutsceneNodeFolder>
+                <CCutsceneNodeFolder guid="10627153313129476628" name="Roof" sortIndex="6">
+                    <CCutsceneNodeFolder guid="11954000759633392148" name="Roof3" sortIndex="0">
+                        <CCutsceneNodeLight guid="13442415534258958868" name="Omni Light" sortIndex="0" position="0.000000,1.696785,3.100438" rotation="0.000014,0.000000,-90.000000" type="1" colorG="0.784314" colorB="0.588235" specularColorG="0.784314" specularColorB="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.600000" attenuationStart="1.500000" range="2.000000">
+                            <CCutsceneElementObject guid="8841136359028732436" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="13483071771992306196" name="Omni Light" sortIndex="1" position="-1.212559,1.696785,2.957566" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.400000" range="1.500000">
+                            <CCutsceneElementObject guid="7552088391415935508" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9248155965695635988" name="Omni Light" sortIndex="2" position="1.212559,1.696785,2.957566" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.400000" range="1.500000">
+                            <CCutsceneElementObject guid="7820666040898204180" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12545126935467045396" name="Spot Light" sortIndex="3" position="0.000000,1.696785,4.536168" rotation="-0.000000,-0.000000,-90.000000" type="2" colorG="0.784314" colorB="0.588235" specularColorG="0.784314" specularColorB="0.588235" colorMultiplier="2.000000" specularColorMultiplier="2.000000" attenuationStart="2.000000" range="7.000000" hotspot="0.300000" falloff="0.700000">
+                            <CCutsceneElementObject guid="9026284152822084116" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                    </CCutsceneNodeFolder>
+                    <CCutsceneNodeFolder guid="11786630286449750548" name="Roof1" sortIndex="1">
+                        <CCutsceneNodeLight guid="11639811231777468948" name="Omni Light" sortIndex="0" position="0.000000,-3.283348,3.100438" rotation="0.000014,0.000000,-90.000000" type="1" colorG="0.784314" colorB="0.588235" specularColorG="0.784314" specularColorB="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.600000" attenuationStart="1.500000" range="2.000000">
+                            <CCutsceneElementObject guid="7740416647146680852" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="11979412303007363604" name="Omni Light" sortIndex="1" position="-1.212559,-3.283348,2.957566" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.400000" range="1.500000">
+                            <CCutsceneElementObject guid="5853865031316451860" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10334281619224048148" name="Omni Light" sortIndex="2" position="1.212559,-3.283348,2.957566" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.400000" range="1.500000">
+                            <CCutsceneElementObject guid="8534448794714157588" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9348526645573759508" name="Spot Light" sortIndex="3" position="0.000000,-3.283348,4.536168" rotation="-0.000000,-0.000000,-90.000000" type="2" colorG="0.784314" colorB="0.588235" specularColorG="0.784314" specularColorB="0.588235" colorMultiplier="2.000000" specularColorMultiplier="2.000000" attenuationStart="2.000000" range="7.000000" hotspot="0.300000" falloff="0.700000">
+                            <CCutsceneElementObject guid="9211031024303256084" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                    </CCutsceneNodeFolder>
+                    <CCutsceneNodeFolder guid="11906284265680318996" name="Roof2" sortIndex="2">
+                        <CCutsceneNodeLight guid="13214891909496091156" name="Omni Light" sortIndex="0" position="0.000000,-0.792439,3.100438" rotation="0.000014,0.000000,-90.000000" type="1" colorG="0.784314" colorB="0.588235" specularColorG="0.784314" specularColorB="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.600000" attenuationStart="1.500000" range="2.000000">
+                            <CCutsceneElementObject guid="7440630137499070996" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9864906169820295700" name="Omni Light" sortIndex="1" position="-1.212559,-0.792439,2.957566" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.400000" range="1.500000">
+                            <CCutsceneElementObject guid="6492794764385235476" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10082403485488427540" name="Omni Light" sortIndex="2" position="1.212559,-0.792439,2.957566" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.400000" range="1.500000">
+                            <CCutsceneElementObject guid="5961704332904804884" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10117524846112059924" name="Spot Light" sortIndex="3" position="0.000000,-0.792439,4.536168" rotation="-0.000000,-0.000000,-90.000000" type="2" colorG="0.784314" colorB="0.588235" specularColorG="0.784314" specularColorB="0.588235" colorMultiplier="2.000000" specularColorMultiplier="2.000000" attenuationStart="2.000000" range="7.000000" hotspot="0.300000" falloff="0.700000">
+                            <CCutsceneElementObject guid="6186976424141959700" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                    </CCutsceneNodeFolder>
+                    <CCutsceneNodeFolder guid="12701107919885873684" name="Roof5" sortIndex="3">
+                        <CCutsceneNodeLight guid="9243726724837061140" name="Omni Light" sortIndex="0" position="0.000000,6.676514,3.100438" rotation="0.000014,0.000000,-90.000000" type="1" colorG="0.784314" colorB="0.588235" specularColorG="0.784314" specularColorB="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.600000" attenuationStart="1.500000" range="2.000000">
+                            <CCutsceneElementObject guid="4696893342484705812" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10909315759485399572" name="Omni Light" sortIndex="1" position="-1.212559,6.676514,2.957566" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.400000" range="1.500000">
+                            <CCutsceneElementObject guid="7918513736727573012" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12986287078256062996" name="Omni Light" sortIndex="2" position="1.212559,6.676514,2.957566" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.400000" range="1.500000">
+                            <CCutsceneElementObject guid="6283419639895732756" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                    </CCutsceneNodeFolder>
+                    <CCutsceneNodeFolder guid="11372410240125547028" name="Roof4" sortIndex="4">
+                        <CCutsceneNodeLight guid="11224371470575776276" name="Omni Light" sortIndex="0" position="0.000000,4.188164,3.100438" rotation="0.000014,0.000000,-90.000000" type="1" colorG="0.784314" colorB="0.588235" specularColorG="0.784314" specularColorB="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.600000" attenuationStart="1.500000" range="2.000000">
+                            <CCutsceneElementObject guid="5370984246228988436" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="9573113479073804820" name="Omni Light" sortIndex="1" position="-1.212559,4.188164,2.957566" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.400000" range="1.500000">
+                            <CCutsceneElementObject guid="8149903669575463444" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="12863314571069403668" name="Omni Light" sortIndex="2" position="1.212559,4.188164,2.957566" rotation="-0.000000,0.000000,-90.000000" type="1" colorR="0.294118" colorG="0.588235" specularColorR="0.294118" specularColorG="0.588235" colorMultiplier="0.200000" specularColorMultiplier="0.400000" range="1.500000">
+                            <CCutsceneElementObject guid="8771665688217694740" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                        <CCutsceneNodeLight guid="10446833500663493140" name="Spot Light" sortIndex="3" position="0.000000,4.188164,4.536168" rotation="-0.000000,-0.000000,-90.000000" type="2" colorG="0.784314" colorB="0.588235" specularColorG="0.784314" specularColorB="0.588235" colorMultiplier="2.000000" specularColorMultiplier="2.000000" attenuationStart="2.000000" range="7.000000" hotspot="0.300000" falloff="0.700000">
+                            <CCutsceneElementObject guid="6115767099029893652" duration="601812" lockedToEnd="1"/>
+                        </CCutsceneNodeLight>
+                    </CCutsceneNodeFolder>
+                </CCutsceneNodeFolder>
+            </CCutsceneNodeFolder>
+            <CCutsceneNodeLight guid="9815397443629135717" name="Omni Light" sortIndex="4" position="9.684586,83.286804,1.000000" scale="720.884827,720.884827,720.884827" type="1" colorR="0.784314" specularColorR="0.784314">
+                <CCutsceneElementObject guid="7596125547580274533" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeLight guid="12699449462697417420" name="Omni Light" sortIndex="5" position="0.000000,4.133713,1.000000" scale="5.000000,5.000000,5.000000" type="1">
+                <CCutsceneElementObject guid="7330737619688151756" duration="601812" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+        </CCutsceneNodeFolder>
+    </CCutsceneNodeFolder>
+</CutsceneState>

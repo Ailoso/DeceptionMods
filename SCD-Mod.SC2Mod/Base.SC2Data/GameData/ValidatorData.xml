@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CValidatorUnitCompareField id="CanNotHaveShields">
+        <Compare value="LT"/>
+        <Field value="ShieldsMax"/>
+        <Value value="1"/>
+    </CValidatorUnitCompareField>
+    <CValidatorUnitCompareBehaviorCount id="CarryingDepletedGasDrone">
+        <WhichUnit Effect="GasisEmptyAddGas"/>
+        <Value value="1"/>
+        <Behavior value="ReplenishGas"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="CarryingDepletedGasProbe">
+        <WhichUnit Effect="GasisEmptyAddGas"/>
+        <Behavior value="ReplenishGas"/>
+        <Value value="1"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareBehaviorCount id="CarryingDepletedGasSCV">
+        <WhichUnit Effect="GasisEmptyAddGas"/>
+        <Behavior value="ReplenishGas"/>
+        <Value value="1"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorCombine id="GasIsntEmptyRawCombine">
+        <CombineArray value="GasisEmptyVespene"/>
+        <CombineArray value="GasisEmptyVespene2"/>
+        <CombineArray value="GasisEmptyVespene23"/>
+        <Type value="And"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="GasIsntEmptyRawCombine2">
+        <CombineArray value="GasisEmptyAssimilator"/>
+        <CombineArray value="GasisEmptyAssimilator2"/>
+        <CombineArray value="GasisEmptyAssimilator22"/>
+        <Type value="And"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="GasIsntEmptyRawCombine22">
+        <CombineArray value="GasisEmptyRefinery"/>
+        <CombineArray value="GasisEmptyRefinery2"/>
+        <CombineArray value="GasisEmptyRefinery22"/>
+        <Type value="And"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="GasIsntEmptyRawCombine222">
+        <CombineArray value="GasisEmptyExtractor"/>
+        <CombineArray value="GasisEmptyExtractor2"/>
+        <CombineArray value="GasisEmptyExtractor22"/>
+        <Type value="And"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="GasIsntEmptyRawCombine3">
+        <CombineArray value="GasisEmptyVespene3"/>
+        <CombineArray value="GasisEmptyVespene22"/>
+        <CombineArray value="GasisEmptyVespene222"/>
+        <Type value="And"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyAssimilator2">
+        <Compare value="NE"/>
+        <Value value="100000"/>
+        <Behavior value="HarvestableVespeneGeyserGasProtoss"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyAssimilator22">
+        <Compare value="NE"/>
+        <Value value="99998"/>
+        <Behavior value="HarvestableVespeneGeyserGasProtoss"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyExtractor2">
+        <Compare value="NE"/>
+        <Value value="100000"/>
+        <Behavior value="HarvestableVespeneGeyserGasZerg"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyExtractor22">
+        <Compare value="NE"/>
+        <Value value="99998"/>
+        <Behavior value="HarvestableVespeneGeyserGasZerg"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyRefinery2">
+        <Compare value="NE"/>
+        <Value value="100000"/>
+        <Behavior value="HarvestableVespeneGeyserGas"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyRefinery22">
+        <Compare value="NE"/>
+        <Value value="99998"/>
+        <Behavior value="HarvestableVespeneGeyserGas"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyVespene2">
+        <WhichUnit Value="Source"/>
+        <Compare value="NE"/>
+        <Value value="100000"/>
+        <Behavior value="RawVespeneGeyserGas"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyVespene22">
+        <WhichUnit Value="Source"/>
+        <Compare value="NE"/>
+        <Value value="100000"/>
+        <Behavior value="RawRichVespeneGeyserGas"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyVespene222">
+        <WhichUnit Value="Source"/>
+        <Compare value="NE"/>
+        <Value value="99998"/>
+        <Behavior value="RawRichVespeneGeyserGas"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyVespene23">
+        <WhichUnit Value="Source"/>
+        <Compare value="NE"/>
+        <Value value="99998"/>
+        <Behavior value="RawVespeneGeyserGas"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyVespene3">
+        <WhichUnit Value="Source"/>
+        <Compare value="NE"/>
+        <Behavior value="RawRichVespeneGeyserGas"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareBehaviorCount id="HaveAcidSpores">
+        <Compare value="GT"/>
+        <Behavior value="AcidSpore"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitType id="IsDefilerBurrowed">
+        <Value value="InfestorBurrowed"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="IsLurkerCombine">
+        <CombineArray value="IsLurkerBurrowed"/>
+        <CombineArray value="IsLurker"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsDroneCombine">
+        <CombineArray value="IsDroneBurrowed"/>
+        <CombineArray value="IsDrone"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsDefilerCombine">
+        <CombineArray value="IsDefilerBurrowed"/>
+        <CombineArray value="IsDefiler"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="IsInfestedTerran">
+        <Value value="InfestedTerranCampaign"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsInfestedTerranBurrowed">
+        <Value value="InfestedTerranCampaignBurrowed"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="IsInfestedTerranCombine">
+        <CombineArray value="IsInfestedTerranBurrowed"/>
+        <CombineArray value="IsInfestedTerran"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="IsHydraliskCombine">
+        <CombineArray value="IsHydralisk"/>
+        <CombineArray value="IsHydraliskBurrowed"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="IsSiegeTankSiegeMode">
+        <Value value="SiegeTankSieged"/>
+        <Type value="SelectAlias"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsValkyrie">
+        <Value value="VikingFighter"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="IsZerglingCombine">
+        <CombineArray value="IsZergling"/>
+        <CombineArray value="IsZerglingBurrowed"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="IsInfestedKerrigan">
+        <Value value="Kerrigan"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsZeratul">
+        <Value value="Zeratul"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsTassadar">
+        <Value value="HighTemplar2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsCarrier"/>
+    <CValidatorUnitType id="IsCarrier2">
+        <Value value="DarkTemplar"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsDarkArchon">
+        <Value value="Archon2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsDarkTemplarHero">
+        <Value value="DarkTemplar2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsCarrier3">
+        <Value value="Phoenix"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsCarrier32">
+        <Value value="WarpPrism"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsColossus2">
+        <Value value="Archon"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsColossus22">
+        <Value value="Reaver"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsColossus23">
+        <Value value="Probe"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGhost">
+        <Value value="Ghost"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGuardian">
+        <Value value="GuardianNew"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsDrone2">
+        <Value value="Stalker"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsDrone22">
+        <Value value="Scout"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsFirebat">
+        <Value value="Firebat"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGantrithor">
+        <Value value="Selendis"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsArtanis">
+        <Value value="Artanis2"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsMedic">
+        <Value value="Medic"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsNotCarrier">
+        <Value value="Carrier"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsNotDragoon">
+        <Value value="Stalker"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="IsNotProtoss">
+        <CombineArray value="IsNotCarrier"/>
+        <CombineArray value="IsNotCorsair"/>
+        <CombineArray value="IsNotDragoon"/>
+        <CombineArray value="IsNotScout"/>
+        <Type value="And"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="IsNotScout">
+        <Value value="Scout"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsNotCorsair">
+        <Value value="Phoenix"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGoliath">
+        <Value value="Goliath"/>
+        <Type value="SelectAlias"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsDropship">
+        <Value value="Medivac"/>
+        <Type value="SelectAlias"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsArbiter">
+        <Value value="VoidRay"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsScienceVessel">
+        <Value value="ScienceVessel"/>
+        <Type value="SelectAlias"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsFenixDragoon">
+        <Value value="Immortal"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsWraith">
+        <Value value="Wraith"/>
+        <Type value="SelectAlias"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsSiegeTankSieged">
+        <Value value="SiegeTankSieged"/>
+        <Type value="SelectAlias"/>
+    </CValidatorUnitType>
+    <CValidatorUnitOrder id="IsSpiderMineAttackOrder">
+        <WhichUnit Value="Source"/>
+        <AbilLink value="SpiderMineAttack"/>
+    </CValidatorUnitOrder>
+    <CValidatorUnitOrder id="IsSpiderMineMoveOrder">
+        <WhichUnit Value="Source"/>
+        <AbilLink value="move"/>
+    </CValidatorUnitOrder>
+    <CValidatorCombine id="IsMovingSpiderMine3">
+        <CombineArray value="IsSpiderMineAttackOrder"/>
+        <CombineArray value="IsSpiderMineMoveOrder"/>
+    </CValidatorCombine>
+    <CValidatorUnitType id="IsSupplyDepotLowered2">
+        <Value value="Bunker"/>
+    </CValidatorUnitType>
+    <CValidatorUnitFilters id="IsWorker">
+        <Filters value="Worker;-"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitType id="IsZealot"/>
+    <CValidatorUnitType id="IsDefiler">
+        <Value value="Infestor"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsDevourer">
+        <Value value="Corruptor"/>
+    </CValidatorUnitType>
+    <CValidatorUnitType id="IsHyperion">
+        <Value value="Hyperion"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="IsSiegeTankCombine">
+        <CombineArray value="IsSiegeTankSiegeMode"/>
+        <CombineArray value="IsSiegeTank"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareVital id="LifeLTHalf2">
+        <ResultFailed value="TooMuchLife"/>
+        <Compare value="LE"/>
+        <Type value="Fraction"/>
+        <Value value="0.5"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitOrder id="LurkerusingHoldPosition">
+        <WhichUnit Value="Source"/>
+        <AbilLink value="move"/>
+        <AbilCmdIndex value="3"/>
+    </CValidatorUnitOrder>
+    <CValidatorCombine id="NotBurrowedAndUnderDarkSwarm">
+        <CombineArray value="NotBurrowed"/>
+        <CombineArray value="NotUnderDarkSwarm"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="ShieldBatteryHeal">
+        <Compare value="LT"/>
+        <Value value="1"/>
+        <Behavior value="BatteryDummy"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorLocationEnumArea id="ScarabCheckNoUnitWithin035">
+        <WhichLocation Value="SourceUnit"/>
+        <AreaArray Radius="0.35" Validator="IsGroundUnit"/>
+        <Compare value="LE"/>
+        <Count value="1"/>
+        <LaunchLocation Value="SourceUnit"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorLocationEnumArea id="ScarabCheckCollided">
+        <WhichLocation Value="SourceUnit"/>
+        <AreaArray Arc="135" Radius="0.45" Validator="IsWorker"/>
+        <LaunchLocation Value="SourceUnit"/>
+        <SearchFilters value="-;Player,Ally"/>
+        <ExcludeArray Value="Source"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorUnitCompareOrderCount id="SourceHasnoOrders">
+        <WhichUnit Value="Source"/>
+    </CValidatorUnitCompareOrderCount>
+    <CValidatorLocationEnumArea id="CollisionCheckNoUnitWithin0575">
+        <WhichLocation Value="SourceUnit"/>
+        <AreaArray Radius="0.575" Validator="IsGroundUnit"/>
+        <Compare value="LE"/>
+        <Count value="1"/>
+        <LaunchLocation Value="OuterPoint"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyExtractor">
+        <Behavior value="HarvestableVespeneGeyserGasZerg"/>
+        <Compare value="NE"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyAssimilator">
+        <Behavior value="HarvestableVespeneGeyserGasProtoss"/>
+        <Compare value="NE"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyVespene">
+        <Behavior value="RawVespeneGeyserGas"/>
+        <WhichUnit Value="Source"/>
+        <Compare value="NE"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareResourceContents id="GasisEmptyRefinery">
+        <Behavior value="HarvestableVespeneGeyserGas"/>
+        <Compare value="NE"/>
+    </CValidatorUnitCompareResourceContents>
+    <CValidatorUnitCompareSpeed id="IsMoving">
+        <WhichUnit Value="Source"/>
+        <Compare value="GT"/>
+        <Value value="2"/>
+    </CValidatorUnitCompareSpeed>
+    <CValidatorUnitOrderQueue id="IsnotAttacking">
+        <WhichUnit Value="Target"/>
+        <AbilLink value="attack"/>
+        <Find value="0"/>
+    </CValidatorUnitOrderQueue>
+    <CValidatorLocationEnumArea id="MutaliskStackedAllowWander">
+        <ResultFailed value="Error,Error/TooManyMutas,Mutalisk_Pissed"/>
+        <WhichLocation Value="SourcePoint"/>
+        <AreaArray Radius="0.5" Validator="IsFlying"/>
+        <Compare value="GE"/>
+        <Count value="2"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorUnitCompareBehaviorCount id="NoDefensiveMatrix">
+        <Behavior value="DefensiveMatrix"/>
+        <ResultFailed value="CantTrainTooFarFromTrainPowerSource,Borked"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitType id="NotArbiter">
+        <Value value="VoidRay"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorUnitCompareBehaviorCount id="RestorationCheckforBuff">
+        <Compare value="GT"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitFilters id="SourceNotBurrowed">
+        <WhichUnit Value="Source"/>
+        <Filters value="-;Buried"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitType id="NotSpiderMine2">
+        <Value value="SpiderMine"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorUnitFilters id="NotSpiderMineBurrowed2"/>
+    <CValidatorCombine id="NotSpiderMineCombined">
+        <CombineArray value="NotSpiderMineBurrowed2"/>
+        <CombineArray value="NotSpiderMine2"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="NotUnderDarkSwarm">
+        <Compare value="NE"/>
+        <Value value="1"/>
+        <Behavior value="DarkSwarm"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitCompareVital id="Shield10">
+        <ResultFailed value="TooMuchLife"/>
+        <Vital value="Shields"/>
+        <Compare value="LT"/>
+        <Value value="0.1"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorLocationEnumArea id="StackLimit">
+        <ResultFailed value="Error,Error/TooManyUnits,Mutalisk_Pissed"/>
+        <WhichLocation Value="SourcePoint"/>
+        <AreaArray Radius="1" Validator="IsFlying"/>
+        <Compare value="LE"/>
+        <Count value="11"/>
+        <SearchFilters value="-;Ally,Neutral,Enemy"/>
+    </CValidatorLocationEnumArea>
+    <CValidatorUnitCompareVital id="ShieldGZero">
+        <Type value="Current"/>
+        <Compare value="GE"/>
+        <Value value="0.1"/>
+    </CValidatorUnitCompareVital>
+    <CValidatorUnitFilters id="NotBurrowed">
+        <Filters value="-;Buried"/>
+    </CValidatorUnitFilters>
+    <CValidatorCombine id="TargetCanAttackOrIsBunker">
+        <CombineArray value="TargetCanAttack"/>
+        <CombineArray value="IsSupplyDepotLowered2"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareVitality id="TargetHPGT750">
+        <Compare value="GE"/>
+        <Type value="Maximum"/>
+        <Value value="750"/>
+    </CValidatorUnitCompareVitality>
+    <CValidatorUnitCompareVitality id="TargetHPLT750">
+        <Compare value="LT"/>
+        <Type value="Maximum"/>
+        <Value value="750"/>
+    </CValidatorUnitCompareVitality>
+    <CValidatorUnitFilters id="TargetIsNotEnemy">
+        <Filters value="-;Neutral,Enemy"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitType id="TargetisCommandCenterFlying">
+        <Value value="CommandCenterFlying"/>
+    </CValidatorUnitType>
+    <CValidatorCombine id="TimeWarpViableTargets2">
+        <CombineArray value="UnitIsBiological2"/>
+        <CombineArray value="UnitIsBiological22"/>
+    </CValidatorCombine>
+    <CValidatorUnitFilters id="UnitIsBiological2">
+        <Filters value="Mechanical;-"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitFilters id="UnitIsBiological22">
+        <Filters value="Robotic;-"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitFilters id="UnitIsLarge2">
+        <Filters value="-;Massive"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitFilters id="UnitIsMedium2">
+        <Filters value="-;Armored"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitFilters id="UnitIsSmall">
+        <Filters value="Light;-"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitFilters id="UnitIsMedium">
+        <Filters value="Armored;-"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitFilters id="UnitIsLarge">
+        <Filters value="Massive;-"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitFilters id="UnitIsSmall2">
+        <Filters value="-;Light"/>
+    </CValidatorUnitFilters>
+    <CValidatorUnitCompareSpeed id="UnitisnotMoving">
+        <WhichUnit Value="Source"/>
+    </CValidatorUnitCompareSpeed>
+    <CValidatorCombine id="TargetisCommandCenterCombined">
+        <ResultFailed value="Error,Error/NotCC"/>
+        <CombineArray value="IsCommandCenter"/>
+        <CombineArray value="TargetisCommandCenterFlying"/>
+    </CValidatorCombine>
+</Catalog>

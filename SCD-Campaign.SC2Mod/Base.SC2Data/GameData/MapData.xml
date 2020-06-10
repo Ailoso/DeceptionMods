@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CMap id="KLStory">
+        <File value="KLStory"/>
+        <Kind value="Story"/>
+    </CMap>
+    <CMap id="TIns01" parent="SC2Epilogue01">
+        <Name value="Map/Name/TIns01"/>
+        <File value="TIns01"/>
+        <Description value="Map/Description/TIns01"/>
+        <MissionText value="Map/Name/TIns01"/>
+        <PrimaryObjectiveText value="Map/PrimaryObjectiveText/TIns01"/>
+        <SecondaryObjectiveTitle value="Map/SecondaryObjectiveTitle/TIns01"/>
+        <SecondaryObjectiveText value="Map/SecondaryObjectiveText/TIns01"/>
+        <RewardText value="Map/RewardText/TIns01"/>
+        <ResearchTitle value="Map/ResearchTitle/TIns01"/>
+        <ResearchText value="Map/ResearchText/TIns01"/>
+        <BonusText value="Map/BonusText/TIns01"/>
+        <TechnologyNameText value="Map/TechnologyNameText/TIns01"/>
+        <ContactModelLink value=""/>
+        <ContactActor value=""/>
+        <LoadingImage value=""/>
+        <LoadingTitle value="Map/LoadingTitle/TIns01"/>
+        <LoadingSubtitle value="Map/LoadingSubtitle/TIns01"/>
+        <LoadingBody value="Map/LoadingBody/TIns01"/>
+        <LoadingHelp value="Map/LoadingHelp/TIns01"/>
+        <LoadingHelpRestart value="Map/LoadingHelpRestart/TIns01"/>
+        <LoadingHelpAlternate value="Map/LoadingHelpAlternate/TIns01"/>
+        <Location value=""/>
+        <ObjectiveArray index="0" removed="1"/>
+        <ObjectiveArray index="1" removed="1"/>
+        <ObjectiveArray index="2" removed="1"/>
+        <Summary value="Map/Summary/TIns01"/>
+        <UserReference value=""/>
+    </CMap>
+    <CMap id="TIns02" parent="SC2Epilogue01">
+        <Name value="Map/Name/TIns02"/>
+        <File value="TIns02"/>
+        <Description value="Map/Description/TIns02"/>
+        <MissionText value="Map/Name/TIns02"/>
+        <PrimaryObjectiveText value="Map/PrimaryObjectiveText/TIns02"/>
+        <SecondaryObjectiveTitle value="Map/SecondaryObjectiveTitle/TIns02"/>
+        <SecondaryObjectiveText value="Map/SecondaryObjectiveText/TIns02"/>
+        <RewardText value="Map/RewardText/TIns02"/>
+        <ResearchTitle value="Map/ResearchTitle/TIns02"/>
+        <ResearchText value="Map/ResearchText/TIns02"/>
+        <BonusText value="Map/BonusText/TIns02"/>
+        <TechnologyNameText value="Map/TechnologyNameText/TIns02"/>
+        <ContactModelLink value=""/>
+        <ContactActor value=""/>
+        <LoadingImage value=""/>
+        <LoadingTitle value="Map/LoadingTitle/TIns02"/>
+        <LoadingSubtitle value="Map/LoadingSubtitle/TIns02"/>
+        <LoadingBody value="Map/LoadingBody/TIns02"/>
+        <LoadingHelp value="Map/LoadingHelp/TIns02"/>
+        <LoadingHelpRestart value="Map/LoadingHelpRestart/TIns02"/>
+        <LoadingHelpAlternate value="Map/LoadingHelpAlternate/TIns02"/>
+        <Location value=""/>
+        <ObjectiveArray index="0" removed="1"/>
+        <ObjectiveArray index="1" removed="1"/>
+        <ObjectiveArray index="2" removed="1"/>
+        <Summary value="Map/Summary/TIns02"/>
+        <UserReference value=""/>
+    </CMap>
+    <CMap id="TIns03" parent="SC2Epilogue01">
+        <Name value="Map/Name/TIns03"/>
+        <File value="TIns03"/>
+        <Description value="Map/Description/TIns03"/>
+        <MissionText value="Map/Name/TIns03"/>
+        <PrimaryObjectiveText value="Map/PrimaryObjectiveText/TIns03"/>
+        <SecondaryObjectiveTitle value="Map/SecondaryObjectiveTitle/TIns03"/>
+        <SecondaryObjectiveText value="Map/SecondaryObjectiveText/TIns03"/>
+        <RewardText value="Map/RewardText/TIns03"/>
+        <ResearchTitle value="Map/ResearchTitle/TIns03"/>
+        <ResearchText value="Map/ResearchText/TIns03"/>
+        <BonusText value="Map/BonusText/TIns03"/>
+        <TechnologyNameText value="Map/TechnologyNameText/TIns03"/>
+        <ContactModelLink value=""/>
+        <ContactActor value=""/>
+        <LoadingImage value=""/>
+        <LoadingTitle value="Map/LoadingTitle/TIns03"/>
+        <LoadingSubtitle value="Map/LoadingSubtitle/TIns03"/>
+        <LoadingBody value="Map/LoadingBody/TIns03"/>
+        <LoadingHelp value="Map/LoadingHelp/TIns03"/>
+        <LoadingHelpRestart value="Map/LoadingHelpRestart/TIns03"/>
+        <LoadingHelpAlternate value="Map/LoadingHelpAlternate/TIns03"/>
+        <Location value=""/>
+        <ObjectiveArray index="0" removed="1"/>
+        <ObjectiveArray index="1" removed="1"/>
+        <ObjectiveArray index="2" removed="1"/>
+        <Summary value="Map/Summary/TIns03"/>
+        <UserReference value="Maps;TIns03"/>
+    </CMap>
+</Catalog>

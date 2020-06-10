@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CutsceneState cutsceneVersion="1.300000">
+    <CCutsceneNodeFolder guid="10558202115576189180" name="Set" sortIndex="0">
+        <CCutsceneNodeFolder guid="11219479117536841980" name="Rocks" sortIndex="0">
+            <CCutsceneNodeActor guid="12452495796504514812" name="SMX2_GenericRocks_01" sortIndex="0" position="1.212425,-7.669720,-0.289359" scale="0.642094,0.642094,0.642094" rotation="-364.278900,-62.909100,-169.343048" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6380995336704512252" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11491527152133886204" name="SMX2_GenericRocks_01" sortIndex="1" position="2.142189,-8.673416,-0.289359" scale="0.642094,0.642094,0.642094" rotation="-349.945007,62.534180,4.159563" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7846925751377088764" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11280231198010527996" name="SMX2_GenericRocks_01" sortIndex="2" position="0.790100,-9.188396,-0.289359" scale="0.642094,0.642094,0.642094" rotation="-300.560364,26.723999,-59.668728" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8156220571293733116" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10249575944758120700" name="SMX2_GenericRocks_01" sortIndex="3" position="0.782089,-9.129974,-0.324250" scale="0.685197,0.685197,0.685197" rotation="-347.824127,-62.316444,-150.845535" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6510117854806954236" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12151105155226554620" name="SMX2_GenericRocks_01" sortIndex="4" position="2.544067,-6.185745,-0.742320" scale="1.636844,1.636844,1.636844" rotation="-414.124695,39.199383,-279.104004" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8238107391262085372" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13829525585060319484" name="SMX2_GenericRocks_01" sortIndex="5" position="2.789146,-4.245861,-0.742320" scale="1.636844,1.636844,1.636844" rotation="-401.012085,52.997406,-297.100586" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7521208419629551868" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13695796336575795452" name="SMX2_GenericRocks_01" sortIndex="6" position="3.665802,2.060074,-1.928873" scale="4.550774,4.550774,4.605897" rotation="-413.449799,39.268806,-281.186127" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7126366995161960700" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13069764768254021884" name="SMX2_GenericRocks_01" sortIndex="7" position="-1.449673,-5.597332,0.554231" scale="0.633254,0.633254,0.633254" rotation="-40.773121,-3.520741,-320.444855" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6372981670759518460" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12407684542984507644" name="SMX2_GenericRocks_01" sortIndex="8" position="-5.267570,0.243187,0.539893" scale="0.787200,0.787200,0.787200" rotation="-11.342108,-28.610157,-573.334290" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7903065419226960124" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9586997524757106940" name="SMX2_GenericRocks_09" sortIndex="9" position="1.403877,-9.336323,0.049525" scale="1.433825,1.433825,1.433825" rotation="0.000000,0.000000,-246.999939" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_09.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7347646660894413052" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12088458302685597948" name="SMX2_GenericRocks_12" sortIndex="10" position="1.600372,-9.347591,0.021745" scale="1.172400,1.172400,1.172400" rotation="177.605606,20.341743,-361.290619" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_12.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8965811031732539644" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11382194374452596988" name="SMX2_GenericRocks_00" sortIndex="11" position="-3.825027,0.688736,0.603076" rotation="13.640082,6.162080,-145.445129" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8457746933538246908" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13807712502725890300" name="SMX2_GenericRocks_01" sortIndex="12" position="-1.242931,-8.469341,-0.011360" rotation="69.338112,14.001274,-99.498154" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8143348867840233724" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10370535396478177532" name="SMX2_GenericRocks_02" sortIndex="13" position="-2.737206,1.728439,0.616545" rotation="-0.000002,3.999998,-116.499977" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_02.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6081999332967600380" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12854527374182732028" name="SMX2_GenericRocks_01" sortIndex="14" position="-3.960377,1.951408,0.995365" scale="1.029843,1.029843,1.042317" rotation="-390.241394,22.396257,-287.916016" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6190217931707797756" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11461561513202045180" name="SMX2_GenericRocks_01" sortIndex="15" position="-1.532005,4.439026,0.557914" scale="1.029843,1.029843,1.042317" rotation="-423.105225,21.415699,-248.392105" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5495117083038601468" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10549626710858551548" name="SMX2_GenericRocks_01" sortIndex="16" position="-5.947968,-1.245415,0.148882" rotation="73.431511,-19.905031,-126.885323" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7879522349835505916" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9243181939558600956" name="SMX2_GenericRocks_00" sortIndex="17" position="-1.975498,2.302299,0.707136" rotation="12.415994,8.693726,-145.779724" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6343457159328715004" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9367832009431470332" name="SMX2_GenericRocks_01" sortIndex="18" position="-6.387947,-1.670010,-1.583568" scale="4.550774,3.919513,4.605897" rotation="-421.047485,-34.360516,-595.241760" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8981595710855205116" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12838382544872427772" name="SMX2_GenericRocks_00" sortIndex="19" position="-6.677170,-2.401329,0.707136" rotation="9.665195,11.680460,-130.323120" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5168420451502936316" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11442073146341085436" name="SMX2_GenericRocks_01" sortIndex="20" position="-0.598228,3.366096,0.148882" rotation="72.234833,-28.506086,-129.795090" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6104979585549619452" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10804396040484180220" name="SMX2_GenericRocks_02" sortIndex="21" position="-0.441143,2.818268,0.510756" scale="0.863357,0.863357,0.863357" rotation="-0.892530,5.219688,-178.794968" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_02.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8272240853573062908" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11106125550386827516" name="SMX2_GenericRocks_09" sortIndex="22" position="0.553307,-8.370579,0.022265" scale="1.798681,1.798681,1.798681" rotation="0.000000,0.000000,-149.000031" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_09.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7137764339421958396" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13811300677318758652" name="SMX2_GenericRocks_09" sortIndex="23" position="2.274788,-9.397430,0.020747" scale="0.904096,0.904096,0.904096" rotation="-1.500000,-0.000000,-145.999969" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_09.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8010150086471471356" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12529094609788358908" name="SMX2_GenericRocks_09" sortIndex="24" position="-2.530117,0.641159,0.119347" scale="2.243506,2.243506,2.243506" rotation="0.000000,0.000000,-298.999969" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_09.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8256582193085829372" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12837128242623303932" name="SMX2_GenericRocks_14" sortIndex="25" position="-2.226440,0.873627,0.134635" scale="1.808097,1.808097,1.808097" rotation="0.000000,0.000000,132.499954" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_14.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5125602217427095804" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10731557389463605500" name="SMX2_GenericRocks_09" sortIndex="26" position="-0.730724,-5.912647,0.338310" scale="2.243506,2.243506,2.243506" rotation="2.635582,12.205227,-260.391754" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_09.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5503384547191050492" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10282296568987144444" name="SMX2_GenericRocks_00" sortIndex="27" position="-6.677170,-2.401329,0.707136" rotation="9.665195,11.680460,-130.323120" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_00.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7693953241225253116" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13076319326434382076" name="SMX2_GenericRocks_01" sortIndex="28" position="0.980927,0.061516,-1.091692" scale="2.565195,2.565195,2.596267" rotation="-413.449799,39.268806,-281.186127" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6676493948572291324" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11261395193399071882" name="SMX2_GenericRocks_01" sortIndex="29" position="-3.537167,-10.253422,0.157943" scale="1.636844,1.636844,1.636844" rotation="-422.447296,-10.953539,-248.877563" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8481574930727031946" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12583855358851217122" name="SMX2_GenericRocks_01" sortIndex="30" position="-7.657158,-12.216877,-1.034995" scale="4.550774,4.550774,4.605897" rotation="-304.711426,25.477783,-61.715107" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5737630832797480674" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11028021190980812294" name="SMX2_GenericRocks_01" sortIndex="31" position="-7.301472,-13.215408,-0.177804" scale="4.550774,3.919513,4.605897" rotation="-421.047485,-34.360516,-595.241760" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6476602291089849862" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10627556567141251544" name="SMX2_GenericRocks_01" sortIndex="32" position="-1.648098,-7.707478,-1.627709" scale="4.550774,3.919513,4.605897" rotation="-421.047485,-34.360516,-595.241760" modelPath="Assets\StoryModeSets\Protoss\SMX2_GenericRocks\SMX2_GenericRocks_01.m3" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6413971741689969112" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="9753052303429095676" name="Walls" sortIndex="1">
+            <CCutsceneNodeActor guid="12285522535196195057" name="Korhal Wall Doodad" sortIndex="0" position="-28.981640,-21.437840,-1.101813" rotation="0.000000,0.000000,-165.499985" modelLink="KorhalWallDoodad" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6570971206729398513" duration="12509" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10620667125342886690" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="5628009875603413794" duration="12509" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3000" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12766403910830460653" name="Korhal Wall Doodad" sortIndex="1" position="-26.648891,-31.336369,-1.101813" rotation="0.000000,0.000000,-165.499985" modelLink="KorhalWallDoodad" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5117849545076969197" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="10428631890778536491" name="Background" sortIndex="2">
+            <CCutsceneNodeActor guid="11379000231637091840" name="KorhalSkyboxHorizon (Unnamed)" sortIndex="0" position="-17.454971,-50.270401,100.000000" rotation="0.000000,0.000000,22.499847" modelLink="KorhalSkyboxHorizon" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5053038399956518400" duration="12509" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13106302429900711909" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="8230461087952283621" duration="12509" lockedToEnd="1" anim="Stand" priority="3" originalDuration="566666" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9344988389374246360" name="Planet Icon Mar Sara" sortIndex="1" position="-50.698891,-91.581512,25.972971" scale="100.000000,100.000000,100.000000" modelLink="PlanetIconMarSara" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="5565367012386490620" duration="12509" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12719038949010516972" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="7526135463344679916" duration="12509" lockedToEnd="1" anim="Stand" priority="3" originalDuration="33333" looping="1" startOffset="300" timeScale="0.000000"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11914073872012354293" name="Space Platform Satellite" sortIndex="2" position="-51.217987,-59.729607,28.381916" modelLink="SpacePlatformSatellite" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="7383084662669648629" duration="12509" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13263031751718930951" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="6796194833815767559" duration="12509" lockedToEnd="1" anim="Stand" priority="3" originalDuration="5000" looping="1" startOffset="200" timeScale="0.000000"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="10605329277350526072" name="Lights" sortIndex="3">
+            <CCutsceneNodeLight guid="12686681351289017771" name="Spot Light" sortIndex="0" position="3.109215,-0.652878,3.870923" rotation="-56.570217,48.275711,-90.000000" type="2" colorR="0.980392" colorG="0.901961" colorB="0.509804" specularColorR="0.784314" specularColorG="0.784314" specularColorB="0.784314" attenuationStart="10.935790" range="10.935790" hotspot="0.100000" falloff="0.370000">
+                <CCutsceneElementObject guid="4720484265318913451" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeLight guid="10348354823491931981" name="Omni Light" sortIndex="1" position="0.000000,5.047577,12.522096" scale="50.000000,50.000000,50.000000" type="1" colorR="0.662745" colorG="0.270588" colorB="0.074510" specularColorR="0.662745" specularColorG="0.270588" specularColorB="0.074510" colorMultiplier="0.500000" specularColorMultiplier="0.500000">
+                <CCutsceneElementObject guid="5635150591529307981" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeLight guid="13060955815393213365" name="Spot Light" sortIndex="2" position="1.573807,-10.524818,12.932425" rotation="-62.089275,42.519119,-90.000000" type="2" colorR="0.588235" colorG="0.313726" colorB="0.196078" specularColorR="0.784314" specularColorG="0.784314" specularColorB="0.784314" colorMultiplier="1.500000" attenuationStart="28.206244" range="28.206244" hotspot="0.100000" falloff="0.370000">
+                <CCutsceneElementObject guid="6771856846200617909" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeLight guid="11942384802581967143" name="Spot Light" sortIndex="3" position="-0.269173,-7.439304,17.895571" rotation="-67.383392,32.861225,-90.000000" type="2" colorR="0.588235" colorG="0.588235" colorB="0.588235" specularColorR="0.784314" specularColorG="0.784314" specularColorB="0.784314" colorMultiplier="1.500000" attenuationStart="36.918015" range="36.918015" hotspot="0.100000" falloff="0.370000">
+                <CCutsceneElementObject guid="5260898514580009255" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeLight guid="11569983232201582732" name="Spot Light" sortIndex="4" position="-3.312134,-7.439304,13.694780" rotation="-66.067856,34.744919,-90.000000" type="2" colorR="0.588235" colorG="0.588235" colorB="0.588235" specularColorR="0.784314" specularColorG="0.784314" specularColorB="0.784314" colorMultiplier="1.500000" attenuationStart="20.271908" range="20.271908" hotspot="0.100000" falloff="0.200000">
+                <CCutsceneElementObject guid="8017735078691596428" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeLight guid="12127125938217984309" name="Spot Light" sortIndex="5" position="-27.927414,-30.343681,37.687206" rotation="-62.903118,62.808281,-90.000000" type="2" colorR="0.627451" colorG="0.274510" colorB="0.058824" specularColorR="0.784314" specularColorG="0.784314" specularColorB="0.784314" colorMultiplier="1.200000" attenuationStart="64.024506" range="64.024506" hotspot="0.100000" falloff="0.500000">
+                <CCutsceneElementObject guid="9189871785295257909" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeLight guid="10318442669208903140" name="Spot Light" sortIndex="6" position="-10.758888,-40.985825,37.687206" rotation="-65.005241,64.011551,-90.000000" type="2" colorR="0.627451" colorG="0.274510" colorB="0.058824" specularColorR="0.784314" specularColorG="0.784314" specularColorB="0.784314" colorMultiplier="1.200000" attenuationStart="71.997025" range="71.997025" hotspot="0.100000" falloff="0.200000">
+                <CCutsceneElementObject guid="8859326069827575268" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeLight guid="11013708478066347987" name="Spot Light" sortIndex="7" position="-15.168594,-23.125263,8.279766" rotation="51.834984,-32.909424,-90.000000" type="2" colorR="0.980392" colorG="0.705882" colorB="0.117647" specularColorR="0.823529" specularColorG="0.784314" specularColorB="0.784314" attenuationStart="35.694347" range="35.694347" hotspot="0.500000" falloff="0.700000">
+                <CCutsceneElementObject guid="8236766595101904851" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeLight guid="9841659589413491622" name="Spot Light" sortIndex="8" position="-11.209679,-24.550106,7.789013" rotation="54.190224,-13.107748,-90.000000" type="2" colorR="0.980392" colorG="0.705882" colorB="0.117647" specularColorR="0.823529" specularColorG="0.784314" specularColorB="0.784314" attenuationStart="31.633608" range="31.633608" hotspot="0.500000" falloff="0.800000">
+                <CCutsceneElementObject guid="8420502920311526310" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+            <CCutsceneNodeLight guid="12143547263817104595" name="Spot Light" sortIndex="9" position="14.891037,1.020370,3.870923" rotation="-63.808994,66.720909,-90.000000" type="2" colorR="0.980392" colorG="0.705882" colorB="0.509804" specularColorR="0.784314" specularColorG="0.784314" specularColorB="0.784314" colorMultiplier="0.800000" attenuationStart="18.217014" range="18.217014" hotspot="0.100000" falloff="0.370000">
+                <CCutsceneElementObject guid="7592860174813773011" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeLight>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="13014763729081087629" name="Characters" sortIndex="4">
+            <CCutsceneNodeActor guid="10747066331745523883" name="SMMarine03" sortIndex="0" position="-1.923244,-10.753670,0.699048" scale="1.500000,1.500000,1.500000" rotation="0.000000,0.000000,2.499887" modelLink="SMMarine03" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8571425977664575659" duration="12509" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="10101199225664378677" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="6892377236963137333" duration="8161" anim="Stand A 03" priority="3" originalDuration="2000" looping="1" playForever="0" blendTime="0" blendOutTime="0" startOffset="19600" timeScale="0.000000" weight="0.000000"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="10541986427232181827" name="GlueMultiplayerMenuVoidMarine (Unnamed)" sortIndex="1" position="-5.219265,-6.157986,0.345904" scale="1.500000,1.500000,1.500000" rotation="-1.764327,0.658051,25.230705" modelLink="GlueMultiplayerMenuVoidMarine" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6262324607968730691" duration="12509" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12046211583672620042" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="7020845903116276746" duration="12509" lockedToEnd="1" anim="Stand Z Alternate" priority="3" originalDuration="1000" timeScale="0.000000"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13109227215607013354" name="GlueMultiplayerMenuVoidMarine (Unnamed)" sortIndex="2" position="-3.593533,-5.296173,0.227827" scale="1.500000,1.500000,1.500000" rotation="0.000000,0.000000,85.999893" modelLink="GlueMultiplayerMenuVoidMarine" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="6558417029867741162" duration="12509" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="12394186770812739562" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="5033146299061608426" duration="12509" lockedToEnd="1" anim="Birth Z" priority="7" originalDuration="5000" timeScale="0.000000"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+        <CCutsceneNodeFolder guid="11935914179575755994" name="Props" sortIndex="5">
+            <CCutsceneNodeActor guid="11173407991283127801" name="Korhal Platform Command Center" sortIndex="0" position="-15.288860,-32.299660,5.608044" rotation="0.000000,0.000000,82.000046" modelLink="Korhal_Platform_CommandCenter" useAnimMovespeed="0" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8458983656574227961" duration="12509" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="13467594060956129429" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="8949373089304762517" duration="12509" lockedToEnd="1" anim="Stand 01" priority="3" originalDuration="6666" looping="1" startOffset="300" timeScale="0.000000"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="13402419555505919734" name="Korhal Platform Post" sortIndex="1" position="-17.259598,-31.314449,7.105100" modelLink="Korhal_Platform_Post" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8163318383697057526" duration="12509" lockedToEnd="1"/>
+                <CCutsceneNodeAnimLayer guid="11183379513699843644" enabled="0" name="Animation Layer" sortIndex="0">
+                    <CCutsceneElementAnim guid="4761706981527764540" duration="12509" lockedToEnd="1" anim="Stand" priority="3" originalDuration="3333" looping="1"/>
+                </CCutsceneNodeAnimLayer>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="11886605066431955028" name="Mengsk Wraith" sortIndex="2" position="-14.409054,-28.429291,11.793295" rotation="-38.205959,8.359859,84.485680" modelLink="MengskWraith" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="4860434914052997204" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="12102163727495028884" name="Mengsk Wraith" sortIndex="3" position="-13.182533,-24.314411,9.514881" rotation="-20.730997,15.518328,72.808350" modelLink="MengskWraith" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8502933639698669716" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+            <CCutsceneNodeActor guid="9534152465794854204" name="Mengsk Wraith" sortIndex="4" position="-13.182533,-21.037842,7.281882" rotation="-17.312122,19.279402,61.415318" modelLink="MengskWraith" shadowBox="0" teamColorDiffuse="0.705800,0.078300,0.117600,1.000000" teamColorEmissive="0.545100,0.062700,0.086100,1.000000">
+                <CCutsceneElementObject guid="8742793115030383932" duration="12509" lockedToEnd="1"/>
+            </CCutsceneNodeActor>
+        </CCutsceneNodeFolder>
+    </CCutsceneNodeFolder>
+    <CCutsceneNodeDirector guid="13521997122636812937" name="Director" sortIndex="1">
+        <CCutsceneNodeActiveCamera guid="10071013905138743213" name="Active Camera" sortIndex="0">
+            <CCutsceneElementActiveCamera guid="8949923360950983319" cameraIndex="0" objectGuid="13334890622023690704"/>
+        </CCutsceneNodeActiveCamera>
+        <CCutsceneNodeActiveLight guid="11923094679693355855" name="Active Light" sortIndex="1">
+            <CCutsceneElementActiveLight guid="5770532100068032188" lightGUID="0" lightID="CutsceneTerran09" lightIndex="0" blendTime="0"/>
+        </CCutsceneNodeActiveLight>
+        <CCutsceneNodeActiveLight guid="9786388384857962025" enabled="0" name="Active Light" sortIndex="2">
+            <CCutsceneElementActiveLight guid="7816416846973152348" lightGUID="0" lightID="BelShir" lightIndex="0" blendTime="0"/>
+        </CCutsceneNodeActiveLight>
+        <CCutsceneNodeBookmark guid="10032342236729766662" filter="Loop" name="Bookmarks" sortIndex="3">
+            <CCutsceneElementBookmark guid="7146929580315308806" start="4955" bookmarkName="LoopStart"/>
+            <CCutsceneElementBookmark guid="6329285704351162182" start="8000" endLinkDistance="10" bookmarkName="LoopEnd" jumpToBookmarkWhenHit="LoopStart"/>
+        </CCutsceneNodeBookmark>
+        <CCutsceneNodeFade guid="13033324802895218888" name="Fade" sortIndex="4">
+            <CCutsceneElementFade guid="6477338507254401224" duration="1000" colorR="0.000000" colorG="0.000000" colorB="0.000000" amount="1.000000" unfadedAmount="0.000000" fadeIn="1"/>
+        </CCutsceneNodeFade>
+        <CCutsceneNodeEndScene guid="11505793355989412990" name="End Scene Markers" sortIndex="5"/>
+    </CCutsceneNodeDirector>
+    <CCutsceneNodeTargetCamera guid="13334890622023690704" name="Target Camera" sortIndex="2" position="-41.976807,-57.045315,15.324261" fov="24.000000" nearClip="0.100000" farClip="659.999939" shadowClip="75.000000" depthOfField="0.003000" focalDepth="1.000000" falloffStart="0.000300" falloffEnd="8.000000" falloffStartNear="0.000000" falloffEndNear="0.000000" fstop="32.000000" doftype="1.000000" roll="0.000000" verticalFOV="1" eyePositionX="0.298019" eyePositionY="-1.389473" eyePositionZ="0.137669" targetPositionX="-41.976807" targetPositionY="-57.045315" targetPositionZ="15.324261">
+        <CCutsceneElementObject guid="8100772372487399888" duration="12509" lockedToEnd="1"/>
+    </CCutsceneNodeTargetCamera>
+    <CCutsceneNodeSound guid="9387939698304678750" name="UI_MP_HydraliskFoleyLoop02" sortIndex="3" soundLink="UI_MP_HydraliskFoleyLoop02" soundIndex="3" assetDuration="2910" speakerMixCenter="0.500000" speakerMixLFE="0.000000" speakerMixBackLeft="0.000000" speakerMixBackRight="0.000000" speakerMixSideLeft="0.000000" speakerMixSideRight="0.000000">
+        <CCutsceneElementObject guid="9016403277486291806" start="4099" duration="8410"/>
+    </CCutsceneNodeSound>
+</CutsceneState>
