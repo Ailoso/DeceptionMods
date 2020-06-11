@@ -1,0 +1,2 @@
+DocInfo/DescLong=StarCraft Reawakening: The Great War<n/><n/>A StarCraft Remake with the original main and secondary campaigns by Remake Ita Team (Cacho, ChaosMiles07, Zarxiel, DefilerRulez/DarkSkorpyon, TheTorrasque, SoulFicher, GrimReaper, IeZaeL) <n/><n/>Part 12. Contains: All models.
+DocInfo/Name=SCR-TGW - General Assets - 12

@@ -1,0 +1,5 @@
+[Model]
+id=SpacePlatformFanLarge
+0=Assets\Doodads\##id##\##id##_00.m3
+Actor=TerrainMgr
+
