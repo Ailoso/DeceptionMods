@@ -1,0 +1,3 @@
+DocInfo/DescLong=Completamente carente de cualquier tipo de descripción.
+DocInfo/DescShort=Cualquiera
+DocInfo/Name=Otro mod de StarCraft II
