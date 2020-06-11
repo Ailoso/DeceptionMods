@@ -60,7 +60,6 @@ Param/Value/lib_1926661B_2A7EFEFB=<c val="FF9800">Jack Frost  has died. You must
 Param/Value/lib_1926661B_2AD3369D=Update campaign data
 Param/Value/lib_1926661B_2E28A610=<k val="HeroSelect0"/>
 Param/Value/lib_1926661B_2E4E132D=Select Army (F2)
-Param/Value/lib_1926661B_30925D94=Error: No cutscene active.
 Param/Value/lib_1926661B_3484C8CE={Siege Tank} -- You may now build a {Siege Tank} from the {Factory}.
 Param/Value/lib_1926661B_35E15B62=<c val="FF9800">Jack has been revived at your Command Center.</c>
 Param/Value/lib_1926661B_3C05C26E=Loading data...

@@ -114,7 +114,7 @@ void lib1926661B_InitVariables () {
     lib1926661B_gv_zS_ReviveCooldownTimeKerrigan = 60.0;
     lib1926661B_gv_zS_KerriganPing = c_invalidPingId;
     lib1926661B_gv_pC_ArchiveBankName = "InsurrectionArchive";
-    lib1926661B_gv_pP_CampaignBankName = "TInsurrection";
+    lib1926661B_gv_pP_CampaignBankName = "InsurrectionCampaign";
     lib1926661B_gv_kC_MLDialog = c_invalidDialogId;
     lib1926661B_gv_kC_MLPanel = c_invalidDialogControlId;
     lib1926661B_gv_kC_MLTitle = c_invalidDialogControlId;
@@ -3037,7 +3037,7 @@ string lib1926661B_gf_StoryMapLoadingScreenVictoryImage (string lp_map) {
     }
     lv_victoryImage = UserDataGetImagePath("Maps", lib1926661B_gf_PP_MapUserDataInstance(lp_map), "LoadingScreenVictoryImage", 1);
     if ((lv_victoryImage == null)) {
-        lv_victoryImage = lib1926661B_gf_StoryMapLoadingScreenImage(lib1926661B_gf_PP_NextMission(lp_map, lib1926661B_gv_pPX_IsSimulation, c_gameOverVictory));
+        lv_victoryImage = lib1926661B_gf_StoryMapLoadingScreenImage(lib1926661B_gf_PP_NextMission(lp_map, lib1926661B_gv_kCX_IsSimulation, c_gameOverVictory));
     }
 
     return lv_victoryImage;
@@ -3287,7 +3287,7 @@ int lib1926661B_gf_MissionCompleteBestTime (string lp_mission, int lp_difficulty
 string lib1926661B_gf_CurrentMap () {
     // Automatic Variable Declarations
     // Implementation
-    return lib1926661B_gv_pP_CurrentMap;
+    return lib1926661B_gv_kC_CurrentMap;
 }
 
 string lib1926661B_gf_MissionArmyCategoryUnlocked (string lp_mission) {
@@ -3824,7 +3824,7 @@ void lib1926661B_gf_PP_LoadMapFromBank (string lp_bankMap, bank lp_sourceBank) {
             autoFD6CFF07_ai = autoFD6CFF07_ai + 1;
         }
         if ((lib1926661B_gf_NumberOfMissions(lib1926661B_ge_MissionCountOptions_Completed) == lib1926661B_gf_NumberOfMissions(lib1926661B_ge_MissionCountOptions_All))) {
-            lib1926661B_gv_pP_InCompletedCampaign = true;
+            lib1926661B_gv_kC_InCompletedCampaign = true;
         }
 
         lv__SectionName = lib1926661B_gf_PP_BankSectionName(lp_bankMap, "MissionBestTime");
@@ -3864,7 +3864,7 @@ void lib1926661B_gf_PP_LoadMapFromBank (string lp_bankMap, bank lp_sourceBank) {
         }
     }
     else {
-        if ((lib1926661B_gv_pP_InCompletedCampaign == false)) {
+        if ((lib1926661B_gv_kC_InCompletedCampaign == false)) {
             lv__SectionName = lib1926661B_gf_PP_BankSectionName(lp_bankMap, "MissionObjectives");
             autoFF84D179_ae = CatalogEntryCount(c_gameCatalogObjective);
             autoFF84D179_ai = 1;
@@ -5312,23 +5312,20 @@ void lib1926661B_gf_ULoadCampaignData (string lp_map) {
     // Variable Initialization
 
     // Implementation
-    CampaignMode(PlayerGroupAll(), true);
     UISetFrameVisible(PlayerGroupAll(), c_syncFrameTypeTeamResourceButton, false);
     libNtve_gf_AddRemoveUIFrameTypeForGlobalFilterList(true, c_syncFrameTypeTextTag);
-    lib1926661B_gf_PC_AutoHeatMapTestMode();
     TriggerDebugSetTypeFile(1, "StoryModeDebug.txt");
-    lib1926661B_gv_pP_CurrentMap = lp_map;
+    lib1926661B_gv_kC_CurrentMap = lp_map;
     UserDataSetInt("Maps", lib1926661B_gf_PP_MapUserDataInstance(lp_map), "IsCurrent", 1, 1);
-    lib1926661B_gv_pP_InStoryMode = lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gf_CurrentMap(), c_mapKindStory);
-    AchievementPanelSetCategory(PlayerGroupAll(), UserDataGetGameLink("Maps", lib1926661B_gf_PP_MapUserDataInstance(lp_map), "Achievements", 1));
+    lib1926661B_gv_kC_InStoryMode = lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gf_CurrentMap(), c_mapKindStory);
     TriggerDebugOutput(1, StringExternal("Param/Value/lib_1926661B_ED876F0C"), false);
     lib1926661B_gf_PP_LoadAllTransitionData(lp_map);
     TriggerDebugOutput(1, StringExternal("Param/Value/lib_1926661B_2AD3369D"), false);
-    if ((lib1926661B_gv_pP_InCompletedCampaign == true) && ((lib1926661B_gv_pPX_IsSimulation == true) || (lib1926661B_gv_pPX_IsVictoryPlayAgain == true))) {
+    if ((lib1926661B_gv_kC_InCompletedCampaign == true) && ((lib1926661B_gv_kCX_IsSimulation == true) || (lib1926661B_gv_kCX_IsVictoryPlayAgain == true))) {
         lib1926661B_gf_PP_UpdateSimulationMissionAges(lp_map);
     }
 
-    if ((lib1926661B_gv_pP_InCompletedCampaign == true) && (lib1926661B_gf_StoryMapTypeCheck(lp_map, c_mapKindStory) == true)) {
+    if ((lib1926661B_gv_kC_InCompletedCampaign == true) && (lib1926661B_gf_StoryMapTypeCheck(lp_map, c_mapKindStory) == true)) {
         lib1926661B_gf_PP_ArchivesBankSyncForLoad();
     }
 
@@ -5359,15 +5356,15 @@ void lib1926661B_gf_ULoadCampaignData (string lp_map) {
         if (lv_indexPlayer < 0) { break; }
         PlayerSetState(lv_indexPlayer, c_playerStateContinueEnabled, false);
     }
-    if ((lib1926661B_gv_pP_InStoryMode == false)) {
+    if ((lib1926661B_gv_kC_InStoryMode == false)) {
         UISetGameMenuItemVisible(PlayerGroupAll(), c_gameMenuDialogRestartButton, true);
     }
     else {
         UISetGameMenuItemVisible(PlayerGroupAll(), c_gameMenuDialogRestartButton, false);
     }
-    if ((lib1926661B_gv_pP_InStoryMode == false) && (lib1926661B_gv_pPX_IsSimulation == true)) {
+    if ((lib1926661B_gv_kC_InStoryMode == false) && (lib1926661B_gv_kCX_IsSimulation == true)) {
         UISetGameMenuItemVisible(PlayerGroupAll(), c_gameMenuDialogAbortButton, true);
-        if ((lib1926661B_gv_pPX_IsSimulation == true)) {
+        if ((lib1926661B_gv_kCX_IsSimulation == true)) {
             UISetGameMenuItemText(PlayerGroupAll(), c_gameMenuDialogAbortButton, StringExternal("Param/Value/lib_1926661B_3FE3B4E6"));
         }
 
@@ -5376,12 +5373,7 @@ void lib1926661B_gf_ULoadCampaignData (string lp_map) {
         UISetGameMenuItemVisible(PlayerGroupAll(), c_gameMenuDialogAbortButton, false);
     }
     lib1926661B_gf_PP_PrepareLoadingScreen(lp_map, true);
-    UISetAchievementToastStyle(PlayerGroupAll(), c_achievementToastStyleProtoss );
-    if ((lib1926661B_gv_pP_InStoryMode == true)) {
-        lib1926661B_gf_PC_AchievementAwardEarned();
-    }
-
-    if ((lib1926661B_gv_pPX_IsSimulation == true)) {
+    if ((lib1926661B_gv_kCX_IsSimulation == true)) {
         GameCheatAllow(c_gameCheatProgress, false);
     }
 
@@ -5425,8 +5417,8 @@ void lib1926661B_gf_PrepareForMission (string lp_nextMission, bool lp_nextIsSimu
         lib1926661B_gf_PP_SetCampaignDifficulty(lp_difficulty);
     }
 
-    if ((lib1926661B_gv_pPX_IsSimulation == false) && (lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gf_CurrentMap(), c_mapKindMission) == true)) {
-        lib1926661B_gv_pPX_LastSuccessfulMission = lib1926661B_gf_CurrentMap();
+    if ((lib1926661B_gv_kCX_IsSimulation == false) && (lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gf_CurrentMap(), c_mapKindMission) == true)) {
+        lib1926661B_gv_kCX_LastSuccessfulMission = lib1926661B_gf_CurrentMap();
     }
 
     lib1926661B_gf_PP_SaveAllTransitionData(lp_nextIsSimulation, lp_nextIsVictoryAgain, false);
@@ -5436,7 +5428,7 @@ void lib1926661B_gf_PrepareForMission (string lp_nextMission, bool lp_nextIsSimu
     }
 
     lib1926661B_gf_PP_PrepareLoadingScreen(lp_nextMission, false);
-    GameSetNextMap(("Koprulu/Insurrection/" + lib1926661B_gf_StoryMapFile(lp_nextMission)));
+    GameSetNextMap(("Koprulu/DeceptionMaps/" + lib1926661B_gf_StoryMapFile(lp_nextMission)));
 }
 
 void lib1926661B_gf_PrepareForStoryMode (int lp_victoryDefeat, int lp_difficulty) {
@@ -5448,14 +5440,14 @@ void lib1926661B_gf_PrepareForStoryMode (int lp_victoryDefeat, int lp_difficulty
     // Variable Initialization
 
     // Implementation
-    lv_isActuallyVictory = ((lp_victoryDefeat == c_gameOverVictory) || lib1926661B_gv_pPX_IsVictoryPlayAgain);
-    if ((lib1926661B_gv_pPX_IsSimulation == false) && (lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gf_CurrentMap(), c_mapKindMission) == true) && (lv_isActuallyVictory == true)) {
-        lib1926661B_gv_pPX_LastSuccessfulMission = lib1926661B_gf_CurrentMap();
+    lv_isActuallyVictory = ((lp_victoryDefeat == c_gameOverVictory) || lib1926661B_gv_kCX_IsVictoryPlayAgain);
+    if ((lib1926661B_gv_kCX_IsSimulation == false) && (lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gf_CurrentMap(), c_mapKindMission) == true) && (lv_isActuallyVictory == true)) {
+        lib1926661B_gv_kCX_LastSuccessfulMission = lib1926661B_gf_CurrentMap();
         lib1926661B_gf_PP_CompleteMission(lib1926661B_gf_CurrentMap());
-        lv_nextMap = lib1926661B_gf_PP_NextMission(lib1926661B_gf_CurrentMap(), lib1926661B_gv_pPX_IsSimulation, c_gameOverVictory);
+        lv_nextMap = lib1926661B_gf_PP_NextMission(lib1926661B_gf_CurrentMap(), lib1926661B_gv_kCX_IsSimulation, c_gameOverVictory);
     }
     else {
-        lv_nextMap = lib1926661B_gf_PP_NextMission(lib1926661B_gf_CurrentMap(), lib1926661B_gv_pPX_IsSimulation, lp_victoryDefeat);
+        lv_nextMap = lib1926661B_gf_PP_NextMission(lib1926661B_gf_CurrentMap(), lib1926661B_gv_kCX_IsSimulation, lp_victoryDefeat);
     }
     if ((lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gf_CurrentMap(), c_mapKindUpgrade) == true) && (lv_isActuallyVictory == true)) {
         lib1926661B_gf_PP_CompleteMission(lib1926661B_gf_CurrentMap());
@@ -5464,7 +5456,7 @@ void lib1926661B_gf_PrepareForStoryMode (int lp_victoryDefeat, int lp_difficulty
     SetNextMissionDifficulty(PlayerGroupSingle(1), lp_difficulty);
     lib1926661B_gf_PP_SaveAllTransitionData(false, false, (lp_victoryDefeat == c_gameOverDefeat));
     lib1926661B_gf_PP_PrepareLoadingScreen(lv_nextMap, false);
-    GameSetNextMap(("Koprulu/Insurrection/" + lib1926661B_gf_StoryMapFile(lv_nextMap)));
+    GameSetNextMap(("Koprulu/DeceptionMaps/" + lib1926661B_gf_StoryMapFile(lv_nextMap)));
     TextExpressionSetToken("Param/Expression/lib_1926661B_CEE1F9DE", "A", StringToText(("Campaign/Swarm/" + lib1926661B_gf_StoryMapFile(lv_nextMap))));
     TriggerDebugOutput(1, TextExpressionAssemble("Param/Expression/lib_1926661B_CEE1F9DE"), false);
 }
@@ -5479,7 +5471,7 @@ void lib1926661B_gf_PrepareForStoryMapSwitch (string lp_nextMap) {
     // Implementation
     lib1926661B_gf_PP_SaveAllTransitionData(false, false, false);
     lib1926661B_gf_PP_PrepareLoadingScreen(lp_nextMap, false);
-    GameSetNextMap(("Koprulu/Insurrection/" + lib1926661B_gf_StoryMapFile(lp_nextMap)));
+    GameSetNextMap(("Koprulu/DeceptionMaps/" + lib1926661B_gf_StoryMapFile(lp_nextMap)));
 }
 
 void lib1926661B_gf_PrepareForStoryModeTransitionalSave () {
@@ -5503,7 +5495,7 @@ void lib1926661B_gf_CreateStoryModeTransitionSave (text lp_name, text lp_transit
         return ;
     }
 
-    lv_transitionMap = ("Campaign/VoidPrologue/" + lib1926661B_gf_StoryMapFile("PrologueStory"));
+    lv_transitionMap = ("Campaign/VoidPrologue/" + lib1926661B_gf_StoryMapFile("KLStory"));
     GameSetTransitionMap(lv_transitionMap);
     if ((lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gf_CurrentMap(), c_mapKindStory) == true)) {
         lv_image = lib1926661B_gf_StoryMapLoadingScreenImage(lib1926661B_gf_CurrentMap());
@@ -5572,13 +5564,13 @@ string lib1926661B_gf_NextAvailableMission () {
 bool lib1926661B_gf_CurrentMissionIsSimulation () {
     // Automatic Variable Declarations
     // Implementation
-    return (lib1926661B_gv_pPX_IsSimulation || lib1926661B_gv_pPX_IsVictoryPlayAgain);
+    return (lib1926661B_gv_kCX_IsSimulation || lib1926661B_gv_kCX_IsVictoryPlayAgain);
 }
 
 string lib1926661B_gf_LastMap () {
     // Automatic Variable Declarations
     // Implementation
-    return lib1926661B_gv_pPX_LastMap;
+    return lib1926661B_gv_kCX_LastMap;
 }
 
 bool lib1926661B_gf_LastMapConditionCheck (int lp_condition) {
@@ -5592,7 +5584,7 @@ bool lib1926661B_gf_LastMapConditionCheck (int lp_condition) {
 
     auto67B28176_val = lp_condition;
     if (auto67B28176_val == lib1926661B_ge_MissionCondition_Sucessful) {
-        return lib1926661B_gv_pPX_LastMapSuccess;
+        return lib1926661B_gv_kCX_LastMapSuccess;
     }
     else {
     }
@@ -5602,7 +5594,7 @@ bool lib1926661B_gf_LastMapConditionCheck (int lp_condition) {
 string lib1926661B_gf_LastMission () {
     // Automatic Variable Declarations
     // Implementation
-    return lib1926661B_gv_pPX_LastMission;
+    return lib1926661B_gv_kCX_LastMission;
 }
 
 bool lib1926661B_gf_LastMissionConditionCheck (int lp_condition) {
@@ -5612,10 +5604,10 @@ bool lib1926661B_gf_LastMissionConditionCheck (int lp_condition) {
     // Implementation
     auto00A314D6_val = lp_condition;
     if (auto00A314D6_val == lib1926661B_ge_MissionCondition_Sucessful) {
-        return lib1926661B_gv_pPX_LastMissionSuccess;
+        return lib1926661B_gv_kCX_LastMissionSuccess;
     }
     else if (auto00A314D6_val == lib1926661B_ge_MissionCondition_Simulation) {
-        return lib1926661B_gv_pPX_LastMissionSimulation;
+        return lib1926661B_gv_kCX_LastMissionSimulation;
     }
     else {
     }
@@ -5625,7 +5617,7 @@ bool lib1926661B_gf_LastMissionConditionCheck (int lp_condition) {
 string lib1926661B_gf_LastSuccessfulMission () {
     // Automatic Variable Declarations
     // Implementation
-    return lib1926661B_gv_pPX_LastSuccessfulMission;
+    return lib1926661B_gv_kCX_LastSuccessfulMission;
 }
 
 void lib1926661B_gf_PP_SaveAllTransitionData (bool lp_nextIsSimulation, bool lp_nextIsVictoryPlayAgain, bool lp_resultFromDefeat) {
@@ -5637,22 +5629,22 @@ void lib1926661B_gf_PP_SaveAllTransitionData (bool lp_nextIsSimulation, bool lp_
 
     // Implementation
     lib1926661B_gf_PP_OpenCampaignBank();
-    lib1926661B_gv_pPX_LastMap = lib1926661B_gf_CurrentMap();
-    if ((lib1926661B_gv_pPX_IsVictoryPlayAgain == true)) {
-        lib1926661B_gv_pPX_LastMapSuccess = true;
+    lib1926661B_gv_kCX_LastMap = lib1926661B_gf_CurrentMap();
+    if ((lib1926661B_gv_kCX_IsVictoryPlayAgain == true)) {
+        lib1926661B_gv_kCX_LastMapSuccess = true;
     }
     else {
-        lib1926661B_gv_pPX_LastMapSuccess = (lp_resultFromDefeat == false);
+        lib1926661B_gv_kCX_LastMapSuccess = (lp_resultFromDefeat == false);
     }
-    if ((lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gv_pPX_LastMap, c_mapKindMission) == true)) {
-        lib1926661B_gv_pPX_LastMission = lib1926661B_gv_pPX_LastMap;
-        lib1926661B_gv_pPX_LastMissionSuccess = lib1926661B_gv_pPX_LastMapSuccess;
-        lib1926661B_gv_pPX_LastMissionSimulation = lib1926661B_gv_pPX_IsSimulation;
+    if ((lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gv_kCX_LastMap, c_mapKindMission) == true)) {
+        lib1926661B_gv_kCX_LastMission = lib1926661B_gv_kCX_LastMap;
+        lib1926661B_gv_kCX_LastMissionSuccess = lib1926661B_gv_kCX_LastMapSuccess;
+        lib1926661B_gv_kCX_LastMissionSimulation = lib1926661B_gv_kCX_IsSimulation;
     }
-    else if ((lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gv_pPX_LastMap, c_mapKindUpgrade) == true)) {
-        lib1926661B_gv_pPX_LastMissionSimulation = lib1926661B_gv_pPX_IsSimulation;
+    else if ((lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gv_kCX_LastMap, c_mapKindUpgrade) == true)) {
+        lib1926661B_gv_kCX_LastMissionSimulation = lib1926661B_gv_kCX_IsSimulation;
     }
-    lib1926661B_gf_PP_SaveTransitionVars(lib1926661B_gv_pP_CampaignBank, null, lp_nextIsSimulation, lp_nextIsVictoryPlayAgain, lp_resultFromDefeat, lib1926661B_gv_pPX_IsSimulation, lib1926661B_gv_pPX_IsVictoryPlayAgain);
+    lib1926661B_gf_PP_SaveTransitionVars(lib1926661B_gv_pP_CampaignBank, null, lp_nextIsSimulation, lp_nextIsVictoryPlayAgain, lp_resultFromDefeat, lib1926661B_gv_kCX_IsSimulation, lib1926661B_gv_kCX_IsVictoryPlayAgain);
     lib1926661B_gf_PP_SaveCampaignBank();
 }
 
@@ -5663,7 +5655,7 @@ void lib1926661B_gf_PP_LoadAllTransitionData (string lp_map) {
         TriggerDebugOutput(1, StringExternal("Param/Value/lib_1926661B_7A06BBD5"), false);
         lib1926661B_gf_ResetCampaignData();
         lib1926661B_gf_PP_SetCampaignDifficulty(PlayerDifficulty(1));
-        if ((lp_map == "VoidPrologue01")) {
+        if ((lp_map == "TIns01")) {
             lib1926661B_gf_PP_OpenCampaignBank();
             lib1926661B_gf_PP_SaveTransitionVars(lib1926661B_gv_pP_CampaignBank, lp_map, false, false, false, false, false);
         }
@@ -5704,12 +5696,12 @@ void lib1926661B_gf_PP_SaveTransitionVars (bank lp_targetBank, string lp_map, bo
         lv__SectionName = lib1926661B_gf_PP_BankSectionName(lp_map, "CampaignLastInfo");
         lib1926661B_gf_PP_SaveTransitionVarBoolean(lp_targetBank, lv__SectionName, ("Simulation"), lp_nextIsSimulation, false);
         lib1926661B_gf_PP_SaveTransitionVarBoolean(lp_targetBank, lv__SectionName, ("VictoryPlayAgain"), lp_nextIsVictoryPlayAgain, false);
-        lib1926661B_gf_PP_SaveTransitionVarString(lp_targetBank, lv__SectionName, ("LastMap"), lib1926661B_gf_PP_StoryMapBankID(lib1926661B_gv_pPX_LastMap), "");
-        lib1926661B_gf_PP_SaveTransitionVarBoolean(lp_targetBank, lv__SectionName, ("LastMapSuccess"), lib1926661B_gv_pPX_LastMapSuccess, false);
-        lib1926661B_gf_PP_SaveTransitionVarString(lp_targetBank, lv__SectionName, ("LastMission"), lib1926661B_gf_PP_StoryMapBankID(lib1926661B_gv_pPX_LastMission), "");
-        lib1926661B_gf_PP_SaveTransitionVarBoolean(lp_targetBank, lv__SectionName, ("LastMissionSuccess"), lib1926661B_gv_pPX_LastMissionSuccess, false);
-        lib1926661B_gf_PP_SaveTransitionVarBoolean(lp_targetBank, lv__SectionName, ("LastMissionSimulation"), lib1926661B_gv_pPX_LastMissionSimulation, false);
-        lib1926661B_gf_PP_SaveTransitionVarString(lp_targetBank, lv__SectionName, ("LastSuccessfulMission"), lib1926661B_gf_PP_StoryMapBankID(lib1926661B_gv_pPX_LastSuccessfulMission), "");
+        lib1926661B_gf_PP_SaveTransitionVarString(lp_targetBank, lv__SectionName, ("LastMap"), lib1926661B_gf_PP_StoryMapBankID(lib1926661B_gv_kCX_LastMap), "");
+        lib1926661B_gf_PP_SaveTransitionVarBoolean(lp_targetBank, lv__SectionName, ("LastMapSuccess"), lib1926661B_gv_kCX_LastMapSuccess, false);
+        lib1926661B_gf_PP_SaveTransitionVarString(lp_targetBank, lv__SectionName, ("LastMission"), lib1926661B_gf_PP_StoryMapBankID(lib1926661B_gv_kCX_LastMission), "");
+        lib1926661B_gf_PP_SaveTransitionVarBoolean(lp_targetBank, lv__SectionName, ("LastMissionSuccess"), lib1926661B_gv_kCX_LastMissionSuccess, false);
+        lib1926661B_gf_PP_SaveTransitionVarBoolean(lp_targetBank, lv__SectionName, ("LastMissionSimulation"), lib1926661B_gv_kCX_LastMissionSimulation, false);
+        lib1926661B_gf_PP_SaveTransitionVarString(lp_targetBank, lv__SectionName, ("LastSuccessfulMission"), lib1926661B_gf_PP_StoryMapBankID(lib1926661B_gv_kCX_LastSuccessfulMission), "");
         lv__SectionName = lib1926661B_gf_PP_BankSectionName(lp_map, "CampaignSetting");
         lib1926661B_gf_PP_SaveTransitionVarBoolean(lp_targetBank, lv__SectionName, ("AchievementsDisabled"), AchievementsDisabled(1), false);
         if ((lp_resultFromSimulation == false) && (lp_resultFromVictoryAgain == false)) {
@@ -5771,14 +5763,14 @@ void lib1926661B_gf_PP_LoadTransitionVars (bank lp_sourceBank, string lp_map) {
     lib1926661B_gf_PP_LoadMapFromBank(lp_map, lp_sourceBank);
     if ((lp_map == null)) {
         lv__SectionName = lib1926661B_gf_PP_BankSectionName(lp_map, "CampaignLastInfo");
-        lib1926661B_gv_pPX_IsSimulation = lib1926661B_gf_PP_LoadTransitionVarBoolean(lp_sourceBank, lv__SectionName, ("Simulation"), false);
-        lib1926661B_gv_pPX_IsVictoryPlayAgain = lib1926661B_gf_PP_LoadTransitionVarBoolean(lp_sourceBank, lv__SectionName, ("VictoryPlayAgain"), false);
-        lib1926661B_gv_pPX_LastMap = (lib1926661B_gf_PP_LoadTransitionVarString(lp_sourceBank, lv__SectionName, ("LastMap"), ""));
-        lib1926661B_gv_pPX_LastMapSuccess = lib1926661B_gf_PP_LoadTransitionVarBoolean(lp_sourceBank, lv__SectionName, ("LastMapSuccess"), false);
-        lib1926661B_gv_pPX_LastMission = (lib1926661B_gf_PP_LoadTransitionVarString(lp_sourceBank, lv__SectionName, ("LastMission"), ""));
-        lib1926661B_gv_pPX_LastMissionSuccess = lib1926661B_gf_PP_LoadTransitionVarBoolean(lp_sourceBank, lv__SectionName, ("LastMissionSuccess"), false);
-        lib1926661B_gv_pPX_LastMissionSimulation = lib1926661B_gf_PP_LoadTransitionVarBoolean(lp_sourceBank, lv__SectionName, ("LastMissionSimulation"), false);
-        lib1926661B_gv_pPX_LastSuccessfulMission = (lib1926661B_gf_PP_LoadTransitionVarString(lp_sourceBank, lv__SectionName, ("LastSuccessfulMission"), ""));
+        lib1926661B_gv_kCX_IsSimulation = lib1926661B_gf_PP_LoadTransitionVarBoolean(lp_sourceBank, lv__SectionName, ("Simulation"), false);
+        lib1926661B_gv_kCX_IsVictoryPlayAgain = lib1926661B_gf_PP_LoadTransitionVarBoolean(lp_sourceBank, lv__SectionName, ("VictoryPlayAgain"), false);
+        lib1926661B_gv_kCX_LastMap = (lib1926661B_gf_PP_LoadTransitionVarString(lp_sourceBank, lv__SectionName, ("LastMap"), ""));
+        lib1926661B_gv_kCX_LastMapSuccess = lib1926661B_gf_PP_LoadTransitionVarBoolean(lp_sourceBank, lv__SectionName, ("LastMapSuccess"), false);
+        lib1926661B_gv_kCX_LastMission = (lib1926661B_gf_PP_LoadTransitionVarString(lp_sourceBank, lv__SectionName, ("LastMission"), ""));
+        lib1926661B_gv_kCX_LastMissionSuccess = lib1926661B_gf_PP_LoadTransitionVarBoolean(lp_sourceBank, lv__SectionName, ("LastMissionSuccess"), false);
+        lib1926661B_gv_kCX_LastMissionSimulation = lib1926661B_gf_PP_LoadTransitionVarBoolean(lp_sourceBank, lv__SectionName, ("LastMissionSimulation"), false);
+        lib1926661B_gv_kCX_LastSuccessfulMission = (lib1926661B_gf_PP_LoadTransitionVarString(lp_sourceBank, lv__SectionName, ("LastSuccessfulMission"), ""));
         lv__SectionName = lib1926661B_gf_PP_BankSectionName(lp_map, "CampaignSetting");
         lib1926661B_gf_PP_SetCampaignDifficulty(lib1926661B_gf_PP_DifficultyFromIndex(lib1926661B_gf_PP_LoadTransitionVarInteger(lp_sourceBank, lv__SectionName, ("Difficulty"), 0)));
         if ((lib1926661B_gf_PP_LoadTransitionVarBoolean(lp_sourceBank, lv__SectionName, ("AchievementsDisabled"), false) == true)) {
@@ -5826,7 +5818,7 @@ void lib1926661B_gf_PP_PrepareLoadingScreen (string lp_nextMap, bool lp_restart)
     lv_offsetString = StringReplaceWord(lv_offsetString, ",", " ", 1, c_stringCase);
     lv_waitForKey = !(lib1926661B_gf_StoryMapTypeCheck(lp_nextMap, c_mapKindStory));
     UISetNextLoadingScreenImageScale(c_scaleAspect);
-    if ((lib1926661B_gv_pP_InCompletedCampaign == false) && (lib1926661B_gf_LastMapConditionCheck(lib1926661B_ge_MissionCondition_Sucessful) == true) && (lib1926661B_gf_LastMapConditionCheck(lib1926661B_ge_MissionCondition_Simulation) == false) && (lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gf_LastMap(), c_mapKindMission) == true) && (lib1926661B_gf_LastMap() != lp_nextMap)) {
+    if ((lib1926661B_gv_kC_InCompletedCampaign == false) && (lib1926661B_gf_LastMapConditionCheck(lib1926661B_ge_MissionCondition_Sucessful) == true) && (lib1926661B_gf_LastMapConditionCheck(lib1926661B_ge_MissionCondition_Simulation) == false) && (lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gf_LastMap(), c_mapKindMission) == true) && (lib1926661B_gf_LastMap() != lp_nextMap)) {
         lv_image = lib1926661B_gf_StoryMapLoadingScreenVictoryImage(lib1926661B_gf_CurrentMap());
     }
 
@@ -5838,7 +5830,7 @@ void lib1926661B_gf_PP_PrepareLoadingScreen (string lp_nextMap, bool lp_restart)
         lv_image = lib1926661B_gf_StoryMapLoadingScreenImage(lp_nextMap);
     }
 
-    if ((lib1926661B_gv_pP_InCompletedCampaign == false) && (lp_nextMap == "VoidPrologue01")) {
+    if ((lib1926661B_gv_kC_InCompletedCampaign == false) && (lp_nextMap == "VoidPrologue01")) {
         lv_title = lib1926661B_gf_StoryMapHelp3(lp_nextMap);
         lv_body = lib1926661B_gf_StoryMapHelp4(lp_nextMap);
     }
@@ -5867,8 +5859,8 @@ void lib1926661B_gf_PP_UpdateCampaignScreen (string lp_mission) {
     }
 
     if ((lib1926661B_gf_MissionStatusCheck("VoidPrologue03", lib1926661B_ge_MissionStatus_Completed) == true)) {
-        if ((lib1926661B_gv_pP_InCompletedCampaign == false)) {
-            lib1926661B_gv_pP_InCompletedCampaign = true;
+        if ((lib1926661B_gv_kC_InCompletedCampaign == false)) {
+            lib1926661B_gv_kC_InCompletedCampaign = true;
             lib1926661B_gf_PC_ArchiveBankLoad();
         }
 
@@ -5918,14 +5910,14 @@ void lib1926661B_gf_ResetCampaignData () {
 
     // Implementation
     UserDataResetAll();
-    lib1926661B_gv_pPX_IsSimulation = false;
-    lib1926661B_gv_pPX_IsVictoryPlayAgain = false;
-    lib1926661B_gv_pPX_LastMap = null;
-    lib1926661B_gv_pPX_LastMapSuccess = false;
-    lib1926661B_gv_pPX_LastMission = null;
-    lib1926661B_gv_pPX_LastMissionSimulation = false;
-    lib1926661B_gv_pPX_LastMissionSuccess = false;
-    lib1926661B_gv_pPX_LastSuccessfulMission = null;
+    lib1926661B_gv_kCX_IsSimulation = false;
+    lib1926661B_gv_kCX_IsVictoryPlayAgain = false;
+    lib1926661B_gv_kCX_LastMap = null;
+    lib1926661B_gv_kCX_LastMapSuccess = false;
+    lib1926661B_gv_kCX_LastMission = null;
+    lib1926661B_gv_kCX_LastMissionSimulation = false;
+    lib1926661B_gv_kCX_LastMissionSuccess = false;
+    lib1926661B_gv_kCX_LastSuccessfulMission = null;
     lib1926661B_gf_PP_SetCampaignDifficulty(2);
     autoFE0A4850_ae = CatalogEntryCount(c_gameCatalogMap);
     autoFE0A4850_ai = 1;
@@ -5990,7 +5982,7 @@ void lib1926661B_gf_PC_ArchiveBankSave () {
         BankValueSetFromFlag(lib1926661B_gv_pC_ArchivesBank, "GlobalStates", "CampaignComplete", true);
     }
 
-    if ((lib1926661B_gv_pP_InCompletedCampaign == true) && (lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gf_CurrentMap(), c_mapKindStory) == true)) {
+    if ((lib1926661B_gv_kC_InCompletedCampaign == true) && (lib1926661B_gf_StoryMapTypeCheck(lib1926661B_gf_CurrentMap(), c_mapKindStory) == true)) {
         BankValueSetFromFlag(lib1926661B_gv_pC_ArchivesBank, "GlobalStates", "ArchivesVisited", true);
     }
 
@@ -6011,7 +6003,7 @@ void lib1926661B_gf_PC_ArchiveBankLoad () {
     // Variable Initialization
 
     // Implementation
-    if (((lib1926661B_gv_pP_InCompletedCampaign == false) || (lib1926661B_gv_pP_ArchivesReloading == true))) {
+    if (((lib1926661B_gv_kC_InCompletedCampaign == false) || (lib1926661B_gv_pP_ArchivesReloading == true))) {
         return ;
     }
 
@@ -6158,17 +6150,17 @@ void lib1926661B_gf_PP_LoadMissionSections () {
         lv_indexMission = CatalogEntryGet(c_gameCatalogMap, auto78BD1642_ai);
         if (CatalogFieldValueGet(c_gameCatalogMap, lv_indexMission, "Kind", 1) == "Mission") {
             if ((lv_indexMission == lib1926661B_gf_CurrentMap())) {
-                if (((GameIsTransitionMap() == false) || (lib1926661B_gv_pPX_IsSimulation == true) || (lib1926661B_gv_pPX_IsVictoryPlayAgain == true)) && (lib1926661B_gf_PP_MissionSectionExists(lv_indexMission) == true)) {
+                if (((GameIsTransitionMap() == false) || (lib1926661B_gv_kCX_IsSimulation == true) || (lib1926661B_gv_kCX_IsVictoryPlayAgain == true)) && (lib1926661B_gf_PP_MissionSectionExists(lv_indexMission) == true)) {
                     TextExpressionSetToken("Param/Expression/lib_1926661B_0386BD51", "A", StringToText(lib1926661B_gf_StoryMapFile(lv_indexMission)));
                     TriggerDebugOutput(1, TextExpressionAssemble("Param/Expression/lib_1926661B_0386BD51"), false);
                     lib1926661B_gf_PP_LoadTransitionVars(lib1926661B_gv_pP_CampaignBank, lv_indexMission);
-                    if ((lib1926661B_gv_pP_InCompletedCampaign == false)) {
+                    if ((lib1926661B_gv_kC_InCompletedCampaign == false)) {
                         lib1926661B_gf_PP_ClampProgressToMission(lv_indexMission);
                     }
 
                 }
                 else {
-                    if ((lib1926661B_gf_PP_MissionSectionExists(lv_indexMission) == false) && (lib1926661B_gv_pPX_IsSimulation == true) && (lib1926661B_gv_pP_InCompletedCampaign == false)) {
+                    if ((lib1926661B_gf_PP_MissionSectionExists(lv_indexMission) == false) && (lib1926661B_gv_kCX_IsSimulation == true) && (lib1926661B_gv_kC_InCompletedCampaign == false)) {
                         lib1926661B_gf_PP_ClampProgressToMission(lv_indexMission);
                     }
 
@@ -6334,7 +6326,7 @@ void lib1926661B_gf_MissionLaunchDisplay (string lp_mission) {
     TriggerEnable(lib1926661B_gt_PP_MissionPitchStopClicked, true);
     TriggerEnable(lib1926661B_gt_PP_MissionLaunchQuitClicked, true);
     TriggerEnable(lib1926661B_gt_PP_MissionLaunchBackClicked, true);
-    if ((lib1926661B_gv_pP_InCompletedCampaign == false)) {
+    if ((lib1926661B_gv_kC_InCompletedCampaign == false)) {
         lib1926661B_gf_PP_MissionLaunchPlayPitch();
     }
 
@@ -6459,7 +6451,7 @@ void lib1926661B_gf_PP_CampaignVictory () {
     libNtve_gf_CinematicMode(false, PlayerGroupAll(), c_transitionDurationImmediate);
     Wait(0.1, c_timeGame);
     TriggerDebugOutput(1, StringExternal("Param/Value/lib_1926661B_6C9FA21E"), false);
-    if ((lib1926661B_gv_pPX_IsSimulation == false)) {
+    if ((lib1926661B_gv_kCX_IsSimulation == false)) {
         GameSetNextMap("");
     }
 
@@ -6508,20 +6500,20 @@ void lib1926661B_gf_DisplayCampaignVictoryScoreScreen (string lp_mission) {
     SoundtrackPlay(PlayerGroupAll(), c_soundtrackCategoryMusic, "ZSwarmMusicScoreScreen", c_soundtrackCueAny, c_soundtrackIndexAny, false);
     SoundtrackPlay(PlayerGroupAll(), c_soundtrackCategoryAmbience, "Ambience_Mission_Score_Screen", c_soundtrackCueAny, c_soundtrackIndexAny, false);
     lib1926661B_gf_PP_CompleteMission(lib1926661B_gf_CurrentMap());
-    lib1926661B_gf_PrepareForMission(lib1926661B_gf_PP_NextMission(lib1926661B_gf_CurrentMap(), lib1926661B_gv_pPX_IsSimulation, c_gameOverVictory), false, false, lib1926661B_gv_pPX_CampaignDifficulty);
+    lib1926661B_gf_PrepareForMission(lib1926661B_gf_PP_NextMission(lib1926661B_gf_CurrentMap(), lib1926661B_gv_kCX_IsSimulation, c_gameOverVictory), false, false, lib1926661B_gv_pPX_CampaignDifficulty);
     if ((lib1926661B_gv_pP_InLoadedMission == true)) {
         lib1926661B_gf_PP_ArchivesBankSyncForSave();
     }
 
-    if ((AchievementsDisabled(1) == false) && (lp_mission == "VoidPrologue03") && (lib1926661B_gv_pP_InCompletedCampaign == false)) {
+    if ((AchievementsDisabled(1) == false) && (lp_mission == "VoidPrologue03") && (lib1926661B_gv_kC_InCompletedCampaign == false)) {
         CampaignProgressDeleteCampaignSave(PlayerGroupAll());
     }
 
-    if ((lib1926661B_gv_pPX_IsSimulation == false)) {
+    if ((lib1926661B_gv_kCX_IsSimulation == false)) {
         lib1926661B_gf_PP_UpdateCampaignScreen(lp_mission);
     }
 
-    if (((lp_mission == "VoidPrologue03") || (lib1926661B_gv_pPX_IsSimulation == true) || (lib1926661B_gv_pP_InCompletedCampaign == true))) {
+    if (((lp_mission == "VoidPrologue03") || (lib1926661B_gv_kCX_IsSimulation == true) || (lib1926661B_gv_kC_InCompletedCampaign == true))) {
         lib1926661B_gf_PC_CompletedSavesEnable();
     }
 
@@ -6537,7 +6529,7 @@ void lib1926661B_gf_DisplayCampaignVictoryScoreScreen (string lp_mission) {
     DialogSetVisible(lib1926661B_gv_pU_VSDialog, PlayerGroupAll(), true);
     DialogControlSendAnimationEvent(lib1926661B_gv_pU_VSMainPanel, PlayerGroupAll(), "Birth");
     lib1926661B_gf_PC_AchievementAwardMission(lib1926661B_gf_CurrentMap());
-    if ((lib1926661B_gv_pPX_IsSimulation == true)) {
+    if ((lib1926661B_gv_kCX_IsSimulation == true)) {
         lib1926661B_gf_PP_OpenCampaignBank();
         lib1926661B_gf_PP_LoadTransitionVars(BankLastCreated(), lp_mission);
     }
@@ -7096,7 +7088,7 @@ bool lib1926661B_gt_KC_AbortMission_Func (bool testConds, bool runActions) {
         return true;
     }
 
-    if ((lib1926661B_gf_CurrentMap() == "VoidPrologue03") && (lib1926661B_gv_pPX_IsVictoryPlayAgain == true) && (lib1926661B_gv_pPX_IsSimulation == false)) {
+    if ((lib1926661B_gf_CurrentMap() == "VoidPrologue03") && (lib1926661B_gv_kCX_IsVictoryPlayAgain == true) && (lib1926661B_gv_kCX_IsSimulation == false)) {
         UnitPauseAll(true);
         autoD9381571_g = UnitGroup(null, c_playerAny, RegionEntireMap(), UnitFilter(0, 0, 0, (1 << (c_targetFilterHidden - 32))), 0);
         autoD9381571_u = UnitGroupCount(autoD9381571_g, c_unitCountAll);
@@ -8479,7 +8471,7 @@ bool lib1926661B_gt_KC_CreateLaunchScreen_Func (bool testConds, bool runActions)
     lib1926661B_gv_kC_MLBackButton = DialogControlLastCreated();
     DialogControlHookup(lib1926661B_gv_kC_MLPanel, c_triggerControlTypeButton, libNtve_gf_ConvertStringToUILayoutFrameName("CalloutBack\\QuitButton"));
     lib1926661B_gv_kC_MLQuitButton = DialogControlLastCreated();
-    if ((lib1926661B_gv_pP_InCompletedCampaign == true)) {
+    if ((lib1926661B_gv_kC_InCompletedCampaign == true)) {
         DialogControlSetVisible(lib1926661B_gv_kC_MLQuitButton, PlayerGroupAll(), false);
         DialogControlSetVisible(lib1926661B_gv_kC_MLBackButton, PlayerGroupAll(), true);
     }
@@ -8738,7 +8730,7 @@ bool lib1926661B_gt_PP_MissionLaunchClicked_Func (bool testConds, bool runAction
     lib1926661B_gf_CinematicFade(false, 0.7, Color(0.00, 0.00, 0.00), true);
     lv_nextDifficulty = lib1926661B_gf_PP_MissionLaunchSelectedDifficulty();
     lib1926661B_gf_PP_MissionLaunchClose();
-    lib1926661B_gf_LaunchMission(lib1926661B_gv_kC_NextMission, (lib1926661B_gv_pP_InCompletedCampaign == true), lv_nextDifficulty);
+    lib1926661B_gf_LaunchMission(lib1926661B_gv_kC_NextMission, (lib1926661B_gv_kC_InCompletedCampaign == true), lv_nextDifficulty);
     return true;
 }
 
@@ -8841,7 +8833,7 @@ bool lib1926661B_gt_PP_VSScreenContinue_Func (bool testConds, bool runActions) {
     lib1926661B_gf_PP_FadeAllSoundsExceptMusic(1.0, false);
     lib1926661B_gf_CinematicFade(false, 1.0, Color(0.00, 0.00, 0.00), true);
     DialogControlSetVisible(lib1926661B_gv_pU_VSMainPanel, PlayerGroupAll(), false);
-    if ((lib1926661B_gv_pPX_IsSimulation == true)) {
+    if ((lib1926661B_gv_kCX_IsSimulation == true)) {
         lib1926661B_gf_PrepareForStoryMode(c_gameOverVictory, PlayerDifficulty(1));
         GameOver(1, c_gameOverVictory, false, false);
         return true;
@@ -8866,7 +8858,7 @@ bool lib1926661B_gt_PP_VSScreenContinue_Func (bool testConds, bool runActions) {
             UISetCursorVisible(PlayerGroupAll(), true);
         }
 
-        lib1926661B_gf_MissionLaunchDisplay(lib1926661B_gf_PP_NextMission(lib1926661B_gf_CurrentMap(), lib1926661B_gv_pPX_IsSimulation, c_gameOverVictory));
+        lib1926661B_gf_MissionLaunchDisplay(lib1926661B_gf_PP_NextMission(lib1926661B_gf_CurrentMap(), lib1926661B_gv_kCX_IsSimulation, c_gameOverVictory));
         return true;
     }
 
@@ -8984,7 +8976,7 @@ bool lib1926661B_gt_PP_VSRestartRestart_Func (bool testConds, bool runActions) {
     SoundChannelSetVolume(PlayerGroupAll(), c_soundCategoryMusic, 0.0, 0.5);
     SoundChannelSetVolume(PlayerGroupAll(), c_soundCategoryAmbient, 0.0, 0.5);
     lib1926661B_gf_PP_FadeAllSoundsExceptMusic(0.5, true);
-    lib1926661B_gf_PrepareForMission(lib1926661B_gf_CurrentMap(), lib1926661B_gv_pPX_IsSimulation, true, lv_difficulty);
+    lib1926661B_gf_PrepareForMission(lib1926661B_gf_CurrentMap(), lib1926661B_gv_kCX_IsSimulation, true, lv_difficulty);
     Wait(0.125, c_timeGame);
     GameOver(1, c_gameOverVictory, false, false);
     return true;
