@@ -1,0 +1,4 @@
+DocInfo/DescLong=StarCraft Reawakening: The Great War<n/><n/>A StarCraft Remake with the original main and secondary campaigns by Remake Ita Team (Cacho, ChaosMiles07, Zarxiel, DefilerRulez/DarkSkorpyon, TheTorrasque, SoulFicher, GrimReaper, IeZaeL) <n/><n/>Part 1. Contains: Textures A-Gn + loose files-<n/>
+DocInfo/DescShort=BW Remake
+DocInfo/Name=SCR-TGW - General Assets - 01
+DocInfo/Website=https://docs.google.com/document/d/1bek1_86CuqOnmVuAfvEsTTwZJghYDRCYOHTRFB3FAY8/
