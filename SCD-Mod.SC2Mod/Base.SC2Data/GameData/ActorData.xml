@@ -539,7 +539,7 @@
     <CActorSplat id="EnsnareCursorSplat2" parent="ZergCursorSplat" abil="LockDownXNV">
         <On Terms="Abil.Ensnare2.Cursor" Send="Create"/>
     </CActorSplat>
-    <CActorSplat id="EnsnareCursorSplat22" parent="ZergCursorSplat" abil="LockDownXNV">
+    <CActorSplat id="LockDownXNVCursor" parent="TerranCursorSplat" abil="LockDownXNV">
         <On Terms="Abil.PsiFireStorm.Cursor" Send="Create"/>
         <Model value="ZergAOECursorSplat2"/>
     </CActorSplat>
@@ -5264,15 +5264,15 @@
         <On index="2" Terms="UnitConstruction.ShieldBattery.Start" Send="Create"/>
         <On index="3" Terms="ActorOrphan" Send="Destroy"/>
         <On index="4" Terms="ActorCreation" Send="Create ProtossConstructionAttached"/>
-        <On index="5" Terms="UnitConstruction.Assimilator.Start"/>
-        <On index="6" Terms="UnitConstruction.CyberneticsCore.Start"/>
-        <On index="7" Terms="UnitConstruction.FleetBeacon.Start"/>
-        <On index="8" Terms="UnitConstruction.Forge.Start"/>
-        <On index="9" Terms="UnitConstruction.Gateway.Start"/>
-        <On index="10" Terms="UnitConstruction.RoboticsBay.Start"/>
-        <On index="11" Terms="UnitConstruction.RoboticsFacility.Start"/>
-        <On index="12" Terms="UnitConstruction.Stargate.Start"/>
-        <On index="13" Terms="UnitConstruction.TemplarArchive.Start"/>
+        <On index="5" Terms="UnitConstruction.Assimilator.Start" Send="Create"/>
+        <On index="6" Terms="UnitConstruction.CyberneticsCore.Start" Send="Create"/>
+        <On index="7" Terms="UnitConstruction.FleetBeacon.Start" Send="Create"/>
+        <On index="8" Terms="UnitConstruction.Forge.Start" Send="Create"/>
+        <On index="9" Terms="UnitConstruction.Gateway.Start" Send="Create"/>
+        <On index="10" Terms="UnitConstruction.RoboticsBay.Start" Send="Create"/>
+        <On Terms="UnitConstruction.RoboticsFacility.Start"/>
+        <On Terms="UnitConstruction.Stargate.Start"/>
+        <On Terms="UnitConstruction.TemplarArchive.Start"/>
         <On Terms="UnitConstruction.TwilightCouncil.Start" Send="Create"/>
         <On Terms="UnitConstruction.ArbiterTribunal.Start" Send="Create"/>
         <On Terms="UnitConstruction.Observatory.Start" Send="Create"/>

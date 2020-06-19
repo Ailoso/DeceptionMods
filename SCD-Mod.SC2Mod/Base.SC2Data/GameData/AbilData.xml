@@ -287,13 +287,10 @@
         <Effect index="0" value="QueenMPEnsnareLaunchMissile2"/>
         <Flags index="AllowMovement" value="1"/>
         <Cost>
-            <Vital index="Energy" value="50"/>
             <Charge Link="Abil/Ensnare"/>
-            <Cooldown Link="Abil/Ensnare"/>
+            <Cooldown Link="Abil/Ensnare" TimeUse="45"/>
         </Cost>
         <Cost>
-            <Display index="Energy" value="1"/>
-            <Vital index="Energy" value="75"/>
             <Charge Link="Abil/Ensnare"/>
             <Cooldown Link="Abil/Ensnare"/>
         </Cost>
@@ -865,19 +862,20 @@
     </CAbilEffectTarget>
     <CAbilEffectTarget id="Obliterate">
         <CmdButtonArray index="Execute" Requirements=""/>
+        <Cost index="0">
+            <Vital index="Energy" value="0"/>
+            <Cooldown Link="" TimeUse="60"/>
+        </Cost>
     </CAbilEffectTarget>
     <CAbilEffectTarget id="PsiFireStorm">
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
         <Effect index="0" value="QueenMPEnsnareLaunchMissile22"/>
         <Flags index="AllowMovement" value="1"/>
         <Cost>
-            <Vital index="Energy" value="50"/>
             <Charge Link="Abil/Ensnare"/>
-            <Cooldown Link="Abil/Ensnare"/>
+            <Cooldown Link="Abil/Ensnare" TimeUse="45"/>
         </Cost>
         <Cost>
-            <Display index="Energy" value="1"/>
-            <Vital index="Energy" value="75"/>
             <Charge Link="Abil/Ensnare"/>
             <Cooldown Link="Abil/Ensnare"/>
         </Cost>

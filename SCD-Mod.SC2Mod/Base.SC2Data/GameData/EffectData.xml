@@ -1062,6 +1062,9 @@
         <AttributeBonus index="Light" value="0"/>
         <AttributeBonus index="Armored" value="25"/>
     </CEffectDamage>
+    <CEffectDamage id="Obliterate">
+        <SearchFilters value="-;Player,Ally"/>
+    </CEffectDamage>
     <CEffectApplyBehavior id="PsiStormApplyBehavior2">
         <EditorCategories value="Race:Protoss"/>
         <Behavior value="PsiStorm3"/>
@@ -1144,7 +1147,7 @@
         <EditorCategories value="Race:Zerg"/>
         <ResponseFlags index="Acquire" value="1"/>
         <ImpactLocation Value="TargetPoint"/>
-        <SearchFilters value="-;Structure,RawResource,HarvestableResource,Missile,Buried,Stasis,Dead,Hidden,Invulnerable"/>
+        <SearchFilters value="-;Player,Ally,Biological,RawResource,HarvestableResource,Missile,Buried,Stasis,Dead,Hidden,Invulnerable"/>
         <AreaArray Radius="2" Effect="QueenMPEnsnareSet2"/>
         <SearchFlags index="CallForHelp" value="1"/>
     </CEffectEnumArea>
@@ -2297,6 +2300,7 @@
     <CEffectEnumArea id="PsiStormSearch2" parent="PsiStormSearch">
         <Name value="Effect/Name/PsiStormSearch2"/>
         <AreaArray index="0" Radius="2" Effect="PsiStormApplyBehavior2"/>
+        <SearchFilters value="-;Player,Ally,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable"/>
     </CEffectEnumArea>
     <CEffectDamage id="PsionicShockwaveDamage">
         <AttributeBonus index="Biological" value="0"/>

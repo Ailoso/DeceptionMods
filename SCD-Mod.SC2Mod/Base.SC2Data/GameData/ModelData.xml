@@ -2393,7 +2393,7 @@
         <ScaleMin value="1.400000,1.400000,1.800000"/>
     </CModel>
     <CModel id="ZergAOECursorSplat2" parent="UI">
-        <Model value="Assets\UI\ZergAOECursorEx2\ZergAOECursorEx2.m3"/>
+        <Model value="Assets\UI\Cursors\TerranAOECursor\TerranAOECursor.m3"/>
         <EditorCategories value="Race:Zerg"/>
         <ScaleMax value="0.200000,0.200000,0.200000"/>
         <ScaleMin value="0.200000,0.200000,0.200000"/>
