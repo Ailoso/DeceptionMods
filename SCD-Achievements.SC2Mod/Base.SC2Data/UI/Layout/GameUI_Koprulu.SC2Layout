@@ -9,14 +9,4 @@
             <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
         </Frame>
     </Frame>
-
-    <Frame type="Frame" name="GameUI/UIContainer/FullscreenUpperContainer" file="GameUI">
-
-        <Frame type="Frame" name="KLAchievementsDialog" template="KL_AchievementsDialog/AchievementsDialogTemplate">
-                
-            <Frame type="Frame" name="KatAchievementsFrame" template="KL_AchievementDialogTemplates/AchievementsFrameTemplate">
-                <RenderPriority val="520"/>
-            </Frame>
-        </Frame>
-    </Frame>
 </Desc>

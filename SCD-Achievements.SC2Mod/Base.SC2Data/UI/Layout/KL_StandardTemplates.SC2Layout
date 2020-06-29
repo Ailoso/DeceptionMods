@@ -31,7 +31,6 @@
 
         <Frame type="Label" name="AchievementPoints">
             <Anchor relative="$parent"/>
-            <Text val="0"/>
          </Frame>
         
         <Frame type="Label" name="CompletionDate">

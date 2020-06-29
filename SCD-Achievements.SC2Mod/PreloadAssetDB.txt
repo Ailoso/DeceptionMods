@@ -1,12 +1,7 @@
 [User]
-id=AchievementCategories
-Actor=CommandUIHarnessAttackProtoss,CommandUIHarnessAttackTerran,CommandUIHarnessAttackZerg,CommandUIHarnessConfirmProtoss,CommandUIHarnessConfirmTerran,CommandUIHarnessConfirmZerg,CommandUIHarnessMoveProtoss,CommandUIHarnessMoveTerran,CommandUIHarnessMoveZerg,CommandUIHarnessRallyProtoss,CommandUIHarnessRallyTerran,CommandUIHarnessRallyZerg,TerrainMgr
-User=Achievements
 id=Achievements
 path=Assets\Textures\.dds
-asset=btn-ability-protoss-amoncloud,btn-ability-protoss-chronobeam,btn-ability-protoss-energize,btn-ability-protoss-entomb,btn-ability-protoss-feedbackaoe-color,btn-ability-protoss-sacrifice,btn-ability-terran-battlefieldawareness,btn-ability-terran-hercules-tacticaljump,btn-ability-terran-huntermissile-color,btn-ability-terran-snipe-color,btn-ability-tychus-odin,btn-ability-zerg-cliffjump-zergling,btn-ability-zerg-consume,btn-ability-zerg-corrosivebile,btn-ability-zerg-dehaka-hydralisk-muscularaugments,btn-progression-hornerhan-14-nukefortelefrag,btn-upgrade-protoss-alarak-ascendantspermanentlybetter,btn-upgrade-protoss-alarak-combatmastery,btn-upgrade-swann-scvdoublerepair,btn-upgrade-terran-nova-snipeenergyrefund,btn-upgrade-tychus-detection,btn-upgrade-tychus-weapons-level4,terrainsetnumber_00,terrainsetnumber_01,terrainsetnumber_02,ui_tipicon_campaign_zerus03-yagdrafireball
-path
-asset=btn-ability-tychus-overkill.dds
+asset=btn-ability-protoss-entomb,btn-ability-terran-battlefieldawareness,btn-ability-terran-surfacetoairtargeting,btn-progression-hornerhan-6-mirabuildtime,nova coop_lvl 08_ghost academy and texhlab_nova-ghost
 Actor=CommandUIHarnessAttackProtoss,CommandUIHarnessAttackTerran,CommandUIHarnessAttackZerg,CommandUIHarnessConfirmProtoss,CommandUIHarnessConfirmTerran,CommandUIHarnessConfirmZerg,CommandUIHarnessMoveProtoss,CommandUIHarnessMoveTerran,CommandUIHarnessMoveZerg,CommandUIHarnessRallyProtoss,CommandUIHarnessRallyTerran,CommandUIHarnessRallyZerg,TerrainMgr
 User=Rewards
 id=Rewards
