@@ -296,8 +296,7 @@
         </Cost>
         <Range value="8"/>
         <Range value="9"/>
-        <CursorEffect value="EnsnareSearch"/>
-        <CursorEffect value="EnsnareSearch"/>
+        <CursorEffect value="LockDownExpansiveSearch"/>
         <AINotifyEffect value="EnsnareSearch"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="BloqueoExpansivo" State="Restricted"/>
     </CAbilEffectTarget>

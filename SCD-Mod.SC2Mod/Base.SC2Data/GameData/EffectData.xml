@@ -304,6 +304,17 @@
     <CEffectSet id="EMPSet">
         <EffectArray index="2" removed="1"/>
     </CEffectSet>
+    <CEffectEnumArea id="LockDownExpansiveSearch">
+        <EditorCategories value="Race:Terran"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <SearchFilters value="-;Player,Ally,Biological,RawResource,HarvestableResource,Missile,Buried,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray Radius="2.8" Effect="EnsnareApplyBehavior"/>
+        <AreaArray Radius="2.8" Effect="EnsnareApply"/>
+        <RevealerParams DetectFilters="-;Player,Ally" RadarFilters="-;Player,Ally"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectEnumArea>
     <CEffectCreatePersistent id="Firebat2">
         <EditorCategories value="Race:Terran"/>
         <WhichLocation Value="SourcePoint"/>
@@ -1148,8 +1159,9 @@
         <ResponseFlags index="Acquire" value="1"/>
         <ImpactLocation Value="TargetPoint"/>
         <SearchFilters value="-;Player,Ally,Biological,RawResource,HarvestableResource,Missile,Buried,Stasis,Dead,Hidden,Invulnerable"/>
-        <AreaArray Radius="2" Effect="QueenMPEnsnareSet2"/>
+        <AreaArray Radius="2.8" Effect="QueenMPEnsnareSet2"/>
         <SearchFlags index="CallForHelp" value="1"/>
+        <RevealerParams DetectFilters="-;Player,Ally" RadarFilters="-;Player,Ally"/>
     </CEffectEnumArea>
     <CEffectEnumArea id="QueenMPEnsnareSearch22">
         <EditorCategories value="Race:Zerg"/>

@@ -663,6 +663,7 @@ Effect/Name/FirebatUFull2222=Flame Thrower Copiar
 Effect/Name/FirebatUFull223=Flame Thrower Copiar
 Effect/Name/FirebatUI2=Flame Thrower Copiar
 Effect/Name/FlameThrowerDamageSet2=Flame Thrower (Damage Set) Copiar
+Effect/Name/LockDownExpansiveSearch=LockDownExpansiveSearch
 Effect/Name/LockdownApply2=Lockdown Copiar
 Effect/Name/QueenMPEnsnareApply2=Queen MPEnsnare Apply Copiar
 Effect/Name/QueenMPEnsnareDamageDummy2=Queen MPEnsnare Damage Dummy Copiar
