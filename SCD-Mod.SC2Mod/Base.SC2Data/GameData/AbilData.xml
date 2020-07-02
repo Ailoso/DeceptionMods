@@ -865,6 +865,7 @@
             <Vital index="Energy" value="0"/>
             <Cooldown Link="" TimeUse="60"/>
         </Cost>
+        <IgnoreFilters value="-;Player,Ally"/>
     </CAbilEffectTarget>
     <CAbilEffectTarget id="PsiFireStorm">
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
@@ -880,10 +881,10 @@
         </Cost>
         <Range value="8"/>
         <Range value="9"/>
-        <CursorEffect value="EnsnareSearch"/>
-        <CursorEffect value="EnsnareSearch"/>
+        <CursorEffect value="PsiFireStormSearch"/>
         <AINotifyEffect value="EnsnareSearch"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="PsiFireStorm" State="Restricted"/>
+        <AutoCastFilters value="Visible;-"/>
     </CAbilEffectTarget>
     <CAbilEffectTarget id="Lockdown2">
         <EditorCategories value="AbilityorEffectType:Units,Race:Terran"/>

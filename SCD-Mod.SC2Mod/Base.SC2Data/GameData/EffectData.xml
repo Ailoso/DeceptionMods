@@ -1061,6 +1061,17 @@
         <EffectArray value="InfestTerranCommandCenterCancel"/>
         <EffectArray value="InfestTerranCommandCenterCancel"/>
     </CEffectSet>
+    <CEffectEnumArea id="PsiFireStormSearch">
+        <EditorCategories value="Race:Terran"/>
+        <ResponseFlags index="Acquire" value="1"/>
+        <ResponseFlags index="Flee" value="1"/>
+        <ImpactLocation Value="TargetPoint"/>
+        <SearchFilters value="-;RawResource,HarvestableResource,Missile,Stasis,Dead,Invulnerable"/>
+        <AreaArray Radius="2.8" Effect="EnsnareApplyBehavior"/>
+        <AreaArray Radius="2.8" Effect="EnsnareApply"/>
+        <RevealerParams DetectFilters="-;Player,Ally" RadarFilters="-;Player,Ally"/>
+        <SearchFlags index="CallForHelp" value="1"/>
+    </CEffectEnumArea>
     <CEffectApplyBehavior id="LockdownApply2">
         <ValidatorArray index="0" removed="1"/>
         <EditorCategories value="Race:Terran"/>
@@ -1075,13 +1086,14 @@
     </CEffectDamage>
     <CEffectDamage id="Obliterate">
         <SearchFilters value="-;Player,Ally"/>
+        <RevealerParams DetectFilters="-;Player,Ally" RadarFilters="-;Player,Ally"/>
     </CEffectDamage>
     <CEffectApplyBehavior id="PsiStormApplyBehavior2">
         <EditorCategories value="Race:Protoss"/>
         <Behavior value="PsiStorm3"/>
     </CEffectApplyBehavior>
     <CEffectDamage id="PsiStormDamage2">
-        <ValidatorArray value="PsiStormUTargetFilters"/>
+        <ValidatorArray value="KefrenPsionicFireStormUTargetFilters"/>
         <EditorCategories value="Race:Protoss"/>
         <AINotifyFlags index="HurtFriend" value="1"/>
         <AINotifyFlags index="HurtEnemy" value="1"/>
@@ -1089,9 +1101,10 @@
         <Amount value="14"/>
         <Death value="Fire"/>
         <KillHallucination value="1"/>
+        <AttributeBonus index="Structure" value="-2.8"/>
     </CEffectDamage>
     <CEffectDamage id="PsiStormDamageInitial2">
-        <ValidatorArray value="PsiStormUTargetFilters"/>
+        <ValidatorArray value="KefrenPsionicFireStormUTargetFilters"/>
         <EditorCategories value="Race:Protoss"/>
         <AINotifyFlags index="HurtFriend" value="1"/>
         <AINotifyFlags index="HurtEnemy" value="1"/>
@@ -1101,6 +1114,7 @@
         <Amount value="14"/>
         <Death value="Fire"/>
         <KillHallucination value="1"/>
+        <AttributeBonus index="Structure" value="-2.8"/>
     </CEffectDamage>
     <CEffectCreatePersistent id="PsiFireStormPersistent">
         <EditorCategories value="Race:Terran"/>
@@ -2311,8 +2325,8 @@
     </CEffectEnumArea>
     <CEffectEnumArea id="PsiStormSearch2" parent="PsiStormSearch">
         <Name value="Effect/Name/PsiStormSearch2"/>
-        <AreaArray index="0" Radius="2" Effect="PsiStormApplyBehavior2"/>
-        <SearchFilters value="-;Player,Ally,Missile,Destructible,Stasis,Dead,Hidden,Invulnerable"/>
+        <AreaArray index="0" Radius="2.8" Effect="PsiStormApplyBehavior2"/>
+        <SearchFilters value="-;Missile,Stasis,Dead,Invulnerable"/>
     </CEffectEnumArea>
     <CEffectDamage id="PsionicShockwaveDamage">
         <AttributeBonus index="Biological" value="0"/>

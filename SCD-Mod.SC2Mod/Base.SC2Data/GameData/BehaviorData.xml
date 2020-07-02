@@ -947,7 +947,7 @@
     </CBehaviorBuff>
     <CBehaviorBuff id="PsiStorm3">
         <Alignment value="Negative"/>
-        <InfoIcon value="Assets\Textures\btn-ability-protoss-psistorm.dds"/>
+        <InfoIcon value="Assets\Textures\btn-ability-hornerhan-bomberplatform-napalm.dds"/>
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
         <TimeScaleSource Value="Global"/>
         <Duration value="0.5712"/>

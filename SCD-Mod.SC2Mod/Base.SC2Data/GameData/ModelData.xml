@@ -2403,8 +2403,8 @@
     <CModel id="ZergAOECursorSplat22" parent="UI">
         <Model value="Assets\UI\Cursors\TerranAOECursor\TerranAOECursor.m3"/>
         <EditorCategories value="Race:Zerg"/>
-        <ScaleMax value="0.200000,0.200000,0.200000"/>
-        <ScaleMin value="0.200000,0.200000,0.200000"/>
+        <ScaleMax value="2.200000,2.200000,2.200000"/>
+        <ScaleMin value="2.200000,2.200000,2.200000"/>
         <SelectionRadius value="2.500000"/>
         <ShadowRadius value="2.500000"/>
     </CModel>

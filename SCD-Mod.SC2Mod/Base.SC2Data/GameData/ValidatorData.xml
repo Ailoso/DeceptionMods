@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CValidatorUnitCompareField id="CanNotHaveShields">
         <Compare value="LT"/>
@@ -187,9 +187,7 @@
     <CValidatorUnitType id="IsColossus23">
         <Value value="Probe"/>
     </CValidatorUnitType>
-    <CValidatorUnitType id="IsGhost">
-        <Value value="Ghost"/>
-    </CValidatorUnitType>
+    <CValidatorUnitType id="IsGhost"/>
     <CValidatorUnitType id="IsGuardian">
         <Value value="GuardianNew"/>
     </CValidatorUnitType>
@@ -235,7 +233,6 @@
         <Find value="0"/>
     </CValidatorUnitType>
     <CValidatorUnitType id="IsGoliath">
-        <Value value="Goliath"/>
         <Type value="SelectAlias"/>
     </CValidatorUnitType>
     <CValidatorUnitType id="IsDropship">
@@ -246,7 +243,6 @@
         <Value value="VoidRay"/>
     </CValidatorUnitType>
     <CValidatorUnitType id="IsScienceVessel">
-        <Value value="ScienceVessel"/>
         <Type value="SelectAlias"/>
     </CValidatorUnitType>
     <CValidatorUnitType id="IsFenixDragoon">
@@ -257,7 +253,6 @@
         <Type value="SelectAlias"/>
     </CValidatorUnitType>
     <CValidatorUnitType id="IsSiegeTankSieged">
-        <Value value="SiegeTankSieged"/>
         <Type value="SelectAlias"/>
     </CValidatorUnitType>
     <CValidatorUnitOrder id="IsSpiderMineAttackOrder">
@@ -307,6 +302,9 @@
         <CombineArray value="NotBurrowed"/>
         <CombineArray value="NotUnderDarkSwarm"/>
     </CValidatorCombine>
+    <CValidatorUnitFilters id="KefrenPsionicFireStormUTargetFilters">
+        <Filters value="-;Missile,Stasis,Dead,Invulnerable"/>
+    </CValidatorUnitFilters>
     <CValidatorUnitCompareBehaviorCount id="ShieldBatteryHeal">
         <Compare value="LT"/>
         <Value value="1"/>
