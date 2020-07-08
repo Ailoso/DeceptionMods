@@ -112,8 +112,6 @@
 
                     <State name="Expanded">
                         <Action type="SetProperty" frame="$parent/SubtabGroup1" visible="True"/>
-                        <Action type="SetProperty" frame="Arrow" visible="True"/>
-                        <Action type="SetProperty" frame="Arrow" rotation="270"/>
                     </State>
 
                     <!--State name="Expanded">
@@ -366,7 +364,7 @@
         </Animation>
     
         <Animation name="Tab01ToggleOff">
-            <Event event="OnClick" action="Reset,Play" frame="$Tab01"/>
+            <Event event="OnClick" action="Reset,Play" frame="$Tab01/UntoggleButton"/>
     
             <Controller type="State" end="Pause" frame="$this" stateGroup="TabToggles">
                 <Key type="Identifier" time="0.0" value="Tab01Off"/>

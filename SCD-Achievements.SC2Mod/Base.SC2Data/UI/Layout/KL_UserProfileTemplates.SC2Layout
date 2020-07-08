@@ -521,24 +521,36 @@
         </StateGroup>
 
         <StateGroup name="ExpansionState">
-            <DefaultState val="Expanded"/>
+            <DefaultState val="Collapsed"/>
             
             <State name="Expanded">
-                <Action type="SetProperty" frame="Arrow" visible="True"/>
-                <Action type="SetProperty" frame="Arrow" rotation="270"/>
+                <Action type="SetProperty" frame="$this/Arrow" rotation="270"/>
             </State>
             
             <State name="Collapsed">
-                <Action type="SetProperty" frame="Arrow" visible="True"/>
-                <Action type="SetProperty" frame="Arrow" rotation="180"/>
+                <Action type="SetProperty" frame="$this/Arrow" Rotation="180"/>
             </State>
+
         </StateGroup>
+
+        <!--Animation name="Toggleon">
+            <Event event="OnClick" action="Reset,Play" frame="$this"/>
+
+            <Controller type="State" end="Pause" frame="$this" stateGroup="ExpansionState">
+                <Key type="Identifier" time="0.0" value="Expanded"/>
+            </Controller>
+        </Animation-->
 
         <Animation name="ToggleOff">
             <Event event="OnClick" action="Reset,Play" frame="$this/UntoggleButton"/>
 
-            <Controller type="State" end="Pause" frame="$parent" stateGroup="ExpansionState">
-                <Key type="Identifier" time="0.0" value="Colllapsed"/>
+            <Controller type="State" end="Pause" frame="$this" stateGroup="ExpansionState">
+                <Key type="Identifier" time="0.0" value="Collapsed"/>
+                
+            </Controller>
+
+            <Controller type="Property" end="Pause" frame="$this" property="Toggled">
+                <Key type="Property" time="0.0" value="False"/>
             </Controller>
         </Animation>
 
@@ -546,13 +558,15 @@
             <DefaultState val="Untoggleable"/>
 
             <State name="Untoggleable">
-                <When type="Property" frame="$this/Arrow" operator="Equal" Rotation="180"/>
+                <When type="StateGroup" frame="$this" ExpansionState="Collapsed"/>
                 <Action type="SetProperty" frame="$this/UntoggleButton" Visible="False"/>
+                <Action type="SetProperty" frame="$this" AcceptsMouse="True"/>
             </State>
                 
             <State name="Toggleable">
-                <When type="Property" frame="$this/Arrow" operator="Equal" Rotation="270"/>
+                <When type="StateGroup" frame="$this" ExpansionState="Expanded"/>
                 <Action type="SetProperty" frame="$this/UntoggleButton" Visible="True"/>
+                <Action type="SetProperty" frame="$this" AcceptsMouse="False"/>
             </State>
         </StateGroup>
     </Frame>
