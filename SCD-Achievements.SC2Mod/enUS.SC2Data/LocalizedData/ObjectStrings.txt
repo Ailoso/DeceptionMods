@@ -1,6 +1,4 @@
-﻿User/EditorPrefix/AchievementCategories=Parasite -
-User/EditorPrefix/Achievements=Parasite -
-User/EditorPrefix/Rewards=Parasite -
-User/Name/AchievementCategories=Achievement Categories
+﻿User/EditorPrefix/Achievements=Koprulu -
+User/EditorPrefix/Rewards=Koprulu -
 User/Name/Achievements=Achievements
 User/Name/Rewards=Rewards

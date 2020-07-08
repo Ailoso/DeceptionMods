@@ -571,9 +571,10 @@
         <!-- State group to change the fanfare racial art style.
                 Default Added for debugging purposes -->
         <StateGroup name="StyleStateGroup">
+            <DefaultState val="ZergState"/>
 
             <State name="TerranState">
-                <When type="AnimationState" frame="$parent/$parent" operator="Equal" StyleStateGroup="TerranState"/>
+                <When type="AnimationState" frame="$this" StyleStateGroup="TerranState"/>
                 <Action type="SetProperty" frame="BackgroundImageEcho" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_BG_Terr"/>
                 <Action type="SetProperty" frame="BackgroundImage" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_BG_Terr"/>
                 <Action type="SetProperty" frame="BackgroundImageHighlight" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_BG_Terr"/>
@@ -586,13 +587,14 @@
                 <Action type="SetProperty" frame="PointsBorder" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_AchievementContainer_Terr"/>
                 <Action type="SetProperty" frame="PointsBorderGlow" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_AchievementContainer_Glow_Terr"/>
                 <Action type="SetProperty" frame="Title" Style="AchievementFanfareTitle_Terr"/>
+                <Action type="SetProperty" frame="PointsLabel" Style="AchievementFanfarePoints_Terr"/>
                 <Action type="SetProperty" frame="Description" Style="AchievementFanfareDesc_Terr"/>
                 <Action type="SetProperty" frame="BackgroundFrameShimmer_Terr" Visible="True"/>
                 <Action type="SetProperty" frame="FeatOfStrengthIcon" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_FeatOfStrength_Terr"/>
             </State>
 
             <State name="ZergState">
-                <When type="AnimationState" frame="$parent/$parent" operator="Equal" StyleStateGroup="ZergState"/>
+                <When type="AnimationState" frame="$this" StyleStateGroup="ZergState"/>
                 <Action type="SetProperty" frame="BackgroundImageEcho" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_BG_Zerg"/>
                 <Action type="SetProperty" frame="BackgroundImage" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_BG_Zerg"/>
                 <Action type="SetProperty" frame="BackgroundImageHighlight" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_BG_Zerg"/>
@@ -605,13 +607,14 @@
                 <Action type="SetProperty" frame="PointsBorder" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_AchievementContainer_Zerg"/>
                 <Action type="SetProperty" frame="PointsBorderGlow" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_AchievementContainer_Glow_Zerg"/>
                 <Action type="SetProperty" frame="Title" Style="AchievementFanfareTitle_Zerg"/>
+                <Action type="SetProperty" frame="PointsLabel" Style="AchievementFanfarePoints_Zerg"/>
                 <Action type="SetProperty" frame="Description" Style="AchievementFanfareDesc_Zerg"/>
                 <Action type="SetProperty" frame="BackgroundFrameShimmer_Zerg" Visible="True"/>
                 <Action type="SetProperty" frame="FeatOfStrengthIcon" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_FeatOfStrength_Zerg"/>
             </State>
             
             <State name="ProtossState">
-                <When type="AnimationState" frame="$parent/$parent" operator="Equal" StyleStateGroup="ProtossState"/>
+                <When type="AnimationState" frame="$this" StyleStateGroup="ProtossState"/>
                 <Action type="SetProperty" frame="BackgroundImageEcho" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_BG_Prot"/>
                 <Action type="SetProperty" frame="BackgroundImage" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_BG_Prot"/>
                 <Action type="SetProperty" frame="BackgroundImageHighlight" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_BG_Prot"/>
@@ -623,6 +626,7 @@
                 <Action type="SetProperty" frame="PointsIcon" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_AchievementPoints_Prot"/>
                 <Action type="SetProperty" frame="PointsBorder" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_AchievementContainer_Prot"/>
                 <Action type="SetProperty" frame="PointsBorderGlow" Texture="@UI/SC2_UI_Battlenet_Achievement_Fanfare_AchievementContainer_Glow_Prot"/>
+                <Action type="SetProperty" frame="PointsLabel" Style="AchievementFanfarePoints_Prot"/>
                 <Action type="SetProperty" frame="Title" Style="AchievementFanfareTitle_Prot"/>
                 <Action type="SetProperty" frame="Description" Style="AchievementFanfareDesc_Prot"/>
                 <Action type="SetProperty" frame="BackgroundFrameShimmer_Prot" Visible="True"/>
@@ -648,23 +652,6 @@
             <Anchor side="Right" relative="$parent/PointsBorder" pos="Mid" offset="1"/>
             <Style val="@AchievementFanfarePoints_Terr"/>
             <Alpha val="0"/>
-
-            <StateGroup name="StyleStateGroup">
-                <State name="TerranState">
-                    <When type="Property" frame="$parent/$parent/$parent" AchievementStyle="Terran"/>
-                    <Action type="SetProperty" frame="$this" Style="AchievementFanfarePoints_Terr"/>
-                </State>
-
-                <State name="ZergState">
-                    <When type="Property" frame="$parent/$parent/$parent" AchievementStyle="Zerg"/>
-                    <Action type="SetProperty" frame="$this" Style="AchievementFanfarePoints_Zerg"/>
-                </State>
-                
-                <State name="ProtossState">
-                    <When type="Property" frame="$parent/$parent/$parent" AchievementStyle="Protoss"/>
-                    <Action type="SetProperty" frame="$this" Style="AchievementFanfarePoints_Prot"/>
-                </State>
-            </StateGroup>
 
             <StateGroup name="PointsGroup">
                 <State name="NoPoints">
@@ -765,7 +752,7 @@
             </Controller>
         </Animation>
 
-        <Frame type="Button" name="CloseButton">
+        <!--Frame type="Button" name="CloseButton">
             <Anchor relative="$parent"/>
             <Shortcut val="@UI/Hotkey/DialogDismiss"/>
             <AcceptsMouse val="false"/>
@@ -777,7 +764,7 @@
                     <Key type="Event" time="0.0" event="Hide"/>
                 </Controller>
             </Animation>
-        </Frame>
+        </Frame-->
  
         <Frame type="Image" name="Blackout">
             <Anchor relative="$parent"/>

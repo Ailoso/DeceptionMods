@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Preload>
 <Asset path="ui\layout\kl_achievementdialogtemplates.sc2layout" Type="Layout"/>
 <Asset path="ui\layout\kl_userprofilesummarytemplates.sc2layout" Type="Layout"/>

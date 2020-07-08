@@ -389,7 +389,7 @@
         <Height val="73"/>
         <CollapseLayout val="True"/>
 
-        <StateGroup name="ClickSoundState">
+        <!--StateGroup name="ClickSoundState">
             <DefaultState val="DoNotPlay"/>
             
             <State name="Play">
@@ -400,9 +400,9 @@
             <State name="DoNotPlay">
                 <Action type="SetProperty" ClickSound=""/>
             </State>
-        </StateGroup>
+        </StateGroup-->
         
-        <StateGroup name="HoverSoundState">
+        <!--StateGroup name="HoverSoundState">
             <DefaultState val="DoNotPlay"/>
             
             <State name="Play">
@@ -414,7 +414,7 @@
             <State name="DoNotPlay">
                 <Action type="SetProperty" HoverSound=""/>
             </State>
-        </StateGroup>
+        </StateGroup-->
 
         <Frame type="Frame" name="HitTestFrame">
             <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
@@ -493,20 +493,6 @@
             </Frame>
         </Frame>
 
-        <StateGroup name="Reset">
-            <DefaultState val="Untoggleable"/>
-
-            <State name="Untoggleable">
-                <When type="Property" frame="$this/Arrow" operator="Equal" Rotation="180"/>
-                <Action type="SetProperty" frame="$this/UntoggleButton" Visible="False"/>
-            </State>
-                
-            <State name="Toggleable">
-                <When type="Property" frame="$this/Arrow" operator="Equal" Rotation="270"/>
-                <Action type="SetProperty" frame="$this/UntoggleButton" Visible="True"/>
-            </State>
-        </StateGroup>
-
         <StateGroup name="ClickSoundState">
             <DefaultState val="DoNotPlay"/>
             
@@ -534,41 +520,57 @@
             </State>
         </StateGroup>
 
-        <StateGroup name="ToggleableState">
-            <State name="Untoggleable">
-                <When type="StateGroup" frame="$this" operator="Equal" ExpansionState="NoChildren"/>
-                <When type="Property" frame="$this" Toggled="True"/>
-
-                <Action type="SetProperty" frame="$this" AcceptsMouse="False"/>
-                
-            </State>
-
-            <State name="Toggleable">
-                <When type="StateGroup" frame="$this" operator="NotEqual" ExpansionState="NoChildren"/>
-
-                <Action type="SetProperty" frame="$this" AcceptsMouse="True"/>
-                
-            </State>
-        </StateGroup>
-
         <StateGroup name="ExpansionState">
-            <DefaultState val="NoChildren"/>
-            
-            <State name="NoChildren">
-                <Action type="SetProperty" frame="Arrow" visible="False"/>
-            </State>
+            <DefaultState val="Collapsed"/>
             
             <State name="Expanded">
-                <Action type="SetProperty" frame="Arrow" visible="True"/>
-                <Action type="SetProperty" frame="Arrow" rotation="270"/>
+                <Action type="SetProperty" frame="$this/Arrow" rotation="270"/>
             </State>
             
             <State name="Collapsed">
-                <Action type="SetProperty" frame="Arrow" visible="True"/>
-                <Action type="SetProperty" frame="Arrow" rotation="180"/>
+                <Action type="SetProperty" frame="$this/Arrow" Rotation="180"/>
+            </State>
+
+        </StateGroup>
+
+        <!--Animation name="Toggleon">
+            <Event event="OnClick" action="Reset,Play" frame="$this"/>
+
+            <Controller type="State" end="Pause" frame="$this" stateGroup="ExpansionState">
+                <Key type="Identifier" time="0.0" value="Expanded"/>
+            </Controller>
+        </Animation-->
+
+        <Animation name="ToggleOff">
+            <Event event="OnClick" action="Reset,Play" frame="$this/UntoggleButton"/>
+
+            <Controller type="State" end="Pause" frame="$this" stateGroup="ExpansionState">
+                <Key type="Identifier" time="0.0" value="Collapsed"/>
+                
+            </Controller>
+
+            <Controller type="Property" end="Pause" frame="$this" property="Toggled">
+                <Key type="Property" time="0.0" value="False"/>
+            </Controller>
+        </Animation>
+
+        <StateGroup name="Reset">
+            <DefaultState val="Untoggleable"/>
+
+            <State name="Untoggleable">
+                <When type="StateGroup" frame="$this" ExpansionState="Collapsed"/>
+                <Action type="SetProperty" frame="$this/UntoggleButton" Visible="False"/>
+                <Action type="SetProperty" frame="$this" AcceptsMouse="True"/>
+            </State>
+                
+            <State name="Toggleable">
+                <When type="StateGroup" frame="$this" ExpansionState="Expanded"/>
+                <Action type="SetProperty" frame="$this/UntoggleButton" Visible="True"/>
+                <Action type="SetProperty" frame="$this" AcceptsMouse="False"/>
             </State>
         </StateGroup>
     </Frame>
+
     
     <!-- 
     =============================
