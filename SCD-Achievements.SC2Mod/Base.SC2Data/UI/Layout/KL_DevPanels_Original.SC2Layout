@@ -10,16 +10,11 @@
 
     <!-- Custom Name displays for Tab Buttons -->
     <Constant name="Tab0Name" val="Profile Summary"/>
-    <Constant name="Tab1Name" val="Race-Specific"/>
+    <Constant name="Tab1Name" val="Insurrection"/>
     <Constant name="Tab2Name" val="Terran"/>
     <Constant name="Tab3Name" val="Zerg"/>
     <Constant name="Tab4Name" val="Protoss"/>
-	<Constant name="Tab5Name" val="Hero-Specific"/>
-	<Constant name="Tab6Name" val="Raynor"/>
-    <Constant name="Tab7Name" val="Blaze"/>
-    <Constant name="Tab8Name" val="Nova"/>
-	<Constant name="Tab9Name" val="Difficulty"/>
-    <Constant name="Tab10Name" val="Feats of Strength"/>
+    <Constant name="Tab5Name" val="Feats of Strength"/>
 
     <!--
     ============================
@@ -58,15 +53,6 @@
         <Frame type="Frame" name="AchievementListbox7" template="KL_AchievementListboxTemplate/AchievementsListBoxTemplate">
             <Handle val="Listbox07"/>
         </Frame>
-		<Frame type="Frame" name="AchievementListbox8" template="KL_AchievementListboxTemplate/AchievementsListBoxTemplate">
-            <Handle val="Listbox08"/>
-        </Frame>
-		<Frame type="Frame" name="AchievementListbox9" template="KL_AchievementListboxTemplate/AchievementsListBoxTemplate">
-            <Handle val="Listbox09"/>
-        </Frame>
-		<Frame type="Frame" name="AchievementListbox10" template="KL_AchievementListboxTemplate/AchievementsListBoxTemplate">
-            <Handle val="Listbox10"/>
-        </Frame>
     </Frame>
 
     <!--
@@ -91,7 +77,7 @@
         <Frame type="Frame" name="ContainerFrame">
             <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
             <!-- Modify Anchor to last button in the list -->
-            <Anchor side="Bottom" relative="$this/TabButton4" pos="Max" offset="0"/>
+            <Anchor side="Bottom" relative="$this/TabButton3" pos="Max" offset="0"/>
             <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
             <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
 
@@ -128,6 +114,35 @@
                         <Action type="SetProperty" frame="$parent/SubtabGroup1" visible="True"/>
                         <Action type="SetProperty" frame="Arrow" rotation="270"/>
                     </State>
+
+                    <!--State name="Expanded">
+                        <When type="Property" frame="$this" operator="Equal" Toggled="True"/>
+
+                        <Action type="SetProperty" frame="$this" AcceptsMouse="False"/>
+                        <Action type="SetProperty" frame="$parent/SubtabGroup1" visible="True"/>
+                        <Action type="SetProperty" frame="Arrow" visible="True"/>
+                        <Action type="SetProperty" frame="Arrow" rotation="270"/>
+                        <Action type="SetProperty" frame="$this/UntoggleButton" visible="True"/>
+                    </State>
+
+                    <State name="Collapsed">
+                        <When type="Property" frame="$this" operator="Equal" Toggled="False"/>
+
+                        <Action type="SetProperty" frame="$this" AcceptsMouse="True"/>
+                        <Action type="SetProperty" frame="$parent/SubtabGroup1" visible="False"/>
+                        <Action type="SetProperty" frame="Arrow" visible="True"/>
+                        <Action type="SetProperty" frame="Arrow" rotation="180"/>
+                        <Action type="SetProperty" frame="$this/UntoggleButton" visible="False"/>
+                    </State>
+
+                    <State name="ToggledCollapsed">
+
+                        <Action type="SetProperty" frame="$this" AcceptsMouse="True"/>
+                        <Action type="SetProperty" frame="$parent/SubtabGroup1" visible="True"/>
+                        <Action type="SetProperty" frame="Arrow" visible="True"/>
+                        <Action type="SetProperty" frame="Arrow" rotation="270"/>
+                        <Action type="SetProperty" frame="$this/UntoggleButton" visible="False"/>
+                    </State-->
                 </StateGroup>
             </Frame>
 
@@ -142,6 +157,16 @@
                 <CollapseLayout val="True"/>
                 <Constant name="SubTabWidth" val="321"/>
                 <Visible val="False"/>
+
+                <!-- Add Tabs from this point onward -->
+
+                <!--
+                ============================
+                Collapsible Sub Tab Template
+                ============================
+                
+                Creates a Tab with subtabs inside
+                -->
 
                 <Frame type="Button" name="SubTabButton0" template="KL_UserProfileTemplates/VerticalTabButtonTemplate">
                     <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
@@ -179,89 +204,6 @@
                     </Frame>
                 </Frame>
             </Frame>
-				
-				
-			<!-- Collapsible Tab -->
-
-            <Frame type="Button" name="TabButton2" template="KL_UserProfileTemplates/VerticalTabArrowButtonTemplate">
-                <Anchor side="Top" relative="$parent/SubtabGroup1" pos="Max" offset="0"/>
-                <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
-                <Anchor side="Right" relative="$parent/$parent/ScrollBarBackground" pos="Min" offset="-5"/>
-
-                <Handle val="Tab02"/>
-
-                <Frame type="Label" name="Label">
-                    <Text val="#Tab5Name"/>
-                </Frame>
-
-                <StateGroup name="ExpansionState">
-
-                    <State name="Expanded">
-                        <Action type="SetProperty" frame="$parent/SubtabGroup2" visible="True"/>
-                        <Action type="SetProperty" frame="Arrow" rotation="270"/>
-                    </State>
-                </StateGroup>
-            </Frame>
-
-            <Frame type="Frame" name="SubtabGroup2">
-                <!-- Check that anchor is the Parent Tab -->
-                <Anchor side="Top" relative="$parent/TabButton2" pos="Max" offset="0"/>
-                <!-- Modify anchor to the last tab added on the panel -->
-                <Anchor side="Bottom" relative="$this/SubTabButton2" pos="Max" offset="0"/>
-                <Anchor side="Left" relative="$parent" pos="Min" offset="20"/>
-                <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
-
-                <CollapseLayout val="True"/>
-                <Constant name="SubTabWidth" val="321"/>
-                <Visible val="False"/>
-			
-
-                <!-- Add Tabs from this point onward -->
-
-                <!--
-                ============================
-                Collapsible Sub Tab Template
-                ============================
-                
-                Creates a Tab with subtabs inside
-                -->
-
-                <Frame type="Button" name="SubTabButton0" template="KL_UserProfileTemplates/VerticalTabButtonTemplate">
-                    <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
-                    <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
-
-                    <Width val="#SubTabWidth"/>
-                    <Handle val="SubTab03"/>
-    
-                    <Frame type="Label" name="Label">
-                        <Text val="#Tab6Name"/>
-                    </Frame>
-                </Frame>
-
-                <Frame type="Button" name="SubTabButton1" template="KL_UserProfileTemplates/VerticalTabButtonTemplate">
-                    <Anchor side="Top" relative="$sibling-1" pos="Max" offset="0"/>
-                    <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
-
-                    <Width val="#SubTabWidth"/>
-                    <Handle val="SubTab04"/>
-    
-                    <Frame type="Label" name="Label">
-                        <Text val="#Tab7Name"/>
-                    </Frame>
-                </Frame>
-
-                <Frame type="Button" name="SubTabButton2" template="KL_UserProfileTemplates/VerticalTabButtonTemplate">
-                    <Anchor side="Top" relative="$sibling-1" pos="Max" offset="0"/>
-                    <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
-
-                    <Width val="#SubTabWidth"/>
-                    <Handle val="SubTab05"/>
-    
-                    <Frame type="Label" name="Label">
-                        <Text val="#Tab8Name"/>
-                    </Frame>
-                </Frame>
-            </Frame>
 
             <!--
             ============================
@@ -271,16 +213,28 @@
             Creates a normal subtab
             -->
 
-            <Frame type="Button" name="TabButton3" template="KL_UserProfileTemplates/VerticalTabButtonTemplate">
+            <Frame type="Button" name="TabButton2" template="KL_UserProfileTemplates/VerticalTabButtonTemplate">
                 <!-- If there's a Collapsible Tab modify anchor to be the subtab, otherwise use "$sibling-1" -->
-                <Anchor side="Top" relative="$parent/SubtabGroup2" pos="Max" offset="0"/>
+                <Anchor side="Top" relative="$parent/SubtabGroup1" pos="Max" offset="0"/>
+                <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+                <Anchor side="Right" relative="$parent/$parent/ScrollBarBackground" pos="Min" offset="-5"/>
+
+                <Handle val="Tab02"/>
+
+                <Frame type="Label" name="Label">
+                    <Text val="#Tab5Name"/>
+                </Frame>
+            </Frame>
+
+            <Frame type="Button" name="TabButton3" template="KL_UserProfileTemplates/VerticalTabButtonTemplate">
+                <Anchor side="Top" relative="$sibling-1" pos="Max" offset="0"/>
                 <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
                 <Anchor side="Right" relative="$parent/$parent/ScrollBarBackground" pos="Min" offset="-5"/>
 
                 <Handle val="Tab03"/>
 
                 <Frame type="Label" name="Label">
-                    <Text val="#Tab9Name"/>
+                    <Text val="Unit Comps"/>
                 </Frame>
             </Frame>
 
@@ -292,7 +246,7 @@
                 <Handle val="Tab04"/>
 
                 <Frame type="Label" name="Label">
-                    <Text val="#Tab10Name"/>
+                    <Text val="EmptyTab"/>
                 </Frame>
             </Frame>
         </Frame>
@@ -316,7 +270,6 @@
 
                 <!-- Any Parents of Subtabs should be toggled Off when pressing the Summary Button -->
                 <Action type="SetProperty" frame="$Tab01" Toggled="False"/>
-				<Action type="SetProperty" frame="$Tab02" Toggled="False"/>
             </State>
 
             <!--
@@ -359,37 +312,6 @@
                 <Action type="SetProperty" frame="$SubTab02" Toggled="True"/>
                 <Action type="SetProperty" frame="$Listbox04" Visible="True"/>
             </State>
-			
-            <State name="Tab02">
-                <Action type="SetProperty" frame="$Tab02" Toggled="True"/>
-                <Action type="SetState" frame="$Tab02" group="ExpansionState" state="Expanded"/>
-                <Action type="SetProperty" frame="$Listbox05" Visible="True"/>
-            </State>
-
-            <State name="Tab02Off">
-                <Action type="SetProperty" frame="$Tab02" Toggled="True"/>
-                <Action type="SetState" frame="$Tab02" group="ExpansionState" state="Collapsed"/>
-                <Action type="SetProperty" frame="$Listbox05" Visible="True"/>
-            </State>
-
-            <State name="Sub02Tab03">
-                <Action type="SetState" frame="$Tab02" group="ExpansionState" state="Expanded"/>
-                <Action type="SetProperty" frame="$SubTab03" Toggled="True"/>
-                <Action type="SetProperty" frame="$Listbox06" Visible="True"/>
-            </State>
-
-            <State name="Sub02Tab04">
-                <Action type="SetState" frame="$Tab02" group="ExpansionState" state="Expanded"/>
-                <Action type="SetProperty" frame="$SubTab04" Toggled="True"/>
-                <Action type="SetProperty" frame="$Listbox07" Visible="True"/>
-            </State>
-
-            <State name="Sub02Tab05">
-                <Action type="SetState" frame="$Tab02" group="ExpansionState" state="Expanded"/>
-                <Action type="SetProperty" frame="$SubTab05" Toggled="True"/>
-                <Action type="SetProperty" frame="$Listbox08" Visible="True"/>
-            </State>
-
 
             <!--
             ============================
@@ -401,14 +323,19 @@
             Modify Copy paste and modify the frames it's pointing at
             -->
 
-            <State name="Tab03">
-                <Action type="SetProperty" frame="$Tab03" Toggled="True"/>
-                <Action type="SetProperty" frame="$Listbox09" Visible="True"/>
+            <State name="Tab02">
+                <Action type="SetProperty" frame="$Tab02" Toggled="True"/>
+                <Action type="SetProperty" frame="$Listbox05" Visible="True"/>
             </State>
 
-            <State name="Tab04">
-                <Action type="SetProperty" frame="$Tab04" Toggled="True"/>
-                <Action type="SetProperty" frame="$Listbox10" Visible="True"/>
+            <State name="Tab03">
+                <Action type="SetProperty" frame="$Tab03" Toggled="True"/>
+                <Action type="SetProperty" frame="$Listbox06" Visible="True"/>
+            </State>
+
+            <State name="Tab04"> <!--Empty Tab -->
+                <Action type="SetProperty" frame="$Tab03" Toggled="True"/>
+                <!--Action type="SetProperty" frame="$Listbox07" Visible="True"/-->
             </State>
         </StateGroup>
 
@@ -468,46 +395,6 @@
                 <Key type="Identifier" time="0.0" value="Sub01Tab02"/>
             </Controller>
         </Animation>
-
-        <Animation name="Tab02Toggle">
-            <Event event="OnClick" action="Reset,Play" frame="$Tab02"/>
-    
-            <Controller type="State" end="Pause" frame="$this" stateGroup="TabToggles">
-                <Key type="Identifier" time="0.0" value="Tab02"/>
-            </Controller>
-        </Animation>
-    
-        <Animation name="Tab02ToggleOff">
-            <Event event="OnClick" action="Reset,Play" frame="$Tab02/UntoggleButton"/>
-    
-            <Controller type="State" end="Pause" frame="$this" stateGroup="TabToggles">
-                <Key type="Identifier" time="0.0" value="Tab02Off"/>
-            </Controller>
-        </Animation>
-    
-        <Animation name="Sub02Tab03Toggle">
-            <Event event="OnClick" action="Reset,Play" frame="$SubTab03"/>
-    
-            <Controller type="State" end="Pause" frame="$this" stateGroup="TabToggles">
-                <Key type="Identifier" time="0.0" value="Sub02Tab03"/>
-            </Controller>
-        </Animation>
-    
-        <Animation name="Sub02Tab04Toggle">
-            <Event event="OnClick" action="Reset,Play" frame="$SubTab04"/>
-    
-            <Controller type="State" end="Pause" frame="$this" stateGroup="TabToggles">
-                <Key type="Identifier" time="0.0" value="Sub02Tab04"/>
-            </Controller>
-        </Animation>
-    
-        <Animation name="Sub02Tab05Toggle">
-            <Event event="OnClick" action="Reset,Play" frame="$SubTab05"/>
-    
-            <Controller type="State" end="Pause" frame="$this" stateGroup="TabToggles">
-                <Key type="Identifier" time="0.0" value="Sub02Tab05"/>
-            </Controller>
-        </Animation>
     
         <!--
         ============================
@@ -518,6 +405,14 @@
         Replace the Name and Frame it's pointed at
         -->
 
+        <Animation name="Tab02Toggle">
+            <Event event="OnClick" action="Reset,Play" frame="$Tab02"/>
+        
+            <Controller type="State" end="Pause" frame="$this" stateGroup="TabToggles">
+                <Key type="Identifier" time="0.0" value="Tab02"/>
+            </Controller>
+        </Animation>
+    
         <Animation name="Tab03Toggle">
             <Event event="OnClick" action="Reset,Play" frame="$Tab03"/>
         
@@ -525,9 +420,9 @@
                 <Key type="Identifier" time="0.0" value="Tab03"/>
             </Controller>
         </Animation>
-    
+
         <Animation name="Tab04Toggle">
-            <Event event="OnClick" action="Reset,Play" frame="$Tab04"/>
+            <Event event="OnClick" action="Reset,Play" frame="$Tab03"/>
         
             <Controller type="State" end="Pause" frame="$this" stateGroup="TabToggles">
                 <Key type="Identifier" time="0.0" value="Tab04"/>

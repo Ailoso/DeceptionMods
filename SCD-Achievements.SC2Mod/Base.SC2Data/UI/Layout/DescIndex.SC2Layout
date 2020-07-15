@@ -7,6 +7,7 @@
     <Include path="UI/Layout/KL_UserProfileTemplates.SC2Layout"/>
     <Include path="UI/Layout/KL_UserProfileAchievementsFrame.SC2Layout"/>
     <Include path="UI/Layout/KL_AchievementListboxTemplate.SC2Layout"/>
+    <Include path="UI/Layout/KL_DevPanelsTemplates.SC2Layout"/>
     <Include path="UI/Layout/KL_DevPanels.SC2Layout"/>
     <Include path="UI/Layout/KL_AchievementDialogTemplates.SC2Layout"/>
     <Include path="UI/Layout/KL_AchievementsDialog.SC2Layout"/>

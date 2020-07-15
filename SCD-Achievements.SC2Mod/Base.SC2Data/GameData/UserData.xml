@@ -54,9 +54,101 @@
             <String String="AchievementTitle">
                 <Field Id="Title"/>
             </String>
+            <String String="False">
+                <Field Id="IsSeriesStart"/>
+            </String>
             <User Type="Rewards" Instance="[Default]">
                 <Field Id="RewardCache"/>
             </User>
+        </Instances>
+        <Instances Id="TestAchievement">
+            <GameLink GameLink="Prot">
+                <Field Id="Race"/>
+            </GameLink>
+            <Image Image="Assets\Textures\btn-ability-protoss-energize.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="15">
+                <Field Id="Points"/>
+            </Int>
+            <String String="PIns00-01">
+                <Field Id="ID"/>
+            </String>
+            <String String="Achi Title">
+                <Field Id="Title"/>
+            </String>
+            <String String="Achi Desc">
+                <Field Id="Description"/>
+            </String>
+        </Instances>
+        <Instances Id="TerranSeries01">
+            <Image Image="Assets\Textures\decal_terran_0057_01.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="2">
+                <Field Id="Category"/>
+            </Int>
+            <Int Int="5">
+                <Field Id="Points"/>
+            </Int>
+            <String String="TIns00-Series1">
+                <Field Id="ID"/>
+            </String>
+            <String String="True">
+                <Field Id="IsSeriesStart"/>
+            </String>
+            <String String="Terran Series 1">
+                <Field Id="Title"/>
+            </String>
+            <String String="Series Test Step 01">
+                <Field Id="Description"/>
+            </String>
+            <User Type="Achievements" Instance="TerranSeries01">
+                <Field Id="Achievement Series"/>
+            </User>
+            <User Type="Achievements" Instance="TerranSeries02">
+                <Field Id="Achievement Series" Index="1"/>
+            </User>
+        </Instances>
+        <Instances Id="TerranSeries02">
+            <Image Image="Assets\Textures\decal_terran_0058_01.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="2">
+                <Field Id="Category"/>
+            </Int>
+            <String String="Series Test Step 02">
+                <Field Id="Description"/>
+            </String>
+            <String String="TIns00-Seires2">
+                <Field Id="ID"/>
+            </String>
+            <String String="Terran Series 2">
+                <Field Id="Title"/>
+            </String>
+        </Instances>
+        <Instances Id="Ins 0 Feat">
+            <GameLink GameLink="Zerg">
+                <Field Id="Race"/>
+            </GameLink>
+            <Image Image="Assets\Textures\btn-ability-protoss-phaseshift2.dds">
+                <Field Id="Icon"/>
+            </Image>
+            <Int Int="10">
+                <Field Id="Category"/>
+            </Int>
+            <Int>
+                <Field Id="Points"/>
+            </Int>
+            <String String="TIns00-Feat">
+                <Field Id="ID"/>
+            </String>
+            <String String="Testing feat Achievement">
+                <Field Id="Description"/>
+            </String>
+            <String String="Feat Of Strenght">
+                <Field Id="Title"/>
+            </String>
         </Instances>
     </CUser>
     <CUser id="Rewards">
